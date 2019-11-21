@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="http://prismlibrary.com"
+             NavigationPage.HasNavigationBar="False"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="ERPSolution.MES.Views.MainHomeView">
+    <ScrollView>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <!--Quick Actions-->
+            <StackLayout Orientation="Horizontal"
+                         Margin="0,5,0,15"
+                         HorizontalOptions="CenterAndExpand">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"></ColumnDefinition>
+                        <ColumnDefinition Width="auto"></ColumnDefinition>
+                        <ColumnDefinition Width="auto"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <!--Scan job-->
+                <StackLayout Orientation="Horizontal"
+                             HorizontalOptions="Start"
+                             Grid.Column="0"
+                             Margin="0,0,0,0">
+                    <ImageButton Source="icon_qr.png"
+                                 HeightRequest="40"
+                                 HorizontalOptions="Start"
+                                 BackgroundColor="White"
+                                 WidthRequest="40">
+                    </ImageButton>
+                    <Label Text="Scan Job"
+                           FontSize="Default"
+                           VerticalOptions="Center"
+                           HorizontalOptions="Start"
+                           Margin="3,0,0,0"
+                           TextColor="Navy">
+                    </Label>
+                </StackLayout>
+                <!--Logout-->
+                <StackLayout Orientation="Horizontal"
+                             HorizontalOptions="Center"
+                             Grid.Column="1"
+                             Margin="0,0,0,0">
+                    <ImageButton Source="icon_shutdown.png"
+                                 HeightRequest="40"
+                                 HorizontalOptions="Center"
+                                 BackgroundColor="White"
+                                 WidthRequest="40">
+                    </ImageButton>
+                    <Label Text="Log Out"
+                           FontSize="Default"
+                           VerticalOptions="Center"
+                           HorizontalOptions="Center"
+                           Margin="3,0,0,0"
+                           TextColor="Navy">
+                    </Label>
+                </StackLayout>
+                <!--Notify-->
+                <StackLayout Orientation="Horizontal"
+                             HorizontalOptions="End"
+                             Grid.Column="2"
+                             Margin="0,0,0,0">
+                    <ImageButton Source="icon_bell.png"
+                                 HeightRequest="40"
+                                 HorizontalOptions="End"
+                                 BackgroundColor="White"
+                                 WidthRequest="40">
+                    </ImageButton>
+                    <Label Text="Notify"
+                           FontSize="Default"
+                           Margin="3,0,0,0"
+                           HorizontalOptions="End"
+                           VerticalOptions="Center"
+                           TextColor="Navy">
+                    </Label>
+                </StackLayout>
+                </Grid>
+            </StackLayout>
+            <!--Avatar and Greeting-->
+            <StackLayout Grid.Row="1"
+                         VerticalOptions="StartAndExpand"
+                         HorizontalOptions="CenterAndExpand"
+                         Margin="0,10,0,0">
+                <Frame HeightRequest="80"
+                       WidthRequest="80"
+                       CornerRadius="160"
+                       HorizontalOptions="Center">
+                    <Image HeightRequest="40"
+                           Source="user_avatar.png"
+                           WidthRequest="40"></Image>
+                </Frame>
+                <Label x:Name="labGreeting"
+                       Text="Good Morning, Hòa"
+                       TextColor="Navy"
+                       FontSize="Title"
+                       HorizontalOptions="Center"
+                       HorizontalTextAlignment="Center"
+                       Margin="0,8,0,0"></Label>
+            </StackLayout>
+            <!--Main Functions-->
+            <StackLayout HorizontalOptions="CenterAndExpand"
+                         Grid.Row="2"
+                         Margin="0,25,0,0"
+                         VerticalOptions="StartAndExpand">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"></ColumnDefinition>
+                        <ColumnDefinition Width="auto"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"></RowDefinition>
+                        <RowDefinition Height="auto"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <StackLayout Grid.Column="0"
+                                 HeightRequest="140"
+                                 WidthRequest="140"
+                                 Grid.Row="0">
+                        <Button HeightRequest="140"
+                            WidthRequest="140"
+                            x:Name="JobList"
+                            TextColor="White"
+                            FontAttributes="Bold"
+                            Text="Your Jobs"
+                            Clicked="ViewJobList"
+                            BackgroundColor="#9999ff"
+                            BorderRadius="70"></Button>
+                    </StackLayout>
+                    <StackLayout Grid.Column="1"
+                                 HeightRequest="130"
+                                 VerticalOptions="Center"
+                                 HorizontalOptions="Center"
+                                 WidthRequest="130"
+                                 Grid.Row="0">
+                        <Button HeightRequest="130"
+                            WidthRequest="130"
+                            BackgroundColor="#669999"
+                            BorderRadius="65"></Button>
+                    </StackLayout>
+                    <StackLayout Grid.Column="0"
+                                 HeightRequest="110"
+                                 WidthRequest="110"
+                                 VerticalOptions="Center"
+                                 HorizontalOptions="Center"
+                                 Grid.Row="1">
+                        <Button HeightRequest="110"
+                            WidthRequest="110"
+                            BackgroundColor="#999966"
+                            BorderRadius="55"></Button>
+                    </StackLayout>
+                    <StackLayout Grid.Column="1"
+                                 HeightRequest="120"
+                                 WidthRequest="120"
+                                 VerticalOptions="Center"
+                                 HorizontalOptions="Center"
+                                 Grid.Row="1">
+                        <Button HeightRequest="120"
+                            WidthRequest="120"
+                            BackgroundColor="#79a6d2"
+                            BorderRadius="60"></Button>
+                    </StackLayout>
+                </Grid>
+            </StackLayout>
+        </Grid>
+    </ScrollView>
+</ContentPage>

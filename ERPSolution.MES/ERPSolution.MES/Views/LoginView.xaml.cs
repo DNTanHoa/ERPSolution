@@ -15,5 +15,10 @@ namespace ERPSolution.MES.Views
         {
             PopupNavigation.Instance.PushAsync(new FingerLoginPopup());
         }
+
+        private void LoginToHome(object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new HomeView());
+        }
     }
 }

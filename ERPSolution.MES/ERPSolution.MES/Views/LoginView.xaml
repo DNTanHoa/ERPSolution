@@ -123,6 +123,7 @@
                                     TextColor="White"
                                     FontFamily="Mincho"
                                     FontSize="18"
+                                    Clicked="LoginToHome"
                                     WidthRequest="180"
                                     FontAttributes="Bold"
                                     BackgroundColor="Navy">

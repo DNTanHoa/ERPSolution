@@ -31,6 +31,10 @@ namespace ERPSolution.MES
             containerRegistry.RegisterForNavigation<NavigationPage>();
             containerRegistry.RegisterForNavigation<LoginView, LoginViewViewModel>();
             containerRegistry.RegisterForNavigation<FingerLoginPopup, FingerLoginPopupViewModel>();
+            containerRegistry.RegisterForNavigation<HomeView, HomeViewViewModel>();
+            containerRegistry.RegisterForNavigation<MainView, MainViewViewModel>();
+            containerRegistry.RegisterForNavigation<MainHomeView, MainHomeViewViewModel>();
+            containerRegistry.RegisterForNavigation<JobListView, JobListViewViewModel>();
         }
     }
 }

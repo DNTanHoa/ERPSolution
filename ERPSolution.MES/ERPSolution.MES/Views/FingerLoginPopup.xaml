@@ -5,8 +5,52 @@
              xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
              prism:ViewModelLocator.AutowireViewModel="True"
              x:Class="ERPSolution.MES.Views.FingerLoginPopup">
-    <Label Text="This is popup Page.... Good night"
-           BackgroundColor="White"
-           HorizontalOptions="Center"
-           VerticalOptions="Center"></Label>
+    <StackLayout Margin="0"
+                 VerticalOptions="Center"
+                 HorizontalOptions="Center">
+        <Frame Padding="0"
+               Margin="0"
+               WidthRequest="280"
+               BorderColor="White">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"></RowDefinition>
+                    <RowDefinition Height="auto"></RowDefinition>
+                    <RowDefinition Height="auto"></RowDefinition>
+                </Grid.RowDefinitions>
+                <!--Popup title-->
+                <Label Grid.Row="0"
+                       VerticalOptions="Start"
+                       HorizontalOptions="Start"
+                       Text="Login With FingerPrint"
+                       FontSize="Subtitle"
+                       Margin="10"
+                       TextColor="Navy"></Label>
+                <!--Sensor display-->
+                <StackLayout Grid.Row="1"
+                             VerticalOptions="Center"
+                             HorizontalOptions="Center"
+                             Orientation="Horizontal">
+                    <Image HeightRequest="70"
+                           WidthRequest="70"
+                           Margin="0,5,5,15"
+                           Source="fingerprint_icon.png"></Image>
+                    <Label Text="Touch Sensor"
+                           FontSize="Subtitle"
+                           Margin="0,30,0,0"
+                           TextColor="Gainsboro"></Label>
+                </StackLayout>
+                <!--Button-->
+                <StackLayout Grid.Row="2">
+                    <Button VerticalOptions="Center"
+                            HorizontalOptions="End"
+                            FontSize="Default"
+                            Text="Cancel"
+                            BackgroundColor="White"
+                            TextColor="Navy">
+                    </Button>
+                </StackLayout>
+            </Grid>
+        </Frame>
+    </StackLayout>
 </pages:PopupPage>
