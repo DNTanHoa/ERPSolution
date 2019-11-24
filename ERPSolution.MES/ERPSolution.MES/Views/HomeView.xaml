@@ -2,6 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:prism="http://prismlibrary.com"
+             BackgroundColor="White"
+             xmlns:circleImage="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
              xmlns:local="clr-namespace:ERPSolution.MES.Views"
              NavigationPage.HasNavigationBar="False"
              prism:ViewModelLocator.AutowireViewModel="True"
@@ -30,16 +32,11 @@
             <!--User template-->
             <StackLayout Grid.Row="1"
                          Orientation="Horizontal">
-                <Frame HeightRequest="80"
-                       WidthRequest="80"
-                       CornerRadius="160"
-                       Padding="0"
-                       Margin="5">
-                    <!--Avatar-->
-                    <Image HeightRequest="40"
-                           WidthRequest="40"
-                           Source="user_avatar.png"></Image>
-                </Frame>
+                <!--Avatar-->
+            <circleImage:CircleImage Source="user_avatar.png"
+                                     HeightRequest="50"
+                                     WidthRequest="50"
+                                     Margin="5"></circleImage:CircleImage>
                 <!--Information-->
                 <StackLayout VerticalOptions="Center">
                     <Label TextColor="#666699"
@@ -108,16 +105,12 @@
                                 <DataTemplate>
                                     <ViewCell>
                                         <StackLayout Orientation="Horizontal">
-                                            <Frame HeightRequest="80"
-                                                   WidthRequest="80"
-                                                   CornerRadius="160"
-                                                   Padding="0"
-                                                   Margin="0">
-                                                <Image HeightRequest="70"
-                                                       WidthRequest="70"
-                                                       Source="user_avatar.png"></Image>
-                                            </Frame>
-                                            <StackLayout VerticalOptions="Center">
+                                            <!--Avatar template-->
+                                        <circleImage:CircleImage Source="user_avatar.png"
+                                                                 HeightRequest="50"
+                                                                 WidthRequest="50"
+                                                                 Margin="5"></circleImage:CircleImage>
+                                        <StackLayout VerticalOptions="Center">
                                                 <Label TextColor="#666699"
                                                        Text="CNC - Dương Nguyễn Tấn Hòa"
                                                        Margin="5,0,0,0"
@@ -130,25 +123,25 @@
                                                        Text="Status: Is Active"
                                                        Margin="5,5,0,0"
                                                        FontSize="Default"></Label>
-                                            </StackLayout>
-                                            <StackLayout VerticalOptions="Center"
-                                                         Margin="50,0,0,0">
-                                                <Frame HeightRequest="18"
-                                                       WidthRequest="18"
-                                                       CornerRadius="9"
-                                                       BackgroundColor="#00cc00"
-                                                       Padding="0">
-                                                    <Frame.Style>
-                                                        <Style TargetType="Frame">
-                                                            <Style.Triggers>
-                                                                <DataTrigger TargetType="Frame" Binding="{Binding isActive}" Value="false">
-                                                                    <Setter Property="BackgroundColor" Value="Red"></Setter>
-                                                                </DataTrigger>
-                                                            </Style.Triggers>
-                                                        </Style>
-                                                    </Frame.Style>
-                                                </Frame>
-                                            </StackLayout>
+                                        </StackLayout>
+                                        <StackLayout VerticalOptions="Center"
+                                                        Margin="50,0,0,0">
+                                            <Frame HeightRequest="18"
+                                                    WidthRequest="18"
+                                                    CornerRadius="9"
+                                                    BackgroundColor="#00cc00"
+                                                    Padding="0">
+                                                <Frame.Style>
+                                                    <Style TargetType="Frame">
+                                                        <Style.Triggers>
+                                                            <DataTrigger TargetType="Frame" Binding="{Binding isActive}" Value="false">
+                                                                <Setter Property="BackgroundColor" Value="Red"></Setter>
+                                                            </DataTrigger>
+                                                        </Style.Triggers>
+                                                    </Style>
+                                                </Frame.Style>
+                                            </Frame>
+                                        </StackLayout>
                                         </StackLayout>
                                     </ViewCell>
                                 </DataTemplate>

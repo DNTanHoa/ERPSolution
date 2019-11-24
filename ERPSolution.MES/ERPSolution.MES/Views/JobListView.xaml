@@ -2,12 +2,16 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:prism="http://prismlibrary.com"
+             xmlns:local="clr-namespace:ERPSolution.MES.Views"
+             xmlns:circleImage="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
              NavigationPage.HasNavigationBar="False"
              prism:ViewModelLocator.AutowireViewModel="True"
              x:Class="ERPSolution.MES.Views.JobListView">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="80"></RowDefinition>
             <RowDefinition Height="*"></RowDefinition>
         </Grid.RowDefinitions>
         <StackLayout Grid.Row="0"
@@ -22,6 +26,171 @@
                    VerticalOptions="Center"
                    FontSize="Title"
                    TextColor="White"></Label>
+        </StackLayout>
+        <!--Search Input-->
+        <StackLayout Grid.Row="1">
+            <Frame Margin="10,15,15,0"
+                   Padding="0"
+                   WidthRequest="100"
+                   CornerRadius="10"
+                   HasShadow="False"
+                   BorderColor="AliceBlue">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="30"></ColumnDefinition>
+                        <ColumnDefinition Width="auto"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Image Grid.Column="0"
+                           Source="icon_search.png"
+                           Margin="10,0,0,0"
+                           VerticalOptions="Center"
+                           HorizontalOptions="Center"
+                           HeightRequest="20"
+                           WidthRequest="20">
+                    </Image>
+                    <Entry IsPassword="False"
+                           Margin="5"
+                           Grid.Column="1"
+                           TextColor="Black"
+                           Placeholder="Some Text ....">
+                    </Entry>
+                </Grid>
+            </Frame>
+        </StackLayout>
+        <!--Function buttons-->
+        <FlexLayout Grid.Row="2"
+                    Direction="Row"
+                    JustifyContent="SpaceAround"
+                    AlignItems="Start">
+            <Button Text="Search"
+                    Margin="10,10,0,10"
+                    CornerRadius="10"
+                    TextColor="White"
+                    FontFamily="Mincho"
+                    FontSize="18"
+                    FlexLayout.Basis="32%"
+                    FontAttributes="Bold"
+                    BackgroundColor="Navy">
+            </Button>
+            <Button Text="Scan"
+                    CornerRadius="10"
+                    Grid.Column="1"
+                    Margin="10,10,10,10"
+                    FlexLayout.Basis="32%"
+                    TextColor="White"
+                    FontFamily="Arial"
+                    HorizontalOptions="EndAndExpand"
+                    FontAttributes="Bold"
+                    FontSize="18"
+                    BackgroundColor="Navy">
+            </Button>
+            <Button Text="Add"
+                    CornerRadius="10"
+                    Grid.Column="1"
+                    Margin="0,10,10,10"
+                    FlexLayout.Basis="32%"
+                    TextColor="White"
+                    FontFamily="Arial"
+                    HorizontalOptions="EndAndExpand"
+                    FontAttributes="Bold"
+                    FontSize="18"
+                    BackgroundColor="Navy">
+            </Button>
+        </FlexLayout>
+        <!--List Of Task-->
+        <StackLayout Grid.Row="3"
+                     VerticalOptions="StartAndExpand"
+                     HorizontalOptions="StartAndExpand">
+            <ScrollView >
+                <ListView Margin="3"
+                          RowHeight="100"
+                      x:Name="taskList">
+                    <ListView.ItemsSource>
+                        <x:Array Type="{x:Type local:Task}">
+                            <local:Task name="Phay" quantity="50" part="DKE-00010-M001" deadLine="27-Aug-2019"></local:Task>
+                            <local:Task name="Phay" quantity="50" part="DKE-00010-M001" deadLine="27-Aug-2019"></local:Task>
+                            <local:Task name="Phay" quantity="50" part="DKE-00010-M001" deadLine="27-Aug-2019"></local:Task>
+                            <local:Task name="Phay" quantity="50" part="DKE-00010-M001" deadLine="27-Aug-2019"></local:Task>
+                            <local:Task name="Phay" quantity="50" part="DKE-00010-M001" deadLine="27-Aug-2019"></local:Task>
+                        </x:Array>
+                    </ListView.ItemsSource>
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <FlexLayout JustifyContent="Start"
+                                        Direction="Row"
+                                        AlignItems="Center">
+                                    <StackLayout VerticalOptions="Center"
+                                                 Margin="5,0,5,0"
+                                                 FlexLayout.Basis="20%"
+                                                 HorizontalOptions="Center">
+                                        <circleImage:CircleImage HeightRequest="100"
+                                                             WidthRequest="100"
+                                                             Source="task.png"></circleImage:CircleImage>
+                                    </StackLayout>
+                                    <StackLayout FlexLayout.Basis="50%">
+                                        <!--Task Name-->
+                                        <FlexLayout Direction="Row"
+                                                JustifyContent="Start"
+                                                AlignItems="Center">
+                                            <Label Text="Task Name: "
+                                               FontSize="Default"
+                                               TextColor="Navy"></Label>
+                                            <Label Text="{Binding name}"
+                                               FontSize="Default"
+                                               TextColor="DarkGray"></Label>
+                                        </FlexLayout>
+                                        <!--Quantity-->
+                                        <FlexLayout Direction="Row"
+                                                JustifyContent="Start"
+                                                AlignItems="Center">
+                                            <Label Text="Quantity: "
+                                               FontSize="Default"
+                                               TextColor="Navy"></Label>
+                                            <Label Text="{Binding quantity}"
+                                               FontSize="Default"
+                                               TextColor="DarkGray"></Label>
+                                        </FlexLayout>
+                                        <!--Part-->
+                                        <FlexLayout Direction="Row"
+                                                JustifyContent="Start"
+                                                AlignItems="Center">
+                                            <Label Text="Part: "
+                                               FontSize="Default"
+                                               TextColor="Navy"></Label>
+                                            <Label Text="{Binding part}"
+                                               FontSize="Default"
+                                               TextColor="DarkGray"></Label>
+                                        </FlexLayout>
+                                        <!--Deadline-->
+                                        <FlexLayout Direction="Row"
+                                                JustifyContent="Start"
+                                                AlignItems="Center">
+                                            <Label Text="Deadline: "
+                                               FontSize="Default"
+                                               TextColor="Navy"></Label>
+                                            <Label Text="{Binding deadLine}"
+                                               FontSize="Default"
+                                               TextColor="DarkGray"></Label>
+                                        </FlexLayout>
+                                    </StackLayout>
+                                    <!--Show Detail Button-->
+                                    <Button Text="Detail"
+                                            FlexLayout.Basis="30%"
+                                            TextColor="White"
+                                            Margin="0,0,3,0"
+                                            HeightRequest="40"
+                                            WidthRequest="80"
+                                            BackgroundColor="Indigo"
+                                            FontAttributes="None"
+                                            VerticalOptions="Center"
+                                            HorizontalOptions="Center"></Button>
+                                </FlexLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </ScrollView>
         </StackLayout>
     </Grid>
 </ContentPage>

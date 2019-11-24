@@ -105,44 +105,35 @@
                 </StackLayout>
                 <!--Submit button-->
                 <!--On click this button call api for login-->
-                <StackLayout Grid.Column="0"
-                         Grid.Row="2">
-                    <StackLayout Orientation="Horizontal"
-                                 HorizontalOptions="CenterAndExpand"
-                                 Margin="0">
-                        <Grid>
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="*"></ColumnDefinition>
-                                <ColumnDefinition Width="*"></ColumnDefinition>
-                            </Grid.ColumnDefinitions>
-                        </Grid>
-                        <StackLayout Grid.Column="0">
-                            <Button Text="Sign In"
-                                    Margin="10,10,0,10"
-                                    CornerRadius="10"
-                                    TextColor="White"
-                                    FontFamily="Mincho"
-                                    FontSize="18"
-                                    Clicked="LoginToHome"
-                                    WidthRequest="180"
-                                    FontAttributes="Bold"
-                                    BackgroundColor="Navy">
-                            </Button>
-                        </StackLayout>
-                        <Button Text="Exit"
-                                CornerRadius="10"
-                                Grid.Column="1"
-                                WidthRequest="180"
-                                Margin="0,10,10,10"
-                                TextColor="White"
-                                FontFamily="Arial"
-                                HorizontalOptions="EndAndExpand"
-                                FontAttributes="Bold"
-                                FontSize="18"
-                                BackgroundColor="Navy">
-                        </Button>
-                    </StackLayout>
-                </StackLayout>
+                <FlexLayout Grid.Column="0"
+                            Grid.Row="2"
+                            Direction="Row"
+                            JustifyContent="SpaceAround"
+                            AlignItems="Center">
+                    <Button Text="Sign In"
+                            Margin="10,10,0,10"
+                            CornerRadius="10"
+                            TextColor="White"
+                            FontFamily="Mincho"
+                            FontSize="18"
+                            FlexLayout.Basis="48%"
+                            Clicked="LoginToHome"
+                            FontAttributes="Bold"
+                            BackgroundColor="Navy">
+                    </Button>
+                    <Button Text="Exit"
+                            CornerRadius="10"
+                            Grid.Column="1"
+                            Margin="0,10,10,10"
+                            FlexLayout.Basis="48%"
+                            TextColor="White"
+                            FontFamily="Arial"
+                            HorizontalOptions="EndAndExpand"
+                            FontAttributes="Bold"
+                            FontSize="18"
+                            BackgroundColor="Navy">
+                    </Button>
+                </FlexLayout>
                 <!--Finger Print-->
                 <StackLayout Grid.Row="3"
                              VerticalOptions="StartAndExpand"

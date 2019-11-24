@@ -1,4 +1,5 @@
-﻿using Xamarin.Forms;
+﻿using System;
+using Xamarin.Forms;
 
 namespace ERPSolution.MES.Views
 {
@@ -8,5 +9,20 @@ namespace ERPSolution.MES.Views
         {
             InitializeComponent();
         }
+    }
+
+    /// <summary>
+    /// For test only
+    /// </summary>
+    public class Task
+    {
+        public string name { get; set; }
+
+        public string quantity { get; set; }
+        
+        public string part { get; set; }
+
+        public string deadLine { get; set; }
+
     }
 }
