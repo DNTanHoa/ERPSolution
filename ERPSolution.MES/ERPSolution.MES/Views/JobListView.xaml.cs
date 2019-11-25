@@ -9,6 +9,11 @@ namespace ERPSolution.MES.Views
         {
             InitializeComponent();
         }
+
+        private void ShowJobDetail(object sender, EventArgs e)
+        {
+            this.Navigation.PushAsync(new JobDetailView());
+        }
     }
 
     /// <summary>

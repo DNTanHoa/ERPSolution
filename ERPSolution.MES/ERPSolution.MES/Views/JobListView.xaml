@@ -128,7 +128,7 @@
                                                              WidthRequest="100"
                                                              Source="task.png"></circleImage:CircleImage>
                                     </StackLayout>
-                                    <StackLayout FlexLayout.Basis="50%">
+                                    <StackLayout FlexLayout.Basis="55%">
                                         <!--Task Name-->
                                         <FlexLayout Direction="Row"
                                                 JustifyContent="Start"
@@ -176,9 +176,10 @@
                                     </StackLayout>
                                     <!--Show Detail Button-->
                                     <Button Text="Detail"
-                                            FlexLayout.Basis="30%"
+                                            FlexLayout.Basis="25%"
                                             TextColor="White"
                                             Margin="0,0,3,0"
+                                            Clicked="ShowJobDetail"
                                             HeightRequest="40"
                                             WidthRequest="80"
                                             BackgroundColor="Indigo"
