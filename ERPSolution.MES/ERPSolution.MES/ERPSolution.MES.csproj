@@ -9,6 +9,7 @@
     <PackageReference Include="Rg.Plugins.Popup" Version="1.2.0.223" />
     <PackageReference Include="Xam.Plugins.Forms.ImageCircle" Version="3.0.0.5" />
     <PackageReference Include="Xamarin.Forms" Version="4.3.0.991211" />
+    <PackageReference Include="ZXing.Net.Mobile" Version="2.4.1" />
   </ItemGroup>
 
   <ItemGroup>
@@ -49,6 +50,15 @@
 
   <ItemGroup>
     <Folder Include="Custom\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="DevExpress.XamarinForms.Core">
+      <HintPath>D:\DevExpress.Xamarin\Binaries\DevExpress.XamarinForms.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XamarinForms.Grid">
+      <HintPath>D:\DevExpress.Xamarin\Binaries\DevExpress.XamarinForms.Grid.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

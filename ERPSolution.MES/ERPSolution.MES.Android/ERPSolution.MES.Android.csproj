@@ -51,6 +51,12 @@
     <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DevExpress.Xamarin.Android.Grid">
+      <HintPath>D:\DevExpress.Xamarin\Binaries\DevExpress.Xamarin.Android.Grid.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XamarinForms.Grid.Android">
+      <HintPath>D:\DevExpress.Xamarin\Binaries\DevExpress.XamarinForms.Grid.Android.dll</HintPath>
+    </Reference>
     <Reference Include="Mono.Android" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -72,9 +78,13 @@
     <PackageReference Include="Xamarin.Android.Support.v7.CardView" Version="28.0.0.1" />
     <PackageReference Include="Xamarin.Android.Support.v7.MediaRouter" Version="28.0.0.1" />
     <PackageReference Include="Prism.DryIoc.Forms" Version="7.2.0.1367" />
+    <PackageReference Include="ZXing.Net.Mobile">
+      <Version>2.4.1</Version>
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Custom\CustomEntry.cs" />
+    <Compile Include="Helpers\QRHelper.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -1,4 +1,5 @@
-﻿using Xamarin.Forms;
+﻿using ERPSolution.MES.Helpers;
+using Xamarin.Forms;
 
 namespace ERPSolution.MES.Views
 {
@@ -12,6 +13,20 @@ namespace ERPSolution.MES.Views
         private void ViewJobList(object sender, System.EventArgs e)
         {
             Navigation.PushAsync(new JobListView());
+        }
+
+        private async void ScanQRJob(object sender, System.EventArgs e)
+        {
+            try
+            {
+                var scanner = DependencyService.Get<IQRScanner>();
+                var result = await scanner.ScanAsync();
+                if(result != null)
+                {
+                    await DisplayAlert("Code Result", result, "Cancel");
+                }
+            }
+            catch { }
         }
     }
 }

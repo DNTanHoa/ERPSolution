@@ -26,6 +26,2300 @@ namespace ERPSolution.MES.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Animation.abc_fade_in = global::ERPSolution.MES.Droid.Resource.Animation.abc_fade_in;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Animation.abc_fade_out = global::ERPSolution.MES.Droid.Resource.Animation.abc_fade_out;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::ERPSolution.MES.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Animation.abc_popup_enter = global::ERPSolution.MES.Droid.Resource.Animation.abc_popup_enter;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Animation.abc_popup_exit = global::ERPSolution.MES.Droid.Resource.Animation.abc_popup_exit;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Animation.abc_shrink_fade_out_from_bottom = global::ERPSolution.MES.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Animation.abc_slide_in_bottom = global::ERPSolution.MES.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Animation.abc_slide_in_top = global::ERPSolution.MES.Droid.Resource.Animation.abc_slide_in_top;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Animation.abc_slide_out_bottom = global::ERPSolution.MES.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Animation.abc_slide_out_top = global::ERPSolution.MES.Droid.Resource.Animation.abc_slide_out_top;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Animation.design_bottom_sheet_slide_in = global::ERPSolution.MES.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Animation.design_bottom_sheet_slide_out = global::ERPSolution.MES.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Animation.design_snackbar_in = global::ERPSolution.MES.Droid.Resource.Animation.design_snackbar_in;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Animation.design_snackbar_out = global::ERPSolution.MES.Droid.Resource.Animation.design_snackbar_out;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Animation.EnterFromLeft = global::ERPSolution.MES.Droid.Resource.Animation.EnterFromLeft;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Animation.EnterFromRight = global::ERPSolution.MES.Droid.Resource.Animation.EnterFromRight;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Animation.ExitToLeft = global::ERPSolution.MES.Droid.Resource.Animation.ExitToLeft;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Animation.ExitToRight = global::ERPSolution.MES.Droid.Resource.Animation.ExitToRight;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Animator.design_appbar_state_list_animator = global::ERPSolution.MES.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.actionBarDivider = global::ERPSolution.MES.Droid.Resource.Attribute.actionBarDivider;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.actionBarItemBackground = global::ERPSolution.MES.Droid.Resource.Attribute.actionBarItemBackground;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.actionBarPopupTheme = global::ERPSolution.MES.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.actionBarSize = global::ERPSolution.MES.Droid.Resource.Attribute.actionBarSize;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.actionBarSplitStyle = global::ERPSolution.MES.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.actionBarStyle = global::ERPSolution.MES.Droid.Resource.Attribute.actionBarStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.actionBarTabBarStyle = global::ERPSolution.MES.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.actionBarTabStyle = global::ERPSolution.MES.Droid.Resource.Attribute.actionBarTabStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.actionBarTabTextStyle = global::ERPSolution.MES.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.actionBarTheme = global::ERPSolution.MES.Droid.Resource.Attribute.actionBarTheme;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.actionBarWidgetTheme = global::ERPSolution.MES.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.actionButtonStyle = global::ERPSolution.MES.Droid.Resource.Attribute.actionButtonStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.actionDropDownStyle = global::ERPSolution.MES.Droid.Resource.Attribute.actionDropDownStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.actionLayout = global::ERPSolution.MES.Droid.Resource.Attribute.actionLayout;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.actionMenuTextAppearance = global::ERPSolution.MES.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.actionMenuTextColor = global::ERPSolution.MES.Droid.Resource.Attribute.actionMenuTextColor;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.actionModeBackground = global::ERPSolution.MES.Droid.Resource.Attribute.actionModeBackground;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.actionModeCloseButtonStyle = global::ERPSolution.MES.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.actionModeCloseDrawable = global::ERPSolution.MES.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.actionModeCopyDrawable = global::ERPSolution.MES.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.actionModeCutDrawable = global::ERPSolution.MES.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.actionModeFindDrawable = global::ERPSolution.MES.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.actionModePasteDrawable = global::ERPSolution.MES.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.actionModePopupWindowStyle = global::ERPSolution.MES.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.actionModeSelectAllDrawable = global::ERPSolution.MES.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.actionModeShareDrawable = global::ERPSolution.MES.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.actionModeSplitBackground = global::ERPSolution.MES.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.actionModeStyle = global::ERPSolution.MES.Droid.Resource.Attribute.actionModeStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.actionModeWebSearchDrawable = global::ERPSolution.MES.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.actionOverflowButtonStyle = global::ERPSolution.MES.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.actionOverflowMenuStyle = global::ERPSolution.MES.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.actionProviderClass = global::ERPSolution.MES.Droid.Resource.Attribute.actionProviderClass;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.actionViewClass = global::ERPSolution.MES.Droid.Resource.Attribute.actionViewClass;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.activityChooserViewStyle = global::ERPSolution.MES.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.alertDialogButtonGroupStyle = global::ERPSolution.MES.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.alertDialogCenterButtons = global::ERPSolution.MES.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.alertDialogStyle = global::ERPSolution.MES.Droid.Resource.Attribute.alertDialogStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.alertDialogTheme = global::ERPSolution.MES.Droid.Resource.Attribute.alertDialogTheme;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.allowStacking = global::ERPSolution.MES.Droid.Resource.Attribute.allowStacking;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.alpha = global::ERPSolution.MES.Droid.Resource.Attribute.alpha;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.alphabeticModifiers = global::ERPSolution.MES.Droid.Resource.Attribute.alphabeticModifiers;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.arrowHeadLength = global::ERPSolution.MES.Droid.Resource.Attribute.arrowHeadLength;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.arrowShaftLength = global::ERPSolution.MES.Droid.Resource.Attribute.arrowShaftLength;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.autoCompleteTextViewStyle = global::ERPSolution.MES.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.autoSizeMaxTextSize = global::ERPSolution.MES.Droid.Resource.Attribute.autoSizeMaxTextSize;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.autoSizeMinTextSize = global::ERPSolution.MES.Droid.Resource.Attribute.autoSizeMinTextSize;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.autoSizePresetSizes = global::ERPSolution.MES.Droid.Resource.Attribute.autoSizePresetSizes;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.autoSizeStepGranularity = global::ERPSolution.MES.Droid.Resource.Attribute.autoSizeStepGranularity;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.autoSizeTextType = global::ERPSolution.MES.Droid.Resource.Attribute.autoSizeTextType;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.background = global::ERPSolution.MES.Droid.Resource.Attribute.background;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.backgroundSplit = global::ERPSolution.MES.Droid.Resource.Attribute.backgroundSplit;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.backgroundStacked = global::ERPSolution.MES.Droid.Resource.Attribute.backgroundStacked;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.backgroundTint = global::ERPSolution.MES.Droid.Resource.Attribute.backgroundTint;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.backgroundTintMode = global::ERPSolution.MES.Droid.Resource.Attribute.backgroundTintMode;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.barLength = global::ERPSolution.MES.Droid.Resource.Attribute.barLength;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.behavior_autoHide = global::ERPSolution.MES.Droid.Resource.Attribute.behavior_autoHide;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.behavior_hideable = global::ERPSolution.MES.Droid.Resource.Attribute.behavior_hideable;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.behavior_overlapTop = global::ERPSolution.MES.Droid.Resource.Attribute.behavior_overlapTop;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.behavior_peekHeight = global::ERPSolution.MES.Droid.Resource.Attribute.behavior_peekHeight;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.behavior_skipCollapsed = global::ERPSolution.MES.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.borderlessButtonStyle = global::ERPSolution.MES.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.borderWidth = global::ERPSolution.MES.Droid.Resource.Attribute.borderWidth;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.bottomSheetDialogTheme = global::ERPSolution.MES.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.bottomSheetStyle = global::ERPSolution.MES.Droid.Resource.Attribute.bottomSheetStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.buttonBarButtonStyle = global::ERPSolution.MES.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.buttonBarNegativeButtonStyle = global::ERPSolution.MES.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.buttonBarNeutralButtonStyle = global::ERPSolution.MES.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.buttonBarPositiveButtonStyle = global::ERPSolution.MES.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.buttonBarStyle = global::ERPSolution.MES.Droid.Resource.Attribute.buttonBarStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.buttonGravity = global::ERPSolution.MES.Droid.Resource.Attribute.buttonGravity;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.buttonPanelSideLayout = global::ERPSolution.MES.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.buttonStyle = global::ERPSolution.MES.Droid.Resource.Attribute.buttonStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.buttonStyleSmall = global::ERPSolution.MES.Droid.Resource.Attribute.buttonStyleSmall;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.buttonTint = global::ERPSolution.MES.Droid.Resource.Attribute.buttonTint;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.buttonTintMode = global::ERPSolution.MES.Droid.Resource.Attribute.buttonTintMode;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.cardBackgroundColor = global::ERPSolution.MES.Droid.Resource.Attribute.cardBackgroundColor;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.cardCornerRadius = global::ERPSolution.MES.Droid.Resource.Attribute.cardCornerRadius;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.cardElevation = global::ERPSolution.MES.Droid.Resource.Attribute.cardElevation;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.cardMaxElevation = global::ERPSolution.MES.Droid.Resource.Attribute.cardMaxElevation;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.cardPreventCornerOverlap = global::ERPSolution.MES.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.cardUseCompatPadding = global::ERPSolution.MES.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.checkboxStyle = global::ERPSolution.MES.Droid.Resource.Attribute.checkboxStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.checkedTextViewStyle = global::ERPSolution.MES.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.checked_state = global::ERPSolution.MES.Droid.Resource.Attribute.checked_state;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.closeIcon = global::ERPSolution.MES.Droid.Resource.Attribute.closeIcon;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.closeItemLayout = global::ERPSolution.MES.Droid.Resource.Attribute.closeItemLayout;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.collapseContentDescription = global::ERPSolution.MES.Droid.Resource.Attribute.collapseContentDescription;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.collapsedTitleGravity = global::ERPSolution.MES.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.collapsedTitleTextAppearance = global::ERPSolution.MES.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.collapseIcon = global::ERPSolution.MES.Droid.Resource.Attribute.collapseIcon;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.color = global::ERPSolution.MES.Droid.Resource.Attribute.color;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.colorAccent = global::ERPSolution.MES.Droid.Resource.Attribute.colorAccent;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.colorBackgroundFloating = global::ERPSolution.MES.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.colorButtonNormal = global::ERPSolution.MES.Droid.Resource.Attribute.colorButtonNormal;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.colorControlActivated = global::ERPSolution.MES.Droid.Resource.Attribute.colorControlActivated;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.colorControlHighlight = global::ERPSolution.MES.Droid.Resource.Attribute.colorControlHighlight;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.colorControlNormal = global::ERPSolution.MES.Droid.Resource.Attribute.colorControlNormal;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.colorError = global::ERPSolution.MES.Droid.Resource.Attribute.colorError;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.colorPrimary = global::ERPSolution.MES.Droid.Resource.Attribute.colorPrimary;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.colorPrimaryDark = global::ERPSolution.MES.Droid.Resource.Attribute.colorPrimaryDark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.colorSwitchThumbNormal = global::ERPSolution.MES.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.commitIcon = global::ERPSolution.MES.Droid.Resource.Attribute.commitIcon;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.contentDescription = global::ERPSolution.MES.Droid.Resource.Attribute.contentDescription;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.contentInsetEnd = global::ERPSolution.MES.Droid.Resource.Attribute.contentInsetEnd;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.contentInsetEndWithActions = global::ERPSolution.MES.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.contentInsetLeft = global::ERPSolution.MES.Droid.Resource.Attribute.contentInsetLeft;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.contentInsetRight = global::ERPSolution.MES.Droid.Resource.Attribute.contentInsetRight;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.contentInsetStart = global::ERPSolution.MES.Droid.Resource.Attribute.contentInsetStart;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.contentInsetStartWithNavigation = global::ERPSolution.MES.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.contentPadding = global::ERPSolution.MES.Droid.Resource.Attribute.contentPadding;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.contentPaddingBottom = global::ERPSolution.MES.Droid.Resource.Attribute.contentPaddingBottom;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.contentPaddingLeft = global::ERPSolution.MES.Droid.Resource.Attribute.contentPaddingLeft;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.contentPaddingRight = global::ERPSolution.MES.Droid.Resource.Attribute.contentPaddingRight;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.contentPaddingTop = global::ERPSolution.MES.Droid.Resource.Attribute.contentPaddingTop;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.contentScrim = global::ERPSolution.MES.Droid.Resource.Attribute.contentScrim;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.controlBackground = global::ERPSolution.MES.Droid.Resource.Attribute.controlBackground;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.counterEnabled = global::ERPSolution.MES.Droid.Resource.Attribute.counterEnabled;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.counterMaxLength = global::ERPSolution.MES.Droid.Resource.Attribute.counterMaxLength;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.counterOverflowTextAppearance = global::ERPSolution.MES.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.counterTextAppearance = global::ERPSolution.MES.Droid.Resource.Attribute.counterTextAppearance;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.customNavigationLayout = global::ERPSolution.MES.Droid.Resource.Attribute.customNavigationLayout;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.defaultQueryHint = global::ERPSolution.MES.Droid.Resource.Attribute.defaultQueryHint;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.dialogPreferredPadding = global::ERPSolution.MES.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.dialogTheme = global::ERPSolution.MES.Droid.Resource.Attribute.dialogTheme;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.displayOptions = global::ERPSolution.MES.Droid.Resource.Attribute.displayOptions;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.divider = global::ERPSolution.MES.Droid.Resource.Attribute.divider;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.dividerHorizontal = global::ERPSolution.MES.Droid.Resource.Attribute.dividerHorizontal;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.dividerPadding = global::ERPSolution.MES.Droid.Resource.Attribute.dividerPadding;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.dividerVertical = global::ERPSolution.MES.Droid.Resource.Attribute.dividerVertical;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.drawableSize = global::ERPSolution.MES.Droid.Resource.Attribute.drawableSize;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.drawerArrowStyle = global::ERPSolution.MES.Droid.Resource.Attribute.drawerArrowStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.dropdownListPreferredItemHeight = global::ERPSolution.MES.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.dropDownListViewStyle = global::ERPSolution.MES.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.editTextBackground = global::ERPSolution.MES.Droid.Resource.Attribute.editTextBackground;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.editTextColor = global::ERPSolution.MES.Droid.Resource.Attribute.editTextColor;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.editTextStyle = global::ERPSolution.MES.Droid.Resource.Attribute.editTextStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.elevation = global::ERPSolution.MES.Droid.Resource.Attribute.elevation;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.errorEnabled = global::ERPSolution.MES.Droid.Resource.Attribute.errorEnabled;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.errorTextAppearance = global::ERPSolution.MES.Droid.Resource.Attribute.errorTextAppearance;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.expandActivityOverflowButtonDrawable = global::ERPSolution.MES.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.expanded = global::ERPSolution.MES.Droid.Resource.Attribute.expanded;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.expandedTitleGravity = global::ERPSolution.MES.Droid.Resource.Attribute.expandedTitleGravity;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.expandedTitleMargin = global::ERPSolution.MES.Droid.Resource.Attribute.expandedTitleMargin;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.expandedTitleMarginBottom = global::ERPSolution.MES.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.expandedTitleMarginEnd = global::ERPSolution.MES.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.expandedTitleMarginStart = global::ERPSolution.MES.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.expandedTitleMarginTop = global::ERPSolution.MES.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.expandedTitleTextAppearance = global::ERPSolution.MES.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.externalRouteEnabledDrawable = global::ERPSolution.MES.Droid.Resource.Attribute.externalRouteEnabledDrawable;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.fabSize = global::ERPSolution.MES.Droid.Resource.Attribute.fabSize;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.fastScrollEnabled = global::ERPSolution.MES.Droid.Resource.Attribute.fastScrollEnabled;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::ERPSolution.MES.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::ERPSolution.MES.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.fastScrollVerticalThumbDrawable = global::ERPSolution.MES.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.fastScrollVerticalTrackDrawable = global::ERPSolution.MES.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.font = global::ERPSolution.MES.Droid.Resource.Attribute.font;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.fontFamily = global::ERPSolution.MES.Droid.Resource.Attribute.fontFamily;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.fontProviderAuthority = global::ERPSolution.MES.Droid.Resource.Attribute.fontProviderAuthority;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.fontProviderCerts = global::ERPSolution.MES.Droid.Resource.Attribute.fontProviderCerts;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.fontProviderFetchStrategy = global::ERPSolution.MES.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.fontProviderFetchTimeout = global::ERPSolution.MES.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.fontProviderPackage = global::ERPSolution.MES.Droid.Resource.Attribute.fontProviderPackage;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.fontProviderQuery = global::ERPSolution.MES.Droid.Resource.Attribute.fontProviderQuery;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.fontStyle = global::ERPSolution.MES.Droid.Resource.Attribute.fontStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.fontWeight = global::ERPSolution.MES.Droid.Resource.Attribute.fontWeight;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.foregroundInsidePadding = global::ERPSolution.MES.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.gapBetweenBars = global::ERPSolution.MES.Droid.Resource.Attribute.gapBetweenBars;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.goIcon = global::ERPSolution.MES.Droid.Resource.Attribute.goIcon;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.headerLayout = global::ERPSolution.MES.Droid.Resource.Attribute.headerLayout;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.height = global::ERPSolution.MES.Droid.Resource.Attribute.height;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.hideOnContentScroll = global::ERPSolution.MES.Droid.Resource.Attribute.hideOnContentScroll;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.hintAnimationEnabled = global::ERPSolution.MES.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.hintEnabled = global::ERPSolution.MES.Droid.Resource.Attribute.hintEnabled;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.hintTextAppearance = global::ERPSolution.MES.Droid.Resource.Attribute.hintTextAppearance;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.homeAsUpIndicator = global::ERPSolution.MES.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.homeLayout = global::ERPSolution.MES.Droid.Resource.Attribute.homeLayout;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.icon = global::ERPSolution.MES.Droid.Resource.Attribute.icon;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.iconifiedByDefault = global::ERPSolution.MES.Droid.Resource.Attribute.iconifiedByDefault;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.iconTint = global::ERPSolution.MES.Droid.Resource.Attribute.iconTint;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.iconTintMode = global::ERPSolution.MES.Droid.Resource.Attribute.iconTintMode;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.imageButtonStyle = global::ERPSolution.MES.Droid.Resource.Attribute.imageButtonStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.indeterminateProgressStyle = global::ERPSolution.MES.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.initialActivityCount = global::ERPSolution.MES.Droid.Resource.Attribute.initialActivityCount;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.insetForeground = global::ERPSolution.MES.Droid.Resource.Attribute.insetForeground;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.isLightTheme = global::ERPSolution.MES.Droid.Resource.Attribute.isLightTheme;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.itemBackground = global::ERPSolution.MES.Droid.Resource.Attribute.itemBackground;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.itemIconTint = global::ERPSolution.MES.Droid.Resource.Attribute.itemIconTint;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.itemPadding = global::ERPSolution.MES.Droid.Resource.Attribute.itemPadding;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.itemTextAppearance = global::ERPSolution.MES.Droid.Resource.Attribute.itemTextAppearance;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.itemTextColor = global::ERPSolution.MES.Droid.Resource.Attribute.itemTextColor;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.keylines = global::ERPSolution.MES.Droid.Resource.Attribute.keylines;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.layout = global::ERPSolution.MES.Droid.Resource.Attribute.layout;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.layoutManager = global::ERPSolution.MES.Droid.Resource.Attribute.layoutManager;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.layout_anchor = global::ERPSolution.MES.Droid.Resource.Attribute.layout_anchor;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.layout_anchorGravity = global::ERPSolution.MES.Droid.Resource.Attribute.layout_anchorGravity;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.layout_behavior = global::ERPSolution.MES.Droid.Resource.Attribute.layout_behavior;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.layout_collapseMode = global::ERPSolution.MES.Droid.Resource.Attribute.layout_collapseMode;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.layout_collapseParallaxMultiplier = global::ERPSolution.MES.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.layout_dodgeInsetEdges = global::ERPSolution.MES.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.layout_insetEdge = global::ERPSolution.MES.Droid.Resource.Attribute.layout_insetEdge;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.layout_keyline = global::ERPSolution.MES.Droid.Resource.Attribute.layout_keyline;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.layout_scrollFlags = global::ERPSolution.MES.Droid.Resource.Attribute.layout_scrollFlags;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.layout_scrollInterpolator = global::ERPSolution.MES.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.listChoiceBackgroundIndicator = global::ERPSolution.MES.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.listDividerAlertDialog = global::ERPSolution.MES.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.listItemLayout = global::ERPSolution.MES.Droid.Resource.Attribute.listItemLayout;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.listLayout = global::ERPSolution.MES.Droid.Resource.Attribute.listLayout;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.listMenuViewStyle = global::ERPSolution.MES.Droid.Resource.Attribute.listMenuViewStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.listPopupWindowStyle = global::ERPSolution.MES.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.listPreferredItemHeight = global::ERPSolution.MES.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.listPreferredItemHeightLarge = global::ERPSolution.MES.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.listPreferredItemHeightSmall = global::ERPSolution.MES.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.listPreferredItemPaddingLeft = global::ERPSolution.MES.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.listPreferredItemPaddingRight = global::ERPSolution.MES.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.logo = global::ERPSolution.MES.Droid.Resource.Attribute.logo;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.logoDescription = global::ERPSolution.MES.Droid.Resource.Attribute.logoDescription;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.maxActionInlineWidth = global::ERPSolution.MES.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.maxButtonHeight = global::ERPSolution.MES.Droid.Resource.Attribute.maxButtonHeight;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.measureWithLargestChild = global::ERPSolution.MES.Droid.Resource.Attribute.measureWithLargestChild;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.mediaRouteAudioTrackDrawable = global::ERPSolution.MES.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.mediaRouteButtonStyle = global::ERPSolution.MES.Droid.Resource.Attribute.mediaRouteButtonStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.mediaRouteButtonTint = global::ERPSolution.MES.Droid.Resource.Attribute.mediaRouteButtonTint;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.mediaRouteCloseDrawable = global::ERPSolution.MES.Droid.Resource.Attribute.mediaRouteCloseDrawable;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.mediaRouteControlPanelThemeOverlay = global::ERPSolution.MES.Droid.Resource.Attribute.mediaRouteControlPanelThemeOverlay;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.mediaRouteDefaultIconDrawable = global::ERPSolution.MES.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.mediaRoutePauseDrawable = global::ERPSolution.MES.Droid.Resource.Attribute.mediaRoutePauseDrawable;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.mediaRoutePlayDrawable = global::ERPSolution.MES.Droid.Resource.Attribute.mediaRoutePlayDrawable;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable = global::ERPSolution.MES.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.mediaRouteSpeakerIconDrawable = global::ERPSolution.MES.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.mediaRouteStopDrawable = global::ERPSolution.MES.Droid.Resource.Attribute.mediaRouteStopDrawable;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.mediaRouteTheme = global::ERPSolution.MES.Droid.Resource.Attribute.mediaRouteTheme;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.mediaRouteTvIconDrawable = global::ERPSolution.MES.Droid.Resource.Attribute.mediaRouteTvIconDrawable;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.menu = global::ERPSolution.MES.Droid.Resource.Attribute.menu;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.multiChoiceItemLayout = global::ERPSolution.MES.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.navigationContentDescription = global::ERPSolution.MES.Droid.Resource.Attribute.navigationContentDescription;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.navigationIcon = global::ERPSolution.MES.Droid.Resource.Attribute.navigationIcon;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.navigationMode = global::ERPSolution.MES.Droid.Resource.Attribute.navigationMode;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.numericModifiers = global::ERPSolution.MES.Droid.Resource.Attribute.numericModifiers;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.overlapAnchor = global::ERPSolution.MES.Droid.Resource.Attribute.overlapAnchor;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.paddingBottomNoButtons = global::ERPSolution.MES.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.paddingEnd = global::ERPSolution.MES.Droid.Resource.Attribute.paddingEnd;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.paddingStart = global::ERPSolution.MES.Droid.Resource.Attribute.paddingStart;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.paddingTopNoTitle = global::ERPSolution.MES.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.panelBackground = global::ERPSolution.MES.Droid.Resource.Attribute.panelBackground;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.panelMenuListTheme = global::ERPSolution.MES.Droid.Resource.Attribute.panelMenuListTheme;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.panelMenuListWidth = global::ERPSolution.MES.Droid.Resource.Attribute.panelMenuListWidth;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.passwordToggleContentDescription = global::ERPSolution.MES.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.passwordToggleDrawable = global::ERPSolution.MES.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.passwordToggleEnabled = global::ERPSolution.MES.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.passwordToggleTint = global::ERPSolution.MES.Droid.Resource.Attribute.passwordToggleTint;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.passwordToggleTintMode = global::ERPSolution.MES.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.popupMenuStyle = global::ERPSolution.MES.Droid.Resource.Attribute.popupMenuStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.popupTheme = global::ERPSolution.MES.Droid.Resource.Attribute.popupTheme;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.popupWindowStyle = global::ERPSolution.MES.Droid.Resource.Attribute.popupWindowStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.preserveIconSpacing = global::ERPSolution.MES.Droid.Resource.Attribute.preserveIconSpacing;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.pressedTranslationZ = global::ERPSolution.MES.Droid.Resource.Attribute.pressedTranslationZ;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.progressBarPadding = global::ERPSolution.MES.Droid.Resource.Attribute.progressBarPadding;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.progressBarStyle = global::ERPSolution.MES.Droid.Resource.Attribute.progressBarStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.queryBackground = global::ERPSolution.MES.Droid.Resource.Attribute.queryBackground;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.queryHint = global::ERPSolution.MES.Droid.Resource.Attribute.queryHint;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.radioButtonStyle = global::ERPSolution.MES.Droid.Resource.Attribute.radioButtonStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.ratingBarStyle = global::ERPSolution.MES.Droid.Resource.Attribute.ratingBarStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.ratingBarStyleIndicator = global::ERPSolution.MES.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.ratingBarStyleSmall = global::ERPSolution.MES.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.reverseLayout = global::ERPSolution.MES.Droid.Resource.Attribute.reverseLayout;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.rippleColor = global::ERPSolution.MES.Droid.Resource.Attribute.rippleColor;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.scrimAnimationDuration = global::ERPSolution.MES.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.scrimVisibleHeightTrigger = global::ERPSolution.MES.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.searchHintIcon = global::ERPSolution.MES.Droid.Resource.Attribute.searchHintIcon;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.searchIcon = global::ERPSolution.MES.Droid.Resource.Attribute.searchIcon;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.searchViewStyle = global::ERPSolution.MES.Droid.Resource.Attribute.searchViewStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.seekBarStyle = global::ERPSolution.MES.Droid.Resource.Attribute.seekBarStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.selectableItemBackground = global::ERPSolution.MES.Droid.Resource.Attribute.selectableItemBackground;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.selectableItemBackgroundBorderless = global::ERPSolution.MES.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.showAsAction = global::ERPSolution.MES.Droid.Resource.Attribute.showAsAction;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.showDividers = global::ERPSolution.MES.Droid.Resource.Attribute.showDividers;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.showText = global::ERPSolution.MES.Droid.Resource.Attribute.showText;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.showTitle = global::ERPSolution.MES.Droid.Resource.Attribute.showTitle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.singleChoiceItemLayout = global::ERPSolution.MES.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.spanCount = global::ERPSolution.MES.Droid.Resource.Attribute.spanCount;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.spinBars = global::ERPSolution.MES.Droid.Resource.Attribute.spinBars;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.spinnerDropDownItemStyle = global::ERPSolution.MES.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.spinnerStyle = global::ERPSolution.MES.Droid.Resource.Attribute.spinnerStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.splitTrack = global::ERPSolution.MES.Droid.Resource.Attribute.splitTrack;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.srcCompat = global::ERPSolution.MES.Droid.Resource.Attribute.srcCompat;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.stackFromEnd = global::ERPSolution.MES.Droid.Resource.Attribute.stackFromEnd;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.state_above_anchor = global::ERPSolution.MES.Droid.Resource.Attribute.state_above_anchor;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.state_collapsed = global::ERPSolution.MES.Droid.Resource.Attribute.state_collapsed;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.state_collapsible = global::ERPSolution.MES.Droid.Resource.Attribute.state_collapsible;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.statusBarBackground = global::ERPSolution.MES.Droid.Resource.Attribute.statusBarBackground;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.statusBarScrim = global::ERPSolution.MES.Droid.Resource.Attribute.statusBarScrim;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.subMenuArrow = global::ERPSolution.MES.Droid.Resource.Attribute.subMenuArrow;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.submitBackground = global::ERPSolution.MES.Droid.Resource.Attribute.submitBackground;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.subtitle = global::ERPSolution.MES.Droid.Resource.Attribute.subtitle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.subtitleTextAppearance = global::ERPSolution.MES.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.subtitleTextColor = global::ERPSolution.MES.Droid.Resource.Attribute.subtitleTextColor;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.subtitleTextStyle = global::ERPSolution.MES.Droid.Resource.Attribute.subtitleTextStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.suggestionRowLayout = global::ERPSolution.MES.Droid.Resource.Attribute.suggestionRowLayout;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.switchMinWidth = global::ERPSolution.MES.Droid.Resource.Attribute.switchMinWidth;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.switchPadding = global::ERPSolution.MES.Droid.Resource.Attribute.switchPadding;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.switchStyle = global::ERPSolution.MES.Droid.Resource.Attribute.switchStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.switchTextAppearance = global::ERPSolution.MES.Droid.Resource.Attribute.switchTextAppearance;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.tabBackground = global::ERPSolution.MES.Droid.Resource.Attribute.tabBackground;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.tabContentStart = global::ERPSolution.MES.Droid.Resource.Attribute.tabContentStart;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.tabGravity = global::ERPSolution.MES.Droid.Resource.Attribute.tabGravity;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.tabIndicatorColor = global::ERPSolution.MES.Droid.Resource.Attribute.tabIndicatorColor;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.tabIndicatorHeight = global::ERPSolution.MES.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.tabMaxWidth = global::ERPSolution.MES.Droid.Resource.Attribute.tabMaxWidth;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.tabMinWidth = global::ERPSolution.MES.Droid.Resource.Attribute.tabMinWidth;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.tabMode = global::ERPSolution.MES.Droid.Resource.Attribute.tabMode;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.tabPadding = global::ERPSolution.MES.Droid.Resource.Attribute.tabPadding;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.tabPaddingBottom = global::ERPSolution.MES.Droid.Resource.Attribute.tabPaddingBottom;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.tabPaddingEnd = global::ERPSolution.MES.Droid.Resource.Attribute.tabPaddingEnd;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.tabPaddingStart = global::ERPSolution.MES.Droid.Resource.Attribute.tabPaddingStart;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.tabPaddingTop = global::ERPSolution.MES.Droid.Resource.Attribute.tabPaddingTop;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.tabSelectedTextColor = global::ERPSolution.MES.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.tabTextAppearance = global::ERPSolution.MES.Droid.Resource.Attribute.tabTextAppearance;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.tabTextColor = global::ERPSolution.MES.Droid.Resource.Attribute.tabTextColor;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.textAllCaps = global::ERPSolution.MES.Droid.Resource.Attribute.textAllCaps;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.textAppearanceLargePopupMenu = global::ERPSolution.MES.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.textAppearanceListItem = global::ERPSolution.MES.Droid.Resource.Attribute.textAppearanceListItem;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.textAppearanceListItemSecondary = global::ERPSolution.MES.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.textAppearanceListItemSmall = global::ERPSolution.MES.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.textAppearancePopupMenuHeader = global::ERPSolution.MES.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.textAppearanceSearchResultSubtitle = global::ERPSolution.MES.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.textAppearanceSearchResultTitle = global::ERPSolution.MES.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.textAppearanceSmallPopupMenu = global::ERPSolution.MES.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.textColorAlertDialogListItem = global::ERPSolution.MES.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.textColorSearchUrl = global::ERPSolution.MES.Droid.Resource.Attribute.textColorSearchUrl;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.theme = global::ERPSolution.MES.Droid.Resource.Attribute.theme;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.thickness = global::ERPSolution.MES.Droid.Resource.Attribute.thickness;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.thumbTextPadding = global::ERPSolution.MES.Droid.Resource.Attribute.thumbTextPadding;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.thumbTint = global::ERPSolution.MES.Droid.Resource.Attribute.thumbTint;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.thumbTintMode = global::ERPSolution.MES.Droid.Resource.Attribute.thumbTintMode;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.tickMark = global::ERPSolution.MES.Droid.Resource.Attribute.tickMark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.tickMarkTint = global::ERPSolution.MES.Droid.Resource.Attribute.tickMarkTint;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.tickMarkTintMode = global::ERPSolution.MES.Droid.Resource.Attribute.tickMarkTintMode;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.tint = global::ERPSolution.MES.Droid.Resource.Attribute.tint;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.tintMode = global::ERPSolution.MES.Droid.Resource.Attribute.tintMode;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.title = global::ERPSolution.MES.Droid.Resource.Attribute.title;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.titleEnabled = global::ERPSolution.MES.Droid.Resource.Attribute.titleEnabled;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.titleMargin = global::ERPSolution.MES.Droid.Resource.Attribute.titleMargin;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.titleMarginBottom = global::ERPSolution.MES.Droid.Resource.Attribute.titleMarginBottom;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.titleMarginEnd = global::ERPSolution.MES.Droid.Resource.Attribute.titleMarginEnd;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.titleMargins = global::ERPSolution.MES.Droid.Resource.Attribute.titleMargins;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.titleMarginStart = global::ERPSolution.MES.Droid.Resource.Attribute.titleMarginStart;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.titleMarginTop = global::ERPSolution.MES.Droid.Resource.Attribute.titleMarginTop;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.titleTextAppearance = global::ERPSolution.MES.Droid.Resource.Attribute.titleTextAppearance;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.titleTextColor = global::ERPSolution.MES.Droid.Resource.Attribute.titleTextColor;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.titleTextStyle = global::ERPSolution.MES.Droid.Resource.Attribute.titleTextStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.toolbarId = global::ERPSolution.MES.Droid.Resource.Attribute.toolbarId;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.toolbarNavigationButtonStyle = global::ERPSolution.MES.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.toolbarStyle = global::ERPSolution.MES.Droid.Resource.Attribute.toolbarStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.tooltipForegroundColor = global::ERPSolution.MES.Droid.Resource.Attribute.tooltipForegroundColor;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.tooltipFrameBackground = global::ERPSolution.MES.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.tooltipText = global::ERPSolution.MES.Droid.Resource.Attribute.tooltipText;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.track = global::ERPSolution.MES.Droid.Resource.Attribute.track;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.trackTint = global::ERPSolution.MES.Droid.Resource.Attribute.trackTint;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.trackTintMode = global::ERPSolution.MES.Droid.Resource.Attribute.trackTintMode;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.unchecked_state = global::ERPSolution.MES.Droid.Resource.Attribute.unchecked_state;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.undetermined_state = global::ERPSolution.MES.Droid.Resource.Attribute.undetermined_state;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.useCompatPadding = global::ERPSolution.MES.Droid.Resource.Attribute.useCompatPadding;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.voiceIcon = global::ERPSolution.MES.Droid.Resource.Attribute.voiceIcon;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.windowActionBar = global::ERPSolution.MES.Droid.Resource.Attribute.windowActionBar;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.windowActionBarOverlay = global::ERPSolution.MES.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.windowActionModeOverlay = global::ERPSolution.MES.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.windowFixedHeightMajor = global::ERPSolution.MES.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.windowFixedHeightMinor = global::ERPSolution.MES.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.windowFixedWidthMajor = global::ERPSolution.MES.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.windowFixedWidthMinor = global::ERPSolution.MES.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.windowMinWidthMajor = global::ERPSolution.MES.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.windowMinWidthMinor = global::ERPSolution.MES.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Attribute.windowNoTitle = global::ERPSolution.MES.Droid.Resource.Attribute.windowNoTitle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Boolean.abc_action_bar_embed_tabs = global::ERPSolution.MES.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Boolean.abc_allow_stacked_button_bar = global::ERPSolution.MES.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::ERPSolution.MES.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.abc_background_cache_hint_selector_material_dark = global::ERPSolution.MES.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.abc_background_cache_hint_selector_material_light = global::ERPSolution.MES.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.abc_btn_colored_borderless_text_material = global::ERPSolution.MES.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.abc_btn_colored_text_material = global::ERPSolution.MES.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.abc_color_highlight_material = global::ERPSolution.MES.Droid.Resource.Color.abc_color_highlight_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.abc_hint_foreground_material_dark = global::ERPSolution.MES.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.abc_hint_foreground_material_light = global::ERPSolution.MES.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.abc_input_method_navigation_guard = global::ERPSolution.MES.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.abc_primary_text_disable_only_material_dark = global::ERPSolution.MES.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.abc_primary_text_disable_only_material_light = global::ERPSolution.MES.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.abc_primary_text_material_dark = global::ERPSolution.MES.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.abc_primary_text_material_light = global::ERPSolution.MES.Droid.Resource.Color.abc_primary_text_material_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.abc_search_url_text = global::ERPSolution.MES.Droid.Resource.Color.abc_search_url_text;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.abc_search_url_text_normal = global::ERPSolution.MES.Droid.Resource.Color.abc_search_url_text_normal;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.abc_search_url_text_pressed = global::ERPSolution.MES.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.abc_search_url_text_selected = global::ERPSolution.MES.Droid.Resource.Color.abc_search_url_text_selected;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.abc_secondary_text_material_dark = global::ERPSolution.MES.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.abc_secondary_text_material_light = global::ERPSolution.MES.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.abc_tint_btn_checkable = global::ERPSolution.MES.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.abc_tint_default = global::ERPSolution.MES.Droid.Resource.Color.abc_tint_default;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.abc_tint_edittext = global::ERPSolution.MES.Droid.Resource.Color.abc_tint_edittext;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.abc_tint_seek_thumb = global::ERPSolution.MES.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.abc_tint_spinner = global::ERPSolution.MES.Droid.Resource.Color.abc_tint_spinner;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.abc_tint_switch_track = global::ERPSolution.MES.Droid.Resource.Color.abc_tint_switch_track;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.accent_material_dark = global::ERPSolution.MES.Droid.Resource.Color.accent_material_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.accent_material_light = global::ERPSolution.MES.Droid.Resource.Color.accent_material_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.background_floating_material_dark = global::ERPSolution.MES.Droid.Resource.Color.background_floating_material_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.background_floating_material_light = global::ERPSolution.MES.Droid.Resource.Color.background_floating_material_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.background_material_dark = global::ERPSolution.MES.Droid.Resource.Color.background_material_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.background_material_light = global::ERPSolution.MES.Droid.Resource.Color.background_material_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.bright_foreground_disabled_material_dark = global::ERPSolution.MES.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.bright_foreground_disabled_material_light = global::ERPSolution.MES.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.bright_foreground_inverse_material_dark = global::ERPSolution.MES.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.bright_foreground_inverse_material_light = global::ERPSolution.MES.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.bright_foreground_material_dark = global::ERPSolution.MES.Droid.Resource.Color.bright_foreground_material_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.bright_foreground_material_light = global::ERPSolution.MES.Droid.Resource.Color.bright_foreground_material_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.button_material_dark = global::ERPSolution.MES.Droid.Resource.Color.button_material_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.button_material_light = global::ERPSolution.MES.Droid.Resource.Color.button_material_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.cardview_dark_background = global::ERPSolution.MES.Droid.Resource.Color.cardview_dark_background;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.cardview_light_background = global::ERPSolution.MES.Droid.Resource.Color.cardview_light_background;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.cardview_shadow_end_color = global::ERPSolution.MES.Droid.Resource.Color.cardview_shadow_end_color;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.cardview_shadow_start_color = global::ERPSolution.MES.Droid.Resource.Color.cardview_shadow_start_color;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.checkboxTintColorDark = global::ERPSolution.MES.Droid.Resource.Color.checkboxTintColorDark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.checkboxTintColorLight = global::ERPSolution.MES.Droid.Resource.Color.checkboxTintColorLight;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.checkedCheckboxBackDark = global::ERPSolution.MES.Droid.Resource.Color.checkedCheckboxBackDark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.checkedCheckboxBackLight = global::ERPSolution.MES.Droid.Resource.Color.checkedCheckboxBackLight;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.colorAccent = global::ERPSolution.MES.Droid.Resource.Color.colorAccent;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.colorPrimary = global::ERPSolution.MES.Droid.Resource.Color.colorPrimary;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.colorPrimaryDark = global::ERPSolution.MES.Droid.Resource.Color.colorPrimaryDark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.design_bottom_navigation_shadow_color = global::ERPSolution.MES.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.design_error = global::ERPSolution.MES.Droid.Resource.Color.design_error;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.design_fab_shadow_end_color = global::ERPSolution.MES.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.design_fab_shadow_mid_color = global::ERPSolution.MES.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.design_fab_shadow_start_color = global::ERPSolution.MES.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.design_fab_stroke_end_inner_color = global::ERPSolution.MES.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.design_fab_stroke_end_outer_color = global::ERPSolution.MES.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.design_fab_stroke_top_inner_color = global::ERPSolution.MES.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.design_fab_stroke_top_outer_color = global::ERPSolution.MES.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.design_snackbar_background_color = global::ERPSolution.MES.Droid.Resource.Color.design_snackbar_background_color;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.design_tint_password_toggle = global::ERPSolution.MES.Droid.Resource.Color.design_tint_password_toggle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.dim_foreground_disabled_material_dark = global::ERPSolution.MES.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.dim_foreground_disabled_material_light = global::ERPSolution.MES.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.dim_foreground_material_dark = global::ERPSolution.MES.Droid.Resource.Color.dim_foreground_material_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.dim_foreground_material_light = global::ERPSolution.MES.Droid.Resource.Color.dim_foreground_material_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.foreground_material_dark = global::ERPSolution.MES.Droid.Resource.Color.foreground_material_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.foreground_material_light = global::ERPSolution.MES.Droid.Resource.Color.foreground_material_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.highlighted_text_material_dark = global::ERPSolution.MES.Droid.Resource.Color.highlighted_text_material_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.highlighted_text_material_light = global::ERPSolution.MES.Droid.Resource.Color.highlighted_text_material_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.material_blue_grey_800 = global::ERPSolution.MES.Droid.Resource.Color.material_blue_grey_800;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.material_blue_grey_900 = global::ERPSolution.MES.Droid.Resource.Color.material_blue_grey_900;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.material_blue_grey_950 = global::ERPSolution.MES.Droid.Resource.Color.material_blue_grey_950;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.material_deep_teal_200 = global::ERPSolution.MES.Droid.Resource.Color.material_deep_teal_200;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.material_deep_teal_500 = global::ERPSolution.MES.Droid.Resource.Color.material_deep_teal_500;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.material_grey_100 = global::ERPSolution.MES.Droid.Resource.Color.material_grey_100;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.material_grey_300 = global::ERPSolution.MES.Droid.Resource.Color.material_grey_300;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.material_grey_50 = global::ERPSolution.MES.Droid.Resource.Color.material_grey_50;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.material_grey_600 = global::ERPSolution.MES.Droid.Resource.Color.material_grey_600;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.material_grey_800 = global::ERPSolution.MES.Droid.Resource.Color.material_grey_800;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.material_grey_850 = global::ERPSolution.MES.Droid.Resource.Color.material_grey_850;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.material_grey_900 = global::ERPSolution.MES.Droid.Resource.Color.material_grey_900;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.notification_action_color_filter = global::ERPSolution.MES.Droid.Resource.Color.notification_action_color_filter;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.notification_icon_bg_color = global::ERPSolution.MES.Droid.Resource.Color.notification_icon_bg_color;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.notification_material_background_media_default_color = global::ERPSolution.MES.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.primary_dark_material_dark = global::ERPSolution.MES.Droid.Resource.Color.primary_dark_material_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.primary_dark_material_light = global::ERPSolution.MES.Droid.Resource.Color.primary_dark_material_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.primary_material_dark = global::ERPSolution.MES.Droid.Resource.Color.primary_material_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.primary_material_light = global::ERPSolution.MES.Droid.Resource.Color.primary_material_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.primary_text_default_material_dark = global::ERPSolution.MES.Droid.Resource.Color.primary_text_default_material_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.primary_text_default_material_light = global::ERPSolution.MES.Droid.Resource.Color.primary_text_default_material_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.primary_text_disabled_material_dark = global::ERPSolution.MES.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.primary_text_disabled_material_light = global::ERPSolution.MES.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.ripple_material_dark = global::ERPSolution.MES.Droid.Resource.Color.ripple_material_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.ripple_material_light = global::ERPSolution.MES.Droid.Resource.Color.ripple_material_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.secondary_text_default_material_dark = global::ERPSolution.MES.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.secondary_text_default_material_light = global::ERPSolution.MES.Droid.Resource.Color.secondary_text_default_material_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.secondary_text_disabled_material_dark = global::ERPSolution.MES.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.secondary_text_disabled_material_light = global::ERPSolution.MES.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.switch_thumb_disabled_material_dark = global::ERPSolution.MES.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.switch_thumb_disabled_material_light = global::ERPSolution.MES.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.switch_thumb_material_dark = global::ERPSolution.MES.Droid.Resource.Color.switch_thumb_material_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.switch_thumb_material_light = global::ERPSolution.MES.Droid.Resource.Color.switch_thumb_material_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.switch_thumb_normal_material_dark = global::ERPSolution.MES.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.switch_thumb_normal_material_light = global::ERPSolution.MES.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.tooltip_background_dark = global::ERPSolution.MES.Droid.Resource.Color.tooltip_background_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.tooltip_background_light = global::ERPSolution.MES.Droid.Resource.Color.tooltip_background_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.uncheckedCheckboxBackDark = global::ERPSolution.MES.Droid.Resource.Color.uncheckedCheckboxBackDark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.uncheckedCheckboxBackLight = global::ERPSolution.MES.Droid.Resource.Color.uncheckedCheckboxBackLight;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.uncheckedCheckboxBorderDark = global::ERPSolution.MES.Droid.Resource.Color.uncheckedCheckboxBorderDark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Color.uncheckedCheckboxBorderLight = global::ERPSolution.MES.Droid.Resource.Color.uncheckedCheckboxBorderLight;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_action_bar_content_inset_material = global::ERPSolution.MES.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::ERPSolution.MES.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_action_bar_default_height_material = global::ERPSolution.MES.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_action_bar_default_padding_end_material = global::ERPSolution.MES.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_action_bar_default_padding_start_material = global::ERPSolution.MES.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_action_bar_elevation_material = global::ERPSolution.MES.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::ERPSolution.MES.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::ERPSolution.MES.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::ERPSolution.MES.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_action_bar_stacked_max_height = global::ERPSolution.MES.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::ERPSolution.MES.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::ERPSolution.MES.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::ERPSolution.MES.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_action_button_min_height_material = global::ERPSolution.MES.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_action_button_min_width_material = global::ERPSolution.MES.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_action_button_min_width_overflow_material = global::ERPSolution.MES.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_alert_dialog_button_bar_height = global::ERPSolution.MES.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_button_inset_horizontal_material = global::ERPSolution.MES.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_button_inset_vertical_material = global::ERPSolution.MES.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_button_padding_horizontal_material = global::ERPSolution.MES.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_button_padding_vertical_material = global::ERPSolution.MES.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::ERPSolution.MES.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_config_prefDialogWidth = global::ERPSolution.MES.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_control_corner_material = global::ERPSolution.MES.Droid.Resource.Dimension.abc_control_corner_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_control_inset_material = global::ERPSolution.MES.Droid.Resource.Dimension.abc_control_inset_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_control_padding_material = global::ERPSolution.MES.Droid.Resource.Dimension.abc_control_padding_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_dialog_fixed_height_major = global::ERPSolution.MES.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_dialog_fixed_height_minor = global::ERPSolution.MES.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_dialog_fixed_width_major = global::ERPSolution.MES.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_dialog_fixed_width_minor = global::ERPSolution.MES.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::ERPSolution.MES.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::ERPSolution.MES.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_dialog_min_width_major = global::ERPSolution.MES.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_dialog_min_width_minor = global::ERPSolution.MES.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_dialog_padding_material = global::ERPSolution.MES.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_dialog_padding_top_material = global::ERPSolution.MES.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_dialog_title_divider_material = global::ERPSolution.MES.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_disabled_alpha_material_dark = global::ERPSolution.MES.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_disabled_alpha_material_light = global::ERPSolution.MES.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_dropdownitem_icon_width = global::ERPSolution.MES.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_dropdownitem_text_padding_left = global::ERPSolution.MES.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_dropdownitem_text_padding_right = global::ERPSolution.MES.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_edit_text_inset_bottom_material = global::ERPSolution.MES.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::ERPSolution.MES.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_edit_text_inset_top_material = global::ERPSolution.MES.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_floating_window_z = global::ERPSolution.MES.Droid.Resource.Dimension.abc_floating_window_z;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_list_item_padding_horizontal_material = global::ERPSolution.MES.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_panel_menu_list_width = global::ERPSolution.MES.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_progress_bar_height_material = global::ERPSolution.MES.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_search_view_preferred_height = global::ERPSolution.MES.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_search_view_preferred_width = global::ERPSolution.MES.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_seekbar_track_background_height_material = global::ERPSolution.MES.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_seekbar_track_progress_height_material = global::ERPSolution.MES.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_select_dialog_padding_start_material = global::ERPSolution.MES.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_switch_padding = global::ERPSolution.MES.Droid.Resource.Dimension.abc_switch_padding;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_text_size_body_1_material = global::ERPSolution.MES.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_text_size_body_2_material = global::ERPSolution.MES.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_text_size_button_material = global::ERPSolution.MES.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_text_size_caption_material = global::ERPSolution.MES.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_text_size_display_1_material = global::ERPSolution.MES.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_text_size_display_2_material = global::ERPSolution.MES.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_text_size_display_3_material = global::ERPSolution.MES.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_text_size_display_4_material = global::ERPSolution.MES.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_text_size_headline_material = global::ERPSolution.MES.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_text_size_large_material = global::ERPSolution.MES.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_text_size_medium_material = global::ERPSolution.MES.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_text_size_menu_header_material = global::ERPSolution.MES.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_text_size_menu_material = global::ERPSolution.MES.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_text_size_small_material = global::ERPSolution.MES.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_text_size_subhead_material = global::ERPSolution.MES.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::ERPSolution.MES.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_text_size_title_material = global::ERPSolution.MES.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.abc_text_size_title_material_toolbar = global::ERPSolution.MES.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.cardview_compat_inset_shadow = global::ERPSolution.MES.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.cardview_default_elevation = global::ERPSolution.MES.Droid.Resource.Dimension.cardview_default_elevation;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.cardview_default_radius = global::ERPSolution.MES.Droid.Resource.Dimension.cardview_default_radius;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.compat_button_inset_horizontal_material = global::ERPSolution.MES.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.compat_button_inset_vertical_material = global::ERPSolution.MES.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.compat_button_padding_horizontal_material = global::ERPSolution.MES.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.compat_button_padding_vertical_material = global::ERPSolution.MES.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.compat_control_corner_material = global::ERPSolution.MES.Droid.Resource.Dimension.compat_control_corner_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.design_appbar_elevation = global::ERPSolution.MES.Droid.Resource.Dimension.design_appbar_elevation;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::ERPSolution.MES.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.design_bottom_navigation_active_text_size = global::ERPSolution.MES.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.design_bottom_navigation_elevation = global::ERPSolution.MES.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.design_bottom_navigation_height = global::ERPSolution.MES.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.design_bottom_navigation_item_max_width = global::ERPSolution.MES.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.design_bottom_navigation_item_min_width = global::ERPSolution.MES.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.design_bottom_navigation_margin = global::ERPSolution.MES.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.design_bottom_navigation_shadow_height = global::ERPSolution.MES.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.design_bottom_navigation_text_size = global::ERPSolution.MES.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.design_bottom_sheet_modal_elevation = global::ERPSolution.MES.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.design_bottom_sheet_peek_height_min = global::ERPSolution.MES.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.design_fab_border_width = global::ERPSolution.MES.Droid.Resource.Dimension.design_fab_border_width;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.design_fab_elevation = global::ERPSolution.MES.Droid.Resource.Dimension.design_fab_elevation;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.design_fab_image_size = global::ERPSolution.MES.Droid.Resource.Dimension.design_fab_image_size;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.design_fab_size_mini = global::ERPSolution.MES.Droid.Resource.Dimension.design_fab_size_mini;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.design_fab_size_normal = global::ERPSolution.MES.Droid.Resource.Dimension.design_fab_size_normal;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.design_fab_translation_z_pressed = global::ERPSolution.MES.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.design_navigation_elevation = global::ERPSolution.MES.Droid.Resource.Dimension.design_navigation_elevation;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.design_navigation_icon_padding = global::ERPSolution.MES.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.design_navigation_icon_size = global::ERPSolution.MES.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.design_navigation_max_width = global::ERPSolution.MES.Droid.Resource.Dimension.design_navigation_max_width;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.design_navigation_padding_bottom = global::ERPSolution.MES.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.design_navigation_separator_vertical_padding = global::ERPSolution.MES.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.design_snackbar_action_inline_max_width = global::ERPSolution.MES.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.design_snackbar_background_corner_radius = global::ERPSolution.MES.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.design_snackbar_elevation = global::ERPSolution.MES.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::ERPSolution.MES.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.design_snackbar_max_width = global::ERPSolution.MES.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.design_snackbar_min_width = global::ERPSolution.MES.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.design_snackbar_padding_horizontal = global::ERPSolution.MES.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.design_snackbar_padding_vertical = global::ERPSolution.MES.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::ERPSolution.MES.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.design_snackbar_text_size = global::ERPSolution.MES.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.design_tab_max_width = global::ERPSolution.MES.Droid.Resource.Dimension.design_tab_max_width;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.design_tab_scrollable_min_width = global::ERPSolution.MES.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.design_tab_text_size = global::ERPSolution.MES.Droid.Resource.Dimension.design_tab_text_size;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.design_tab_text_size_2line = global::ERPSolution.MES.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.disabled_alpha_material_dark = global::ERPSolution.MES.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.disabled_alpha_material_light = global::ERPSolution.MES.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.fastscroll_default_thickness = global::ERPSolution.MES.Droid.Resource.Dimension.fastscroll_default_thickness;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.fastscroll_margin = global::ERPSolution.MES.Droid.Resource.Dimension.fastscroll_margin;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.fastscroll_minimum_range = global::ERPSolution.MES.Droid.Resource.Dimension.fastscroll_minimum_range;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.highlight_alpha_material_colored = global::ERPSolution.MES.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.highlight_alpha_material_dark = global::ERPSolution.MES.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.highlight_alpha_material_light = global::ERPSolution.MES.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.hint_alpha_material_dark = global::ERPSolution.MES.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.hint_alpha_material_light = global::ERPSolution.MES.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.hint_pressed_alpha_material_dark = global::ERPSolution.MES.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.hint_pressed_alpha_material_light = global::ERPSolution.MES.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::ERPSolution.MES.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::ERPSolution.MES.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::ERPSolution.MES.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.mr_controller_volume_group_list_item_height = global::ERPSolution.MES.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.mr_controller_volume_group_list_item_icon_size = global::ERPSolution.MES.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.mr_controller_volume_group_list_max_height = global::ERPSolution.MES.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.mr_controller_volume_group_list_padding_top = global::ERPSolution.MES.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.mr_dialog_fixed_width_major = global::ERPSolution.MES.Droid.Resource.Dimension.mr_dialog_fixed_width_major;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.mr_dialog_fixed_width_minor = global::ERPSolution.MES.Droid.Resource.Dimension.mr_dialog_fixed_width_minor;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.notification_action_icon_size = global::ERPSolution.MES.Droid.Resource.Dimension.notification_action_icon_size;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.notification_action_text_size = global::ERPSolution.MES.Droid.Resource.Dimension.notification_action_text_size;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.notification_big_circle_margin = global::ERPSolution.MES.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.notification_content_margin_start = global::ERPSolution.MES.Droid.Resource.Dimension.notification_content_margin_start;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.notification_large_icon_height = global::ERPSolution.MES.Droid.Resource.Dimension.notification_large_icon_height;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.notification_large_icon_width = global::ERPSolution.MES.Droid.Resource.Dimension.notification_large_icon_width;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.notification_main_column_padding_top = global::ERPSolution.MES.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.notification_media_narrow_margin = global::ERPSolution.MES.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.notification_right_icon_size = global::ERPSolution.MES.Droid.Resource.Dimension.notification_right_icon_size;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.notification_right_side_padding_top = global::ERPSolution.MES.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.notification_small_icon_background_padding = global::ERPSolution.MES.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.notification_small_icon_size_as_large = global::ERPSolution.MES.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.notification_subtext_size = global::ERPSolution.MES.Droid.Resource.Dimension.notification_subtext_size;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.notification_top_pad = global::ERPSolution.MES.Droid.Resource.Dimension.notification_top_pad;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.notification_top_pad_large_text = global::ERPSolution.MES.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.tooltip_corner_radius = global::ERPSolution.MES.Droid.Resource.Dimension.tooltip_corner_radius;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.tooltip_horizontal_padding = global::ERPSolution.MES.Droid.Resource.Dimension.tooltip_horizontal_padding;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.tooltip_margin = global::ERPSolution.MES.Droid.Resource.Dimension.tooltip_margin;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::ERPSolution.MES.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.tooltip_precise_anchor_threshold = global::ERPSolution.MES.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.tooltip_vertical_padding = global::ERPSolution.MES.Droid.Resource.Dimension.tooltip_vertical_padding;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.tooltip_y_offset_non_touch = global::ERPSolution.MES.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Dimension.tooltip_y_offset_touch = global::ERPSolution.MES.Droid.Resource.Dimension.tooltip_y_offset_touch;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::ERPSolution.MES.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_action_bar_item_background_material = global::ERPSolution.MES.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_btn_borderless_material = global::ERPSolution.MES.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_btn_check_material = global::ERPSolution.MES.Droid.Resource.Drawable.abc_btn_check_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::ERPSolution.MES.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::ERPSolution.MES.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_btn_colored_material = global::ERPSolution.MES.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_btn_default_mtrl_shape = global::ERPSolution.MES.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_btn_radio_material = global::ERPSolution.MES.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::ERPSolution.MES.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::ERPSolution.MES.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::ERPSolution.MES.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::ERPSolution.MES.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_cab_background_internal_bg = global::ERPSolution.MES.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_cab_background_top_material = global::ERPSolution.MES.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::ERPSolution.MES.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_control_background_material = global::ERPSolution.MES.Droid.Resource.Drawable.abc_control_background_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_dialog_material_background = global::ERPSolution.MES.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_edit_text_material = global::ERPSolution.MES.Droid.Resource.Drawable.abc_edit_text_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_ic_ab_back_material = global::ERPSolution.MES.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::ERPSolution.MES.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_ic_clear_material = global::ERPSolution.MES.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::ERPSolution.MES.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_ic_go_search_api_material = global::ERPSolution.MES.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::ERPSolution.MES.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::ERPSolution.MES.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_ic_menu_overflow_material = global::ERPSolution.MES.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::ERPSolution.MES.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::ERPSolution.MES.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::ERPSolution.MES.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_ic_search_api_material = global::ERPSolution.MES.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_ic_star_black_16dp = global::ERPSolution.MES.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_ic_star_black_36dp = global::ERPSolution.MES.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_ic_star_black_48dp = global::ERPSolution.MES.Droid.Resource.Drawable.abc_ic_star_black_48dp;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_ic_star_half_black_16dp = global::ERPSolution.MES.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_ic_star_half_black_36dp = global::ERPSolution.MES.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_ic_star_half_black_48dp = global::ERPSolution.MES.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_ic_voice_search_api_material = global::ERPSolution.MES.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_item_background_holo_dark = global::ERPSolution.MES.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_item_background_holo_light = global::ERPSolution.MES.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_list_divider_mtrl_alpha = global::ERPSolution.MES.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_list_focused_holo = global::ERPSolution.MES.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_list_longpressed_holo = global::ERPSolution.MES.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_list_pressed_holo_dark = global::ERPSolution.MES.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_list_pressed_holo_light = global::ERPSolution.MES.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::ERPSolution.MES.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::ERPSolution.MES.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::ERPSolution.MES.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_list_selector_disabled_holo_light = global::ERPSolution.MES.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_list_selector_holo_dark = global::ERPSolution.MES.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_list_selector_holo_light = global::ERPSolution.MES.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::ERPSolution.MES.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_popup_background_mtrl_mult = global::ERPSolution.MES.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_ratingbar_indicator_material = global::ERPSolution.MES.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_ratingbar_material = global::ERPSolution.MES.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_ratingbar_small_material = global::ERPSolution.MES.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::ERPSolution.MES.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::ERPSolution.MES.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::ERPSolution.MES.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::ERPSolution.MES.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::ERPSolution.MES.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_seekbar_thumb_material = global::ERPSolution.MES.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_seekbar_tick_mark_material = global::ERPSolution.MES.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_seekbar_track_material = global::ERPSolution.MES.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::ERPSolution.MES.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_spinner_textfield_background_material = global::ERPSolution.MES.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_switch_thumb_material = global::ERPSolution.MES.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_switch_track_mtrl_alpha = global::ERPSolution.MES.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_tab_indicator_material = global::ERPSolution.MES.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::ERPSolution.MES.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::ERPSolution.MES.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::ERPSolution.MES.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::ERPSolution.MES.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::ERPSolution.MES.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_textfield_search_material = global::ERPSolution.MES.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_text_cursor_material = global::ERPSolution.MES.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::ERPSolution.MES.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::ERPSolution.MES.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::ERPSolution.MES.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::ERPSolution.MES.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::ERPSolution.MES.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::ERPSolution.MES.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.abc_vector_test = global::ERPSolution.MES.Droid.Resource.Drawable.abc_vector_test;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.avd_hide_password = global::ERPSolution.MES.Droid.Resource.Drawable.avd_hide_password;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.avd_show_password = global::ERPSolution.MES.Droid.Resource.Drawable.avd_show_password;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.design_bottom_navigation_item_background = global::ERPSolution.MES.Droid.Resource.Drawable.design_bottom_navigation_item_background;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.design_fab_background = global::ERPSolution.MES.Droid.Resource.Drawable.design_fab_background;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.design_ic_visibility = global::ERPSolution.MES.Droid.Resource.Drawable.design_ic_visibility;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.design_ic_visibility_off = global::ERPSolution.MES.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.design_password_eye = global::ERPSolution.MES.Droid.Resource.Drawable.design_password_eye;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.design_snackbar_background = global::ERPSolution.MES.Droid.Resource.Drawable.design_snackbar_background;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.dxcheckbox = global::ERPSolution.MES.Droid.Resource.Drawable.dxcheckbox;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.dx_check_box_checked = global::ERPSolution.MES.Droid.Resource.Drawable.dx_check_box_checked;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.dx_check_box_unchecked = global::ERPSolution.MES.Droid.Resource.Drawable.dx_check_box_unchecked;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.dx_check_box_undetermined = global::ERPSolution.MES.Droid.Resource.Drawable.dx_check_box_undetermined;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_audiotrack_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_audiotrack_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_audiotrack_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_audiotrack_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_dialog_close_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_dialog_close_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_dialog_close_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_dialog_close_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_group_collapse_00 = global::ERPSolution.MES.Droid.Resource.Drawable.ic_group_collapse_00;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_group_collapse_01 = global::ERPSolution.MES.Droid.Resource.Drawable.ic_group_collapse_01;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_group_collapse_02 = global::ERPSolution.MES.Droid.Resource.Drawable.ic_group_collapse_02;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_group_collapse_03 = global::ERPSolution.MES.Droid.Resource.Drawable.ic_group_collapse_03;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_group_collapse_04 = global::ERPSolution.MES.Droid.Resource.Drawable.ic_group_collapse_04;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_group_collapse_05 = global::ERPSolution.MES.Droid.Resource.Drawable.ic_group_collapse_05;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_group_collapse_06 = global::ERPSolution.MES.Droid.Resource.Drawable.ic_group_collapse_06;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_group_collapse_07 = global::ERPSolution.MES.Droid.Resource.Drawable.ic_group_collapse_07;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_group_collapse_08 = global::ERPSolution.MES.Droid.Resource.Drawable.ic_group_collapse_08;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_group_collapse_09 = global::ERPSolution.MES.Droid.Resource.Drawable.ic_group_collapse_09;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_group_collapse_10 = global::ERPSolution.MES.Droid.Resource.Drawable.ic_group_collapse_10;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_group_collapse_11 = global::ERPSolution.MES.Droid.Resource.Drawable.ic_group_collapse_11;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_group_collapse_12 = global::ERPSolution.MES.Droid.Resource.Drawable.ic_group_collapse_12;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_group_collapse_13 = global::ERPSolution.MES.Droid.Resource.Drawable.ic_group_collapse_13;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_group_collapse_14 = global::ERPSolution.MES.Droid.Resource.Drawable.ic_group_collapse_14;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_group_collapse_15 = global::ERPSolution.MES.Droid.Resource.Drawable.ic_group_collapse_15;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_group_down_24dp = global::ERPSolution.MES.Droid.Resource.Drawable.ic_group_down_24dp;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_group_expand_00 = global::ERPSolution.MES.Droid.Resource.Drawable.ic_group_expand_00;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_group_expand_01 = global::ERPSolution.MES.Droid.Resource.Drawable.ic_group_expand_01;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_group_expand_02 = global::ERPSolution.MES.Droid.Resource.Drawable.ic_group_expand_02;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_group_expand_03 = global::ERPSolution.MES.Droid.Resource.Drawable.ic_group_expand_03;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_group_expand_04 = global::ERPSolution.MES.Droid.Resource.Drawable.ic_group_expand_04;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_group_expand_05 = global::ERPSolution.MES.Droid.Resource.Drawable.ic_group_expand_05;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_group_expand_06 = global::ERPSolution.MES.Droid.Resource.Drawable.ic_group_expand_06;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_group_expand_07 = global::ERPSolution.MES.Droid.Resource.Drawable.ic_group_expand_07;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_group_expand_08 = global::ERPSolution.MES.Droid.Resource.Drawable.ic_group_expand_08;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_group_expand_09 = global::ERPSolution.MES.Droid.Resource.Drawable.ic_group_expand_09;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_group_expand_10 = global::ERPSolution.MES.Droid.Resource.Drawable.ic_group_expand_10;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_group_expand_11 = global::ERPSolution.MES.Droid.Resource.Drawable.ic_group_expand_11;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_group_expand_12 = global::ERPSolution.MES.Droid.Resource.Drawable.ic_group_expand_12;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_group_expand_13 = global::ERPSolution.MES.Droid.Resource.Drawable.ic_group_expand_13;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_group_expand_14 = global::ERPSolution.MES.Droid.Resource.Drawable.ic_group_expand_14;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_group_expand_15 = global::ERPSolution.MES.Droid.Resource.Drawable.ic_group_expand_15;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_group_up_24dp = global::ERPSolution.MES.Droid.Resource.Drawable.ic_group_up_24dp;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_media_pause_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_media_pause_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_media_pause_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_media_pause_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_media_play_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_media_play_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_media_play_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_media_play_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_media_stop_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_media_stop_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_media_stop_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_media_stop_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_00_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connected_00_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_00_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connected_00_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_01_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connected_01_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_01_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connected_01_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_02_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connected_02_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_02_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connected_02_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_03_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connected_03_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_03_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connected_03_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_04_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connected_04_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_04_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connected_04_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_05_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connected_05_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_05_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connected_05_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_06_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connected_06_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_06_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connected_06_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_07_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connected_07_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_07_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connected_07_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_08_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connected_08_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_08_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connected_08_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_09_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connected_09_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_09_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connected_09_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_10_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connected_10_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_10_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connected_10_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_11_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connected_11_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_11_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connected_11_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_12_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connected_12_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_12_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connected_12_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_13_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connected_13_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_13_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connected_13_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_14_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connected_14_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_14_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connected_14_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_15_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connected_15_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_15_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connected_15_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_16_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connected_16_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_16_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connected_16_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_17_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connected_17_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_17_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connected_17_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_18_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connected_18_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_18_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connected_18_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_19_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connected_19_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_19_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connected_19_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_20_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connected_20_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_20_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connected_20_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_21_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connected_21_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_21_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connected_21_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_22_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connected_22_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_22_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connected_22_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_23_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connected_23_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_23_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connected_23_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_24_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connected_24_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_24_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connected_24_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_25_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connected_25_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_25_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connected_25_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_26_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connected_26_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_26_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connected_26_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_27_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connected_27_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_27_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connected_27_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_28_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connected_28_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_28_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connected_28_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_29_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connected_29_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_29_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connected_29_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_30_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connected_30_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_30_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connected_30_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_00_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connecting_00_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_00_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connecting_00_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_01_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connecting_01_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_01_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connecting_01_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_02_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connecting_02_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_02_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connecting_02_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_03_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connecting_03_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_03_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connecting_03_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_04_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connecting_04_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_04_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connecting_04_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_05_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connecting_05_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_05_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connecting_05_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_06_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connecting_06_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_06_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connecting_06_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_07_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connecting_07_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_07_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connecting_07_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_08_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connecting_08_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_08_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connecting_08_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_09_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connecting_09_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_09_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connecting_09_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_10_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connecting_10_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_10_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connecting_10_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_11_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connecting_11_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_11_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connecting_11_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_12_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connecting_12_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_12_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connecting_12_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_13_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connecting_13_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_13_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connecting_13_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_14_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connecting_14_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_14_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connecting_14_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_15_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connecting_15_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_15_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connecting_15_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_16_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connecting_16_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_16_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connecting_16_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_17_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connecting_17_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_17_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connecting_17_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_18_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connecting_18_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_18_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connecting_18_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_19_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connecting_19_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_19_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connecting_19_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_20_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connecting_20_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_20_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connecting_20_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_21_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connecting_21_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_21_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connecting_21_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_22_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connecting_22_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_22_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connecting_22_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_23_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connecting_23_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_23_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connecting_23_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_24_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connecting_24_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_24_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connecting_24_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_25_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connecting_25_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_25_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connecting_25_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_26_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connecting_26_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_26_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connecting_26_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_27_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connecting_27_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_27_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connecting_27_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_28_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connecting_28_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_28_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connecting_28_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_29_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connecting_29_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_29_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connecting_29_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_30_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connecting_30_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_30_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_connecting_30_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_disabled_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_disabled_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_disabled_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_disabled_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_disconnected_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_disconnected_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_disconnected_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_disconnected_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_mr_button_grey = global::ERPSolution.MES.Droid.Resource.Drawable.ic_mr_button_grey;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_sorting_down_24dp = global::ERPSolution.MES.Droid.Resource.Drawable.ic_sorting_down_24dp;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_sorting_up_24dp = global::ERPSolution.MES.Droid.Resource.Drawable.ic_sorting_up_24dp;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_vol_type_speaker_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_vol_type_speaker_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_vol_type_speaker_group_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_vol_type_speaker_group_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_vol_type_speaker_group_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_vol_type_speaker_group_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_vol_type_speaker_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_vol_type_speaker_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_vol_type_tv_dark = global::ERPSolution.MES.Droid.Resource.Drawable.ic_vol_type_tv_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.ic_vol_type_tv_light = global::ERPSolution.MES.Droid.Resource.Drawable.ic_vol_type_tv_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.mr_button_connected_dark = global::ERPSolution.MES.Droid.Resource.Drawable.mr_button_connected_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.mr_button_connected_light = global::ERPSolution.MES.Droid.Resource.Drawable.mr_button_connected_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.mr_button_connecting_dark = global::ERPSolution.MES.Droid.Resource.Drawable.mr_button_connecting_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.mr_button_connecting_light = global::ERPSolution.MES.Droid.Resource.Drawable.mr_button_connecting_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.mr_button_dark = global::ERPSolution.MES.Droid.Resource.Drawable.mr_button_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.mr_button_light = global::ERPSolution.MES.Droid.Resource.Drawable.mr_button_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.mr_dialog_close_dark = global::ERPSolution.MES.Droid.Resource.Drawable.mr_dialog_close_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.mr_dialog_close_light = global::ERPSolution.MES.Droid.Resource.Drawable.mr_dialog_close_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.mr_dialog_material_background_dark = global::ERPSolution.MES.Droid.Resource.Drawable.mr_dialog_material_background_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.mr_dialog_material_background_light = global::ERPSolution.MES.Droid.Resource.Drawable.mr_dialog_material_background_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.mr_group_collapse = global::ERPSolution.MES.Droid.Resource.Drawable.mr_group_collapse;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.mr_group_expand = global::ERPSolution.MES.Droid.Resource.Drawable.mr_group_expand;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.mr_media_pause_dark = global::ERPSolution.MES.Droid.Resource.Drawable.mr_media_pause_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.mr_media_pause_light = global::ERPSolution.MES.Droid.Resource.Drawable.mr_media_pause_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.mr_media_play_dark = global::ERPSolution.MES.Droid.Resource.Drawable.mr_media_play_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.mr_media_play_light = global::ERPSolution.MES.Droid.Resource.Drawable.mr_media_play_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.mr_media_stop_dark = global::ERPSolution.MES.Droid.Resource.Drawable.mr_media_stop_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.mr_media_stop_light = global::ERPSolution.MES.Droid.Resource.Drawable.mr_media_stop_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.mr_vol_type_audiotrack_dark = global::ERPSolution.MES.Droid.Resource.Drawable.mr_vol_type_audiotrack_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.mr_vol_type_audiotrack_light = global::ERPSolution.MES.Droid.Resource.Drawable.mr_vol_type_audiotrack_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.navigation_empty_icon = global::ERPSolution.MES.Droid.Resource.Drawable.navigation_empty_icon;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.notification_action_background = global::ERPSolution.MES.Droid.Resource.Drawable.notification_action_background;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.notification_bg = global::ERPSolution.MES.Droid.Resource.Drawable.notification_bg;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.notification_bg_low = global::ERPSolution.MES.Droid.Resource.Drawable.notification_bg_low;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.notification_bg_low_normal = global::ERPSolution.MES.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.notification_bg_low_pressed = global::ERPSolution.MES.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.notification_bg_normal = global::ERPSolution.MES.Droid.Resource.Drawable.notification_bg_normal;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.notification_bg_normal_pressed = global::ERPSolution.MES.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.notification_icon_background = global::ERPSolution.MES.Droid.Resource.Drawable.notification_icon_background;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.notification_template_icon_bg = global::ERPSolution.MES.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.notification_template_icon_low_bg = global::ERPSolution.MES.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.notification_tile_bg = global::ERPSolution.MES.Droid.Resource.Drawable.notification_tile_bg;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.notify_panel_notification_icon_bg = global::ERPSolution.MES.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.tooltip_frame_dark = global::ERPSolution.MES.Droid.Resource.Drawable.tooltip_frame_dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.tooltip_frame_light = global::ERPSolution.MES.Droid.Resource.Drawable.tooltip_frame_light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Drawable.watermark = global::ERPSolution.MES.Droid.Resource.Drawable.watermark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.action0 = global::ERPSolution.MES.Droid.Resource.Id.action0;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.actions = global::ERPSolution.MES.Droid.Resource.Id.actions;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.action_bar = global::ERPSolution.MES.Droid.Resource.Id.action_bar;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.action_bar_activity_content = global::ERPSolution.MES.Droid.Resource.Id.action_bar_activity_content;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.action_bar_container = global::ERPSolution.MES.Droid.Resource.Id.action_bar_container;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.action_bar_root = global::ERPSolution.MES.Droid.Resource.Id.action_bar_root;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.action_bar_spinner = global::ERPSolution.MES.Droid.Resource.Id.action_bar_spinner;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.action_bar_subtitle = global::ERPSolution.MES.Droid.Resource.Id.action_bar_subtitle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.action_bar_title = global::ERPSolution.MES.Droid.Resource.Id.action_bar_title;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.action_container = global::ERPSolution.MES.Droid.Resource.Id.action_container;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.action_context_bar = global::ERPSolution.MES.Droid.Resource.Id.action_context_bar;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.action_divider = global::ERPSolution.MES.Droid.Resource.Id.action_divider;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.action_image = global::ERPSolution.MES.Droid.Resource.Id.action_image;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.action_menu_divider = global::ERPSolution.MES.Droid.Resource.Id.action_menu_divider;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.action_menu_presenter = global::ERPSolution.MES.Droid.Resource.Id.action_menu_presenter;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.action_mode_bar = global::ERPSolution.MES.Droid.Resource.Id.action_mode_bar;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.action_mode_bar_stub = global::ERPSolution.MES.Droid.Resource.Id.action_mode_bar_stub;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.action_mode_close_button = global::ERPSolution.MES.Droid.Resource.Id.action_mode_close_button;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.action_text = global::ERPSolution.MES.Droid.Resource.Id.action_text;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.activity_chooser_view_content = global::ERPSolution.MES.Droid.Resource.Id.activity_chooser_view_content;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.add = global::ERPSolution.MES.Droid.Resource.Id.add;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.alertTitle = global::ERPSolution.MES.Droid.Resource.Id.alertTitle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.all = global::ERPSolution.MES.Droid.Resource.Id.all;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.ALT = global::ERPSolution.MES.Droid.Resource.Id.ALT;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.always = global::ERPSolution.MES.Droid.Resource.Id.always;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.async = global::ERPSolution.MES.Droid.Resource.Id.async;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.auto = global::ERPSolution.MES.Droid.Resource.Id.auto;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.beginning = global::ERPSolution.MES.Droid.Resource.Id.beginning;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.blocking = global::ERPSolution.MES.Droid.Resource.Id.blocking;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.bottom = global::ERPSolution.MES.Droid.Resource.Id.bottom;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.bottomtab_navarea = global::ERPSolution.MES.Droid.Resource.Id.bottomtab_navarea;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.bottomtab_tabbar = global::ERPSolution.MES.Droid.Resource.Id.bottomtab_tabbar;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.buttonPanel = global::ERPSolution.MES.Droid.Resource.Id.buttonPanel;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.cancel_action = global::ERPSolution.MES.Droid.Resource.Id.cancel_action;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.center = global::ERPSolution.MES.Droid.Resource.Id.center;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.center_horizontal = global::ERPSolution.MES.Droid.Resource.Id.center_horizontal;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.center_vertical = global::ERPSolution.MES.Droid.Resource.Id.center_vertical;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.checkbox = global::ERPSolution.MES.Droid.Resource.Id.checkbox;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.chronometer = global::ERPSolution.MES.Droid.Resource.Id.chronometer;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.clip_horizontal = global::ERPSolution.MES.Droid.Resource.Id.clip_horizontal;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.clip_vertical = global::ERPSolution.MES.Droid.Resource.Id.clip_vertical;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.collapseActionView = global::ERPSolution.MES.Droid.Resource.Id.collapseActionView;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.container = global::ERPSolution.MES.Droid.Resource.Id.container;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.contentPanel = global::ERPSolution.MES.Droid.Resource.Id.contentPanel;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.coordinator = global::ERPSolution.MES.Droid.Resource.Id.coordinator;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.CTRL = global::ERPSolution.MES.Droid.Resource.Id.CTRL;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.custom = global::ERPSolution.MES.Droid.Resource.Id.custom;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.customPanel = global::ERPSolution.MES.Droid.Resource.Id.customPanel;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.decor_content_parent = global::ERPSolution.MES.Droid.Resource.Id.decor_content_parent;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.default_activity_button = global::ERPSolution.MES.Droid.Resource.Id.default_activity_button;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.design_bottom_sheet = global::ERPSolution.MES.Droid.Resource.Id.design_bottom_sheet;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.design_menu_item_action_area = global::ERPSolution.MES.Droid.Resource.Id.design_menu_item_action_area;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.design_menu_item_action_area_stub = global::ERPSolution.MES.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.design_menu_item_text = global::ERPSolution.MES.Droid.Resource.Id.design_menu_item_text;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.design_navigation_view = global::ERPSolution.MES.Droid.Resource.Id.design_navigation_view;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.disableHome = global::ERPSolution.MES.Droid.Resource.Id.disableHome;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.edit_query = global::ERPSolution.MES.Droid.Resource.Id.edit_query;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.end = global::ERPSolution.MES.Droid.Resource.Id.end;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.end_padder = global::ERPSolution.MES.Droid.Resource.Id.end_padder;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.enterAlways = global::ERPSolution.MES.Droid.Resource.Id.enterAlways;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.enterAlwaysCollapsed = global::ERPSolution.MES.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.exitUntilCollapsed = global::ERPSolution.MES.Droid.Resource.Id.exitUntilCollapsed;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.expanded_menu = global::ERPSolution.MES.Droid.Resource.Id.expanded_menu;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.expand_activities_button = global::ERPSolution.MES.Droid.Resource.Id.expand_activities_button;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.fill = global::ERPSolution.MES.Droid.Resource.Id.fill;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.fill_horizontal = global::ERPSolution.MES.Droid.Resource.Id.fill_horizontal;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.fill_vertical = global::ERPSolution.MES.Droid.Resource.Id.fill_vertical;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.@fixed = global::ERPSolution.MES.Droid.Resource.Id.@fixed;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.flyoutcontent_appbar = global::ERPSolution.MES.Droid.Resource.Id.flyoutcontent_appbar;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.flyoutcontent_recycler = global::ERPSolution.MES.Droid.Resource.Id.flyoutcontent_recycler;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.forever = global::ERPSolution.MES.Droid.Resource.Id.forever;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.FUNCTION = global::ERPSolution.MES.Droid.Resource.Id.FUNCTION;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.ghost_view = global::ERPSolution.MES.Droid.Resource.Id.ghost_view;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.grid_container_view = global::ERPSolution.MES.Droid.Resource.Id.grid_container_view;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.grid_footer_view = global::ERPSolution.MES.Droid.Resource.Id.grid_footer_view;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.grid_header_view = global::ERPSolution.MES.Droid.Resource.Id.grid_header_view;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.grid_rows_scrollview = global::ERPSolution.MES.Droid.Resource.Id.grid_rows_scrollview;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.home = global::ERPSolution.MES.Droid.Resource.Id.home;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.homeAsUp = global::ERPSolution.MES.Droid.Resource.Id.homeAsUp;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.horizontal_scroll_view = global::ERPSolution.MES.Droid.Resource.Id.horizontal_scroll_view;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.icon = global::ERPSolution.MES.Droid.Resource.Id.icon;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.icon_group = global::ERPSolution.MES.Droid.Resource.Id.icon_group;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.ifRoom = global::ERPSolution.MES.Droid.Resource.Id.ifRoom;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.image = global::ERPSolution.MES.Droid.Resource.Id.image;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.info = global::ERPSolution.MES.Droid.Resource.Id.info;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.italic = global::ERPSolution.MES.Droid.Resource.Id.italic;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.item_touch_helper_previous_elevation = global::ERPSolution.MES.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.largeLabel = global::ERPSolution.MES.Droid.Resource.Id.largeLabel;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.left = global::ERPSolution.MES.Droid.Resource.Id.left;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.line1 = global::ERPSolution.MES.Droid.Resource.Id.line1;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.line3 = global::ERPSolution.MES.Droid.Resource.Id.line3;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.listMode = global::ERPSolution.MES.Droid.Resource.Id.listMode;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.list_item = global::ERPSolution.MES.Droid.Resource.Id.list_item;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.main_appbar = global::ERPSolution.MES.Droid.Resource.Id.main_appbar;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.main_tablayout = global::ERPSolution.MES.Droid.Resource.Id.main_tablayout;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.main_toolbar = global::ERPSolution.MES.Droid.Resource.Id.main_toolbar;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.masked = global::ERPSolution.MES.Droid.Resource.Id.masked;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.media_actions = global::ERPSolution.MES.Droid.Resource.Id.media_actions;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.message = global::ERPSolution.MES.Droid.Resource.Id.message;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.META = global::ERPSolution.MES.Droid.Resource.Id.META;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.middle = global::ERPSolution.MES.Droid.Resource.Id.middle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.mini = global::ERPSolution.MES.Droid.Resource.Id.mini;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.mr_art = global::ERPSolution.MES.Droid.Resource.Id.mr_art;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.mr_chooser_list = global::ERPSolution.MES.Droid.Resource.Id.mr_chooser_list;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.mr_chooser_route_desc = global::ERPSolution.MES.Droid.Resource.Id.mr_chooser_route_desc;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.mr_chooser_route_icon = global::ERPSolution.MES.Droid.Resource.Id.mr_chooser_route_icon;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.mr_chooser_route_name = global::ERPSolution.MES.Droid.Resource.Id.mr_chooser_route_name;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.mr_chooser_title = global::ERPSolution.MES.Droid.Resource.Id.mr_chooser_title;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.mr_close = global::ERPSolution.MES.Droid.Resource.Id.mr_close;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.mr_control_divider = global::ERPSolution.MES.Droid.Resource.Id.mr_control_divider;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.mr_control_playback_ctrl = global::ERPSolution.MES.Droid.Resource.Id.mr_control_playback_ctrl;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.mr_control_subtitle = global::ERPSolution.MES.Droid.Resource.Id.mr_control_subtitle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.mr_control_title = global::ERPSolution.MES.Droid.Resource.Id.mr_control_title;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.mr_control_title_container = global::ERPSolution.MES.Droid.Resource.Id.mr_control_title_container;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.mr_custom_control = global::ERPSolution.MES.Droid.Resource.Id.mr_custom_control;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.mr_default_control = global::ERPSolution.MES.Droid.Resource.Id.mr_default_control;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.mr_dialog_area = global::ERPSolution.MES.Droid.Resource.Id.mr_dialog_area;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.mr_expandable_area = global::ERPSolution.MES.Droid.Resource.Id.mr_expandable_area;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.mr_group_expand_collapse = global::ERPSolution.MES.Droid.Resource.Id.mr_group_expand_collapse;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.mr_media_main_control = global::ERPSolution.MES.Droid.Resource.Id.mr_media_main_control;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.mr_name = global::ERPSolution.MES.Droid.Resource.Id.mr_name;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.mr_playback_control = global::ERPSolution.MES.Droid.Resource.Id.mr_playback_control;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.mr_title_bar = global::ERPSolution.MES.Droid.Resource.Id.mr_title_bar;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.mr_volume_control = global::ERPSolution.MES.Droid.Resource.Id.mr_volume_control;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.mr_volume_group_list = global::ERPSolution.MES.Droid.Resource.Id.mr_volume_group_list;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.mr_volume_item_icon = global::ERPSolution.MES.Droid.Resource.Id.mr_volume_item_icon;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.mr_volume_slider = global::ERPSolution.MES.Droid.Resource.Id.mr_volume_slider;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.multiply = global::ERPSolution.MES.Droid.Resource.Id.multiply;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.navigation_header_container = global::ERPSolution.MES.Droid.Resource.Id.navigation_header_container;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.never = global::ERPSolution.MES.Droid.Resource.Id.never;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.none = global::ERPSolution.MES.Droid.Resource.Id.none;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.normal = global::ERPSolution.MES.Droid.Resource.Id.normal;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.notification_background = global::ERPSolution.MES.Droid.Resource.Id.notification_background;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.notification_main_column = global::ERPSolution.MES.Droid.Resource.Id.notification_main_column;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.notification_main_column_container = global::ERPSolution.MES.Droid.Resource.Id.notification_main_column_container;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.parallax = global::ERPSolution.MES.Droid.Resource.Id.parallax;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.parentPanel = global::ERPSolution.MES.Droid.Resource.Id.parentPanel;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.parent_matrix = global::ERPSolution.MES.Droid.Resource.Id.parent_matrix;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.pin = global::ERPSolution.MES.Droid.Resource.Id.pin;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.progress_circular = global::ERPSolution.MES.Droid.Resource.Id.progress_circular;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.progress_horizontal = global::ERPSolution.MES.Droid.Resource.Id.progress_horizontal;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.radio = global::ERPSolution.MES.Droid.Resource.Id.radio;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.right = global::ERPSolution.MES.Droid.Resource.Id.right;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.right_icon = global::ERPSolution.MES.Droid.Resource.Id.right_icon;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.right_side = global::ERPSolution.MES.Droid.Resource.Id.right_side;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.save_image_matrix = global::ERPSolution.MES.Droid.Resource.Id.save_image_matrix;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.save_non_transition_alpha = global::ERPSolution.MES.Droid.Resource.Id.save_non_transition_alpha;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.save_scale_type = global::ERPSolution.MES.Droid.Resource.Id.save_scale_type;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.screen = global::ERPSolution.MES.Droid.Resource.Id.screen;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.scroll = global::ERPSolution.MES.Droid.Resource.Id.scroll;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.scrollable = global::ERPSolution.MES.Droid.Resource.Id.scrollable;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.scrollIndicatorDown = global::ERPSolution.MES.Droid.Resource.Id.scrollIndicatorDown;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.scrollIndicatorUp = global::ERPSolution.MES.Droid.Resource.Id.scrollIndicatorUp;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.scrollView = global::ERPSolution.MES.Droid.Resource.Id.scrollView;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.search_badge = global::ERPSolution.MES.Droid.Resource.Id.search_badge;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.search_bar = global::ERPSolution.MES.Droid.Resource.Id.search_bar;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.search_button = global::ERPSolution.MES.Droid.Resource.Id.search_button;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.search_close_btn = global::ERPSolution.MES.Droid.Resource.Id.search_close_btn;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.search_edit_frame = global::ERPSolution.MES.Droid.Resource.Id.search_edit_frame;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.search_go_btn = global::ERPSolution.MES.Droid.Resource.Id.search_go_btn;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.search_mag_icon = global::ERPSolution.MES.Droid.Resource.Id.search_mag_icon;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.search_plate = global::ERPSolution.MES.Droid.Resource.Id.search_plate;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.search_src_text = global::ERPSolution.MES.Droid.Resource.Id.search_src_text;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.search_voice_btn = global::ERPSolution.MES.Droid.Resource.Id.search_voice_btn;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.select_dialog_listview = global::ERPSolution.MES.Droid.Resource.Id.select_dialog_listview;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.shellcontent_appbar = global::ERPSolution.MES.Droid.Resource.Id.shellcontent_appbar;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.shellcontent_toolbar = global::ERPSolution.MES.Droid.Resource.Id.shellcontent_toolbar;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.SHIFT = global::ERPSolution.MES.Droid.Resource.Id.SHIFT;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.shortcut = global::ERPSolution.MES.Droid.Resource.Id.shortcut;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.showCustom = global::ERPSolution.MES.Droid.Resource.Id.showCustom;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.showHome = global::ERPSolution.MES.Droid.Resource.Id.showHome;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.showTitle = global::ERPSolution.MES.Droid.Resource.Id.showTitle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.smallLabel = global::ERPSolution.MES.Droid.Resource.Id.smallLabel;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.snackbar_action = global::ERPSolution.MES.Droid.Resource.Id.snackbar_action;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.snackbar_text = global::ERPSolution.MES.Droid.Resource.Id.snackbar_text;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.snap = global::ERPSolution.MES.Droid.Resource.Id.snap;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.spacer = global::ERPSolution.MES.Droid.Resource.Id.spacer;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.split_action_bar = global::ERPSolution.MES.Droid.Resource.Id.split_action_bar;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.src_atop = global::ERPSolution.MES.Droid.Resource.Id.src_atop;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.src_in = global::ERPSolution.MES.Droid.Resource.Id.src_in;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.src_over = global::ERPSolution.MES.Droid.Resource.Id.src_over;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.start = global::ERPSolution.MES.Droid.Resource.Id.start;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.status_bar_latest_event_content = global::ERPSolution.MES.Droid.Resource.Id.status_bar_latest_event_content;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.submenuarrow = global::ERPSolution.MES.Droid.Resource.Id.submenuarrow;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.submit_area = global::ERPSolution.MES.Droid.Resource.Id.submit_area;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.swipe_button_image = global::ERPSolution.MES.Droid.Resource.Id.swipe_button_image;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.swipe_button_layout = global::ERPSolution.MES.Droid.Resource.Id.swipe_button_layout;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.swipe_button_text = global::ERPSolution.MES.Droid.Resource.Id.swipe_button_text;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.swipe_container = global::ERPSolution.MES.Droid.Resource.Id.swipe_container;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.SYM = global::ERPSolution.MES.Droid.Resource.Id.SYM;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.tabMode = global::ERPSolution.MES.Droid.Resource.Id.tabMode;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.tag_transition_group = global::ERPSolution.MES.Droid.Resource.Id.tag_transition_group;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.text = global::ERPSolution.MES.Droid.Resource.Id.text;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.text2 = global::ERPSolution.MES.Droid.Resource.Id.text2;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.textinput_counter = global::ERPSolution.MES.Droid.Resource.Id.textinput_counter;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.textinput_error = global::ERPSolution.MES.Droid.Resource.Id.textinput_error;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.textSpacerNoButtons = global::ERPSolution.MES.Droid.Resource.Id.textSpacerNoButtons;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.textSpacerNoTitle = global::ERPSolution.MES.Droid.Resource.Id.textSpacerNoTitle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.text_input_password_toggle = global::ERPSolution.MES.Droid.Resource.Id.text_input_password_toggle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.time = global::ERPSolution.MES.Droid.Resource.Id.time;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.title = global::ERPSolution.MES.Droid.Resource.Id.title;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.titleDividerNoCustom = global::ERPSolution.MES.Droid.Resource.Id.titleDividerNoCustom;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.title_template = global::ERPSolution.MES.Droid.Resource.Id.title_template;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.top = global::ERPSolution.MES.Droid.Resource.Id.top;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.topPanel = global::ERPSolution.MES.Droid.Resource.Id.topPanel;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.touch_outside = global::ERPSolution.MES.Droid.Resource.Id.touch_outside;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.transition_current_scene = global::ERPSolution.MES.Droid.Resource.Id.transition_current_scene;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.transition_layout_save = global::ERPSolution.MES.Droid.Resource.Id.transition_layout_save;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.transition_position = global::ERPSolution.MES.Droid.Resource.Id.transition_position;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.transition_scene_layoutid_cache = global::ERPSolution.MES.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.transition_transform = global::ERPSolution.MES.Droid.Resource.Id.transition_transform;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.uniform = global::ERPSolution.MES.Droid.Resource.Id.uniform;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.up = global::ERPSolution.MES.Droid.Resource.Id.up;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.useLogo = global::ERPSolution.MES.Droid.Resource.Id.useLogo;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.view_offset_helper = global::ERPSolution.MES.Droid.Resource.Id.view_offset_helper;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.visible = global::ERPSolution.MES.Droid.Resource.Id.visible;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.volume_item_container = global::ERPSolution.MES.Droid.Resource.Id.volume_item_container;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.withText = global::ERPSolution.MES.Droid.Resource.Id.withText;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Id.wrap_content = global::ERPSolution.MES.Droid.Resource.Id.wrap_content;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Integer.abc_config_activityDefaultDur = global::ERPSolution.MES.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Integer.abc_config_activityShortDur = global::ERPSolution.MES.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Integer.app_bar_elevation_anim_duration = global::ERPSolution.MES.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Integer.bottom_sheet_slide_duration = global::ERPSolution.MES.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Integer.cancel_button_image_alpha = global::ERPSolution.MES.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Integer.config_tooltipAnimTime = global::ERPSolution.MES.Droid.Resource.Integer.config_tooltipAnimTime;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Integer.design_snackbar_text_max_lines = global::ERPSolution.MES.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Integer.hide_password_duration = global::ERPSolution.MES.Droid.Resource.Integer.hide_password_duration;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms = global::ERPSolution.MES.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms = global::ERPSolution.MES.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms = global::ERPSolution.MES.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Integer.show_password_duration = global::ERPSolution.MES.Droid.Resource.Integer.show_password_duration;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Integer.status_bar_notification_info_maxnum = global::ERPSolution.MES.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Interpolator.mr_fast_out_slow_in = global::ERPSolution.MES.Droid.Resource.Interpolator.mr_fast_out_slow_in;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Interpolator.mr_linear_out_slow_in = global::ERPSolution.MES.Droid.Resource.Interpolator.mr_linear_out_slow_in;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.abc_action_bar_title_item = global::ERPSolution.MES.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.abc_action_bar_up_container = global::ERPSolution.MES.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.abc_action_menu_item_layout = global::ERPSolution.MES.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.abc_action_menu_layout = global::ERPSolution.MES.Droid.Resource.Layout.abc_action_menu_layout;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.abc_action_mode_bar = global::ERPSolution.MES.Droid.Resource.Layout.abc_action_mode_bar;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.abc_action_mode_close_item_material = global::ERPSolution.MES.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.abc_activity_chooser_view = global::ERPSolution.MES.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.abc_activity_chooser_view_list_item = global::ERPSolution.MES.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.abc_alert_dialog_button_bar_material = global::ERPSolution.MES.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.abc_alert_dialog_material = global::ERPSolution.MES.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.abc_alert_dialog_title_material = global::ERPSolution.MES.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.abc_dialog_title_material = global::ERPSolution.MES.Droid.Resource.Layout.abc_dialog_title_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.abc_expanded_menu_layout = global::ERPSolution.MES.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.abc_list_menu_item_checkbox = global::ERPSolution.MES.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.abc_list_menu_item_icon = global::ERPSolution.MES.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.abc_list_menu_item_layout = global::ERPSolution.MES.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.abc_list_menu_item_radio = global::ERPSolution.MES.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.abc_popup_menu_header_item_layout = global::ERPSolution.MES.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.abc_popup_menu_item_layout = global::ERPSolution.MES.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.abc_screen_content_include = global::ERPSolution.MES.Droid.Resource.Layout.abc_screen_content_include;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.abc_screen_simple = global::ERPSolution.MES.Droid.Resource.Layout.abc_screen_simple;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.abc_screen_simple_overlay_action_mode = global::ERPSolution.MES.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.abc_screen_toolbar = global::ERPSolution.MES.Droid.Resource.Layout.abc_screen_toolbar;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.abc_search_dropdown_item_icons_2line = global::ERPSolution.MES.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.abc_search_view = global::ERPSolution.MES.Droid.Resource.Layout.abc_search_view;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.abc_select_dialog_material = global::ERPSolution.MES.Droid.Resource.Layout.abc_select_dialog_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.BottomTabLayout = global::ERPSolution.MES.Droid.Resource.Layout.BottomTabLayout;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.design_bottom_navigation_item = global::ERPSolution.MES.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.design_bottom_sheet_dialog = global::ERPSolution.MES.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.design_layout_snackbar = global::ERPSolution.MES.Droid.Resource.Layout.design_layout_snackbar;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.design_layout_snackbar_include = global::ERPSolution.MES.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.design_layout_tab_icon = global::ERPSolution.MES.Droid.Resource.Layout.design_layout_tab_icon;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.design_layout_tab_text = global::ERPSolution.MES.Droid.Resource.Layout.design_layout_tab_text;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.design_menu_item_action_area = global::ERPSolution.MES.Droid.Resource.Layout.design_menu_item_action_area;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.design_navigation_item = global::ERPSolution.MES.Droid.Resource.Layout.design_navigation_item;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.design_navigation_item_header = global::ERPSolution.MES.Droid.Resource.Layout.design_navigation_item_header;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.design_navigation_item_separator = global::ERPSolution.MES.Droid.Resource.Layout.design_navigation_item_separator;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.design_navigation_item_subheader = global::ERPSolution.MES.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.design_navigation_menu = global::ERPSolution.MES.Droid.Resource.Layout.design_navigation_menu;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.design_navigation_menu_item = global::ERPSolution.MES.Droid.Resource.Layout.design_navigation_menu_item;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.design_text_input_password_icon = global::ERPSolution.MES.Droid.Resource.Layout.design_text_input_password_icon;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.FlyoutContent = global::ERPSolution.MES.Droid.Resource.Layout.FlyoutContent;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.grid_container_view = global::ERPSolution.MES.Droid.Resource.Layout.grid_container_view;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.grid_control = global::ERPSolution.MES.Droid.Resource.Layout.grid_control;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.mr_chooser_dialog = global::ERPSolution.MES.Droid.Resource.Layout.mr_chooser_dialog;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.mr_chooser_list_item = global::ERPSolution.MES.Droid.Resource.Layout.mr_chooser_list_item;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.mr_controller_material_dialog_b = global::ERPSolution.MES.Droid.Resource.Layout.mr_controller_material_dialog_b;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.mr_controller_volume_item = global::ERPSolution.MES.Droid.Resource.Layout.mr_controller_volume_item;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.mr_playback_control = global::ERPSolution.MES.Droid.Resource.Layout.mr_playback_control;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.mr_volume_control = global::ERPSolution.MES.Droid.Resource.Layout.mr_volume_control;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.notification_action = global::ERPSolution.MES.Droid.Resource.Layout.notification_action;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.notification_action_tombstone = global::ERPSolution.MES.Droid.Resource.Layout.notification_action_tombstone;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.notification_media_action = global::ERPSolution.MES.Droid.Resource.Layout.notification_media_action;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.notification_media_cancel_action = global::ERPSolution.MES.Droid.Resource.Layout.notification_media_cancel_action;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.notification_template_big_media = global::ERPSolution.MES.Droid.Resource.Layout.notification_template_big_media;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.notification_template_big_media_custom = global::ERPSolution.MES.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.notification_template_big_media_narrow = global::ERPSolution.MES.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.notification_template_big_media_narrow_custom = global::ERPSolution.MES.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.notification_template_custom_big = global::ERPSolution.MES.Droid.Resource.Layout.notification_template_custom_big;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.notification_template_icon_group = global::ERPSolution.MES.Droid.Resource.Layout.notification_template_icon_group;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.notification_template_lines_media = global::ERPSolution.MES.Droid.Resource.Layout.notification_template_lines_media;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.notification_template_media = global::ERPSolution.MES.Droid.Resource.Layout.notification_template_media;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.notification_template_media_custom = global::ERPSolution.MES.Droid.Resource.Layout.notification_template_media_custom;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.notification_template_part_chronometer = global::ERPSolution.MES.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.notification_template_part_time = global::ERPSolution.MES.Droid.Resource.Layout.notification_template_part_time;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.RootLayout = global::ERPSolution.MES.Droid.Resource.Layout.RootLayout;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.select_dialog_item_material = global::ERPSolution.MES.Droid.Resource.Layout.select_dialog_item_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.select_dialog_multichoice_material = global::ERPSolution.MES.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.select_dialog_singlechoice_material = global::ERPSolution.MES.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.ShellContent = global::ERPSolution.MES.Droid.Resource.Layout.ShellContent;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.support_simple_spinner_dropdown_item = global::ERPSolution.MES.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Layout.swipe_button = global::ERPSolution.MES.Droid.Resource.Layout.swipe_button;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.String.abc_action_bar_home_description = global::ERPSolution.MES.Droid.Resource.String.abc_action_bar_home_description;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.String.abc_action_bar_up_description = global::ERPSolution.MES.Droid.Resource.String.abc_action_bar_up_description;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.String.abc_action_menu_overflow_description = global::ERPSolution.MES.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.String.abc_action_mode_done = global::ERPSolution.MES.Droid.Resource.String.abc_action_mode_done;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.String.abc_activitychooserview_choose_application = global::ERPSolution.MES.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.String.abc_activity_chooser_view_see_all = global::ERPSolution.MES.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.String.abc_capital_off = global::ERPSolution.MES.Droid.Resource.String.abc_capital_off;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.String.abc_capital_on = global::ERPSolution.MES.Droid.Resource.String.abc_capital_on;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.String.abc_font_family_body_1_material = global::ERPSolution.MES.Droid.Resource.String.abc_font_family_body_1_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.String.abc_font_family_body_2_material = global::ERPSolution.MES.Droid.Resource.String.abc_font_family_body_2_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.String.abc_font_family_button_material = global::ERPSolution.MES.Droid.Resource.String.abc_font_family_button_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.String.abc_font_family_caption_material = global::ERPSolution.MES.Droid.Resource.String.abc_font_family_caption_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.String.abc_font_family_display_1_material = global::ERPSolution.MES.Droid.Resource.String.abc_font_family_display_1_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.String.abc_font_family_display_2_material = global::ERPSolution.MES.Droid.Resource.String.abc_font_family_display_2_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.String.abc_font_family_display_3_material = global::ERPSolution.MES.Droid.Resource.String.abc_font_family_display_3_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.String.abc_font_family_display_4_material = global::ERPSolution.MES.Droid.Resource.String.abc_font_family_display_4_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.String.abc_font_family_headline_material = global::ERPSolution.MES.Droid.Resource.String.abc_font_family_headline_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.String.abc_font_family_menu_material = global::ERPSolution.MES.Droid.Resource.String.abc_font_family_menu_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.String.abc_font_family_subhead_material = global::ERPSolution.MES.Droid.Resource.String.abc_font_family_subhead_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.String.abc_font_family_title_material = global::ERPSolution.MES.Droid.Resource.String.abc_font_family_title_material;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.String.abc_searchview_description_clear = global::ERPSolution.MES.Droid.Resource.String.abc_searchview_description_clear;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.String.abc_searchview_description_query = global::ERPSolution.MES.Droid.Resource.String.abc_searchview_description_query;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.String.abc_searchview_description_search = global::ERPSolution.MES.Droid.Resource.String.abc_searchview_description_search;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.String.abc_searchview_description_submit = global::ERPSolution.MES.Droid.Resource.String.abc_searchview_description_submit;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.String.abc_searchview_description_voice = global::ERPSolution.MES.Droid.Resource.String.abc_searchview_description_voice;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.String.abc_search_hint = global::ERPSolution.MES.Droid.Resource.String.abc_search_hint;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.String.abc_shareactionprovider_share_with = global::ERPSolution.MES.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.String.abc_shareactionprovider_share_with_application = global::ERPSolution.MES.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.String.abc_toolbar_collapse_description = global::ERPSolution.MES.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.String.appbar_scrolling_view_behavior = global::ERPSolution.MES.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.String.app_name = global::ERPSolution.MES.Droid.Resource.String.app_name;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.String.bottom_sheet_behavior = global::ERPSolution.MES.Droid.Resource.String.bottom_sheet_behavior;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.String.character_counter_pattern = global::ERPSolution.MES.Droid.Resource.String.character_counter_pattern;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.String.library_name = global::ERPSolution.MES.Droid.Resource.String.library_name;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.String.mr_button_content_description = global::ERPSolution.MES.Droid.Resource.String.mr_button_content_description;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.String.mr_cast_button_connected = global::ERPSolution.MES.Droid.Resource.String.mr_cast_button_connected;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.String.mr_cast_button_connecting = global::ERPSolution.MES.Droid.Resource.String.mr_cast_button_connecting;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.String.mr_cast_button_disconnected = global::ERPSolution.MES.Droid.Resource.String.mr_cast_button_disconnected;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.String.mr_chooser_searching = global::ERPSolution.MES.Droid.Resource.String.mr_chooser_searching;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.String.mr_chooser_title = global::ERPSolution.MES.Droid.Resource.String.mr_chooser_title;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.String.mr_controller_album_art = global::ERPSolution.MES.Droid.Resource.String.mr_controller_album_art;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.String.mr_controller_casting_screen = global::ERPSolution.MES.Droid.Resource.String.mr_controller_casting_screen;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.String.mr_controller_close_description = global::ERPSolution.MES.Droid.Resource.String.mr_controller_close_description;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.String.mr_controller_collapse_group = global::ERPSolution.MES.Droid.Resource.String.mr_controller_collapse_group;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.String.mr_controller_disconnect = global::ERPSolution.MES.Droid.Resource.String.mr_controller_disconnect;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.String.mr_controller_expand_group = global::ERPSolution.MES.Droid.Resource.String.mr_controller_expand_group;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.String.mr_controller_no_info_available = global::ERPSolution.MES.Droid.Resource.String.mr_controller_no_info_available;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.String.mr_controller_no_media_selected = global::ERPSolution.MES.Droid.Resource.String.mr_controller_no_media_selected;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.String.mr_controller_pause = global::ERPSolution.MES.Droid.Resource.String.mr_controller_pause;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.String.mr_controller_play = global::ERPSolution.MES.Droid.Resource.String.mr_controller_play;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.String.mr_controller_stop = global::ERPSolution.MES.Droid.Resource.String.mr_controller_stop;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.String.mr_controller_stop_casting = global::ERPSolution.MES.Droid.Resource.String.mr_controller_stop_casting;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.String.mr_controller_volume_slider = global::ERPSolution.MES.Droid.Resource.String.mr_controller_volume_slider;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.String.mr_system_route_name = global::ERPSolution.MES.Droid.Resource.String.mr_system_route_name;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.String.mr_user_route_category_name = global::ERPSolution.MES.Droid.Resource.String.mr_user_route_category_name;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.String.password_toggle_content_description = global::ERPSolution.MES.Droid.Resource.String.password_toggle_content_description;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.String.path_password_eye = global::ERPSolution.MES.Droid.Resource.String.path_password_eye;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.String.path_password_eye_mask_strike_through = global::ERPSolution.MES.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.String.path_password_eye_mask_visible = global::ERPSolution.MES.Droid.Resource.String.path_password_eye_mask_visible;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.String.path_password_strike_through = global::ERPSolution.MES.Droid.Resource.String.path_password_strike_through;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.String.search_menu_title = global::ERPSolution.MES.Droid.Resource.String.search_menu_title;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.String.status_bar_notification_info_overflow = global::ERPSolution.MES.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.AlertDialog_AppCompat = global::ERPSolution.MES.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.AlertDialog_AppCompat_Light = global::ERPSolution.MES.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Animation_AppCompat_Dialog = global::ERPSolution.MES.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Animation_AppCompat_DropDownUp = global::ERPSolution.MES.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Animation_AppCompat_Tooltip = global::ERPSolution.MES.Droid.Resource.Style.Animation_AppCompat_Tooltip;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Animation_Design_BottomSheetDialog = global::ERPSolution.MES.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.AppTheme = global::ERPSolution.MES.Droid.Resource.Style.AppTheme;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_AlertDialog_AppCompat = global::ERPSolution.MES.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_AlertDialog_AppCompat_Light = global::ERPSolution.MES.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Animation_AppCompat_Dialog = global::ERPSolution.MES.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::ERPSolution.MES.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Animation_AppCompat_Tooltip = global::ERPSolution.MES.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_CardView = global::ERPSolution.MES.Droid.Resource.Style.Base_CardView;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::ERPSolution.MES.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_DialogWindowTitle_AppCompat = global::ERPSolution.MES.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat = global::ERPSolution.MES.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::ERPSolution.MES.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::ERPSolution.MES.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Button = global::ERPSolution.MES.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::ERPSolution.MES.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::ERPSolution.MES.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::ERPSolution.MES.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::ERPSolution.MES.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::ERPSolution.MES.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::ERPSolution.MES.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::ERPSolution.MES.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Large = global::ERPSolution.MES.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::ERPSolution.MES.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::ERPSolution.MES.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::ERPSolution.MES.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::ERPSolution.MES.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::ERPSolution.MES.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::ERPSolution.MES.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::ERPSolution.MES.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::ERPSolution.MES.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::ERPSolution.MES.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Small = global::ERPSolution.MES.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::ERPSolution.MES.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::ERPSolution.MES.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::ERPSolution.MES.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Title = global::ERPSolution.MES.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::ERPSolution.MES.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::ERPSolution.MES.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::ERPSolution.MES.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::ERPSolution.MES.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::ERPSolution.MES.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::ERPSolution.MES.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::ERPSolution.MES.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::ERPSolution.MES.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::ERPSolution.MES.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::ERPSolution.MES.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::ERPSolution.MES.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::ERPSolution.MES.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::ERPSolution.MES.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::ERPSolution.MES.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::ERPSolution.MES.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::ERPSolution.MES.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::ERPSolution.MES.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::ERPSolution.MES.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::ERPSolution.MES.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::ERPSolution.MES.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::ERPSolution.MES.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::ERPSolution.MES.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_ThemeOverlay_AppCompat = global::ERPSolution.MES.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::ERPSolution.MES.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::ERPSolution.MES.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::ERPSolution.MES.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::ERPSolution.MES.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::ERPSolution.MES.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::ERPSolution.MES.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Theme_AppCompat = global::ERPSolution.MES.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::ERPSolution.MES.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Theme_AppCompat_Dialog = global::ERPSolution.MES.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::ERPSolution.MES.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::ERPSolution.MES.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::ERPSolution.MES.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::ERPSolution.MES.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Theme_AppCompat_Light = global::ERPSolution.MES.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::ERPSolution.MES.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::ERPSolution.MES.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::ERPSolution.MES.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::ERPSolution.MES.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::ERPSolution.MES.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::ERPSolution.MES.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::ERPSolution.MES.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_V21_Theme_AppCompat = global::ERPSolution.MES.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::ERPSolution.MES.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_V21_Theme_AppCompat_Light = global::ERPSolution.MES.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::ERPSolution.MES.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_V22_Theme_AppCompat = global::ERPSolution.MES.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_V22_Theme_AppCompat_Light = global::ERPSolution.MES.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_V23_Theme_AppCompat = global::ERPSolution.MES.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_V23_Theme_AppCompat_Light = global::ERPSolution.MES.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_V26_Theme_AppCompat = global::ERPSolution.MES.Droid.Resource.Style.Base_V26_Theme_AppCompat;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_V26_Theme_AppCompat_Light = global::ERPSolution.MES.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::ERPSolution.MES.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::ERPSolution.MES.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_V7_Theme_AppCompat = global::ERPSolution.MES.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::ERPSolution.MES.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_V7_Theme_AppCompat_Light = global::ERPSolution.MES.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::ERPSolution.MES.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::ERPSolution.MES.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::ERPSolution.MES.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::ERPSolution.MES.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_ActionBar = global::ERPSolution.MES.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::ERPSolution.MES.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::ERPSolution.MES.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::ERPSolution.MES.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::ERPSolution.MES.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_ActionButton = global::ERPSolution.MES.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::ERPSolution.MES.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::ERPSolution.MES.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_ActionMode = global::ERPSolution.MES.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::ERPSolution.MES.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::ERPSolution.MES.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_Button = global::ERPSolution.MES.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::ERPSolution.MES.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::ERPSolution.MES.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::ERPSolution.MES.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::ERPSolution.MES.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::ERPSolution.MES.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::ERPSolution.MES.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_Button_Small = global::ERPSolution.MES.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::ERPSolution.MES.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::ERPSolution.MES.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::ERPSolution.MES.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::ERPSolution.MES.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::ERPSolution.MES.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::ERPSolution.MES.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_EditText = global::ERPSolution.MES.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_ImageButton = global::ERPSolution.MES.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::ERPSolution.MES.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::ERPSolution.MES.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::ERPSolution.MES.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::ERPSolution.MES.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::ERPSolution.MES.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::ERPSolution.MES.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::ERPSolution.MES.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::ERPSolution.MES.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::ERPSolution.MES.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::ERPSolution.MES.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_ListView = global::ERPSolution.MES.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::ERPSolution.MES.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::ERPSolution.MES.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::ERPSolution.MES.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::ERPSolution.MES.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::ERPSolution.MES.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::ERPSolution.MES.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::ERPSolution.MES.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_RatingBar = global::ERPSolution.MES.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::ERPSolution.MES.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::ERPSolution.MES.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_SearchView = global::ERPSolution.MES.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::ERPSolution.MES.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_SeekBar = global::ERPSolution.MES.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::ERPSolution.MES.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_Spinner = global::ERPSolution.MES.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::ERPSolution.MES.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::ERPSolution.MES.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_Toolbar = global::ERPSolution.MES.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::ERPSolution.MES.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Base_Widget_Design_TabLayout = global::ERPSolution.MES.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.CardView = global::ERPSolution.MES.Droid.Resource.Style.CardView;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.CardView_Dark = global::ERPSolution.MES.Droid.Resource.Style.CardView_Dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.CardView_Light = global::ERPSolution.MES.Droid.Resource.Style.CardView_Light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Platform_AppCompat = global::ERPSolution.MES.Droid.Resource.Style.Platform_AppCompat;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Platform_AppCompat_Light = global::ERPSolution.MES.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Platform_ThemeOverlay_AppCompat = global::ERPSolution.MES.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::ERPSolution.MES.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::ERPSolution.MES.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Platform_V21_AppCompat = global::ERPSolution.MES.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Platform_V21_AppCompat_Light = global::ERPSolution.MES.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Platform_V25_AppCompat = global::ERPSolution.MES.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Platform_V25_AppCompat_Light = global::ERPSolution.MES.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Platform_Widget_AppCompat_Spinner = global::ERPSolution.MES.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::ERPSolution.MES.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::ERPSolution.MES.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::ERPSolution.MES.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::ERPSolution.MES.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::ERPSolution.MES.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::ERPSolution.MES.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::ERPSolution.MES.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::ERPSolution.MES.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::ERPSolution.MES.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::ERPSolution.MES.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::ERPSolution.MES.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::ERPSolution.MES.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::ERPSolution.MES.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::ERPSolution.MES.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_AppCompat = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Body1 = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Body2 = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Button = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Caption = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Display1 = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Display2 = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Display3 = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Display4 = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Headline = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Inverse = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Large = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Medium = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Menu = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Small = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Subhead = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Title = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Tooltip = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_Compat_Notification = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_Compat_Notification_Info = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_Compat_Notification_Media = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_Compat_Notification_Time = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_Compat_Notification_Title = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_Design_Counter = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_Design_Counter_Overflow = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_Design_Error = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_Design_Hint = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_Design_Snackbar_Message = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_Design_Tab = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_MediaRouter_PrimaryText = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_MediaRouter_PrimaryText;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_MediaRouter_SecondaryText = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_MediaRouter_SecondaryText;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_MediaRouter_Title = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_MediaRouter_Title;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::ERPSolution.MES.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.ThemeOverlay_AppCompat = global::ERPSolution.MES.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::ERPSolution.MES.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.ThemeOverlay_AppCompat_Dark = global::ERPSolution.MES.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::ERPSolution.MES.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::ERPSolution.MES.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::ERPSolution.MES.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.ThemeOverlay_AppCompat_Light = global::ERPSolution.MES.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.ThemeOverlay_MediaRouter_Dark = global::ERPSolution.MES.Droid.Resource.Style.ThemeOverlay_MediaRouter_Dark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.ThemeOverlay_MediaRouter_Light = global::ERPSolution.MES.Droid.Resource.Style.ThemeOverlay_MediaRouter_Light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Theme_AppCompat = global::ERPSolution.MES.Droid.Resource.Style.Theme_AppCompat;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Theme_AppCompat_CompactMenu = global::ERPSolution.MES.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Theme_AppCompat_DayNight = global::ERPSolution.MES.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::ERPSolution.MES.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::ERPSolution.MES.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::ERPSolution.MES.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::ERPSolution.MES.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::ERPSolution.MES.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::ERPSolution.MES.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Theme_AppCompat_Dialog = global::ERPSolution.MES.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::ERPSolution.MES.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Theme_AppCompat_Dialog_Alert = global::ERPSolution.MES.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::ERPSolution.MES.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Theme_AppCompat_Light = global::ERPSolution.MES.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::ERPSolution.MES.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Theme_AppCompat_Light_Dialog = global::ERPSolution.MES.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::ERPSolution.MES.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::ERPSolution.MES.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::ERPSolution.MES.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::ERPSolution.MES.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Theme_AppCompat_NoActionBar = global::ERPSolution.MES.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Theme_Design = global::ERPSolution.MES.Droid.Resource.Style.Theme_Design;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Theme_Design_BottomSheetDialog = global::ERPSolution.MES.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Theme_Design_Light = global::ERPSolution.MES.Droid.Resource.Style.Theme_Design_Light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::ERPSolution.MES.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Theme_Design_Light_NoActionBar = global::ERPSolution.MES.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Theme_Design_NoActionBar = global::ERPSolution.MES.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Theme_MediaRouter = global::ERPSolution.MES.Droid.Resource.Style.Theme_MediaRouter;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Theme_MediaRouter_Light = global::ERPSolution.MES.Droid.Resource.Style.Theme_MediaRouter_Light;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Theme_MediaRouter_LightControlPanel = global::ERPSolution.MES.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel = global::ERPSolution.MES.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_ActionBar = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_ActionButton = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_ActionMode = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_ActivityChooserView = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_Button = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_ButtonBar = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_Button_Borderless = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_Button_Colored = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_Button_Small = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_EditText = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_ImageButton = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_Light_ActionBar = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_Light_ActionButton = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_Light_SearchView = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_ListMenuView = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_ListPopupWindow = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_ListView = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_ListView_DropDown = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_ListView_Menu = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_PopupMenu = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_PopupWindow = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_ProgressBar = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_RatingBar = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_RatingBar_Small = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_SearchView = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_SeekBar = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_Spinner = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_Toolbar = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::ERPSolution.MES.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_Compat_NotificationActionContainer = global::ERPSolution.MES.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_Compat_NotificationActionText = global::ERPSolution.MES.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_Design_AppBarLayout = global::ERPSolution.MES.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_Design_BottomNavigationView = global::ERPSolution.MES.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_Design_BottomSheet_Modal = global::ERPSolution.MES.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_Design_CollapsingToolbar = global::ERPSolution.MES.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_Design_FloatingActionButton = global::ERPSolution.MES.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_Design_NavigationView = global::ERPSolution.MES.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::ERPSolution.MES.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_Design_Snackbar = global::ERPSolution.MES.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_Design_TabLayout = global::ERPSolution.MES.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_Design_TextInputLayout = global::ERPSolution.MES.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::ERPSolution.MES.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::ERPSolution.MES.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ActionBar = global::ERPSolution.MES.Droid.Resource.Styleable.ActionBar;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ActionBarLayout = global::ERPSolution.MES.Droid.Resource.Styleable.ActionBarLayout;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::ERPSolution.MES.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ActionBar_background = global::ERPSolution.MES.Droid.Resource.Styleable.ActionBar_background;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ActionBar_backgroundSplit = global::ERPSolution.MES.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ActionBar_backgroundStacked = global::ERPSolution.MES.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ActionBar_contentInsetEnd = global::ERPSolution.MES.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::ERPSolution.MES.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ActionBar_contentInsetLeft = global::ERPSolution.MES.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ActionBar_contentInsetRight = global::ERPSolution.MES.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ActionBar_contentInsetStart = global::ERPSolution.MES.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::ERPSolution.MES.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ActionBar_customNavigationLayout = global::ERPSolution.MES.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ActionBar_displayOptions = global::ERPSolution.MES.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ActionBar_divider = global::ERPSolution.MES.Droid.Resource.Styleable.ActionBar_divider;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ActionBar_elevation = global::ERPSolution.MES.Droid.Resource.Styleable.ActionBar_elevation;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ActionBar_height = global::ERPSolution.MES.Droid.Resource.Styleable.ActionBar_height;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ActionBar_hideOnContentScroll = global::ERPSolution.MES.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ActionBar_homeAsUpIndicator = global::ERPSolution.MES.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ActionBar_homeLayout = global::ERPSolution.MES.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ActionBar_icon = global::ERPSolution.MES.Droid.Resource.Styleable.ActionBar_icon;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::ERPSolution.MES.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ActionBar_itemPadding = global::ERPSolution.MES.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ActionBar_logo = global::ERPSolution.MES.Droid.Resource.Styleable.ActionBar_logo;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ActionBar_navigationMode = global::ERPSolution.MES.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ActionBar_popupTheme = global::ERPSolution.MES.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ActionBar_progressBarPadding = global::ERPSolution.MES.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ActionBar_progressBarStyle = global::ERPSolution.MES.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ActionBar_subtitle = global::ERPSolution.MES.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ActionBar_subtitleTextStyle = global::ERPSolution.MES.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ActionBar_title = global::ERPSolution.MES.Droid.Resource.Styleable.ActionBar_title;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ActionBar_titleTextStyle = global::ERPSolution.MES.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ActionMenuItemView = global::ERPSolution.MES.Droid.Resource.Styleable.ActionMenuItemView;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ActionMenuItemView_android_minWidth = global::ERPSolution.MES.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ActionMenuView = global::ERPSolution.MES.Droid.Resource.Styleable.ActionMenuView;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ActionMode = global::ERPSolution.MES.Droid.Resource.Styleable.ActionMode;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ActionMode_background = global::ERPSolution.MES.Droid.Resource.Styleable.ActionMode_background;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ActionMode_backgroundSplit = global::ERPSolution.MES.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ActionMode_closeItemLayout = global::ERPSolution.MES.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ActionMode_height = global::ERPSolution.MES.Droid.Resource.Styleable.ActionMode_height;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ActionMode_subtitleTextStyle = global::ERPSolution.MES.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ActionMode_titleTextStyle = global::ERPSolution.MES.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ActivityChooserView = global::ERPSolution.MES.Droid.Resource.Styleable.ActivityChooserView;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::ERPSolution.MES.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ActivityChooserView_initialActivityCount = global::ERPSolution.MES.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AlertDialog = global::ERPSolution.MES.Droid.Resource.Styleable.AlertDialog;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AlertDialog_android_layout = global::ERPSolution.MES.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::ERPSolution.MES.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AlertDialog_listItemLayout = global::ERPSolution.MES.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AlertDialog_listLayout = global::ERPSolution.MES.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::ERPSolution.MES.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AlertDialog_showTitle = global::ERPSolution.MES.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::ERPSolution.MES.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppBarLayout = global::ERPSolution.MES.Droid.Resource.Styleable.AppBarLayout;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppBarLayoutStates = global::ERPSolution.MES.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::ERPSolution.MES.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::ERPSolution.MES.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppBarLayout_android_background = global::ERPSolution.MES.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::ERPSolution.MES.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::ERPSolution.MES.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppBarLayout_elevation = global::ERPSolution.MES.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppBarLayout_expanded = global::ERPSolution.MES.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppBarLayout_Layout = global::ERPSolution.MES.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::ERPSolution.MES.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::ERPSolution.MES.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatImageView = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatImageView;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatImageView_android_src = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatImageView_srcCompat = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatImageView_tint = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatImageView_tintMode = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatSeekBar = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatSeekBar_android_thumb = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatSeekBar_tickMark = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTextHelper = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTextView = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTextView;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTextView_android_textAppearance = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTextView_fontFamily = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTextView_textAllCaps = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionBarDivider = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionBarSize = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionBarStyle = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionBarTheme = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionModeBackground = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionModeStyle = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_buttonStyle = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_checkboxStyle = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_colorAccent = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_colorControlActivated = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_colorControlNormal = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_colorError = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_colorError;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_colorPrimary = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_controlBackground = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_dialogTheme = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_dividerVertical = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_editTextBackground = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_editTextColor = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_editTextStyle = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_panelBackground = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_searchViewStyle = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_seekBarStyle = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_spinnerStyle = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_switchStyle = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_toolbarStyle = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_windowActionBar = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.AppCompatTheme_windowNoTitle = global::ERPSolution.MES.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.BottomNavigationView = global::ERPSolution.MES.Droid.Resource.Styleable.BottomNavigationView;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.BottomNavigationView_elevation = global::ERPSolution.MES.Droid.Resource.Styleable.BottomNavigationView_elevation;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.BottomNavigationView_itemBackground = global::ERPSolution.MES.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.BottomNavigationView_itemIconTint = global::ERPSolution.MES.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.BottomNavigationView_itemTextColor = global::ERPSolution.MES.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.BottomNavigationView_menu = global::ERPSolution.MES.Droid.Resource.Styleable.BottomNavigationView_menu;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.BottomSheetBehavior_Layout = global::ERPSolution.MES.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::ERPSolution.MES.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::ERPSolution.MES.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::ERPSolution.MES.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ButtonBarLayout = global::ERPSolution.MES.Droid.Resource.Styleable.ButtonBarLayout;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ButtonBarLayout_allowStacking = global::ERPSolution.MES.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.CardView = global::ERPSolution.MES.Droid.Resource.Styleable.CardView;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.CardView_android_minHeight = global::ERPSolution.MES.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.CardView_android_minWidth = global::ERPSolution.MES.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.CardView_cardBackgroundColor = global::ERPSolution.MES.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.CardView_cardCornerRadius = global::ERPSolution.MES.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.CardView_cardElevation = global::ERPSolution.MES.Droid.Resource.Styleable.CardView_cardElevation;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.CardView_cardMaxElevation = global::ERPSolution.MES.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.CardView_cardPreventCornerOverlap = global::ERPSolution.MES.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.CardView_cardUseCompatPadding = global::ERPSolution.MES.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.CardView_contentPadding = global::ERPSolution.MES.Droid.Resource.Styleable.CardView_contentPadding;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.CardView_contentPaddingBottom = global::ERPSolution.MES.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.CardView_contentPaddingLeft = global::ERPSolution.MES.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.CardView_contentPaddingRight = global::ERPSolution.MES.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.CardView_contentPaddingTop = global::ERPSolution.MES.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.CollapsingToolbarLayout = global::ERPSolution.MES.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::ERPSolution.MES.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::ERPSolution.MES.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::ERPSolution.MES.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::ERPSolution.MES.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::ERPSolution.MES.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::ERPSolution.MES.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::ERPSolution.MES.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::ERPSolution.MES.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::ERPSolution.MES.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::ERPSolution.MES.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.CollapsingToolbarLayout_Layout = global::ERPSolution.MES.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::ERPSolution.MES.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::ERPSolution.MES.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::ERPSolution.MES.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::ERPSolution.MES.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::ERPSolution.MES.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.CollapsingToolbarLayout_title = global::ERPSolution.MES.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::ERPSolution.MES.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::ERPSolution.MES.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ColorStateListItem = global::ERPSolution.MES.Droid.Resource.Styleable.ColorStateListItem;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ColorStateListItem_alpha = global::ERPSolution.MES.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ColorStateListItem_android_alpha = global::ERPSolution.MES.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ColorStateListItem_android_color = global::ERPSolution.MES.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.CompoundButton = global::ERPSolution.MES.Droid.Resource.Styleable.CompoundButton;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.CompoundButton_android_button = global::ERPSolution.MES.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.CompoundButton_buttonTint = global::ERPSolution.MES.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.CompoundButton_buttonTintMode = global::ERPSolution.MES.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.CoordinatorLayout = global::ERPSolution.MES.Droid.Resource.Styleable.CoordinatorLayout;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.CoordinatorLayout_keylines = global::ERPSolution.MES.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.CoordinatorLayout_Layout = global::ERPSolution.MES.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::ERPSolution.MES.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::ERPSolution.MES.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::ERPSolution.MES.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::ERPSolution.MES.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::ERPSolution.MES.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::ERPSolution.MES.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::ERPSolution.MES.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::ERPSolution.MES.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.DesignTheme = global::ERPSolution.MES.Droid.Resource.Styleable.DesignTheme;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::ERPSolution.MES.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.DesignTheme_bottomSheetStyle = global::ERPSolution.MES.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.DrawerArrowToggle = global::ERPSolution.MES.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::ERPSolution.MES.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::ERPSolution.MES.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.DrawerArrowToggle_barLength = global::ERPSolution.MES.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.DrawerArrowToggle_color = global::ERPSolution.MES.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.DrawerArrowToggle_drawableSize = global::ERPSolution.MES.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::ERPSolution.MES.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.DrawerArrowToggle_spinBars = global::ERPSolution.MES.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.DrawerArrowToggle_thickness = global::ERPSolution.MES.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.DXCheckBox = global::ERPSolution.MES.Droid.Resource.Styleable.DXCheckBox;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.DXCheckBox_checked_state = global::ERPSolution.MES.Droid.Resource.Styleable.DXCheckBox_checked_state;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.DXCheckBox_unchecked_state = global::ERPSolution.MES.Droid.Resource.Styleable.DXCheckBox_unchecked_state;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.DXCheckBox_undetermined_state = global::ERPSolution.MES.Droid.Resource.Styleable.DXCheckBox_undetermined_state;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.FloatingActionButton = global::ERPSolution.MES.Droid.Resource.Styleable.FloatingActionButton;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.FloatingActionButton_backgroundTint = global::ERPSolution.MES.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::ERPSolution.MES.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::ERPSolution.MES.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::ERPSolution.MES.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.FloatingActionButton_borderWidth = global::ERPSolution.MES.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.FloatingActionButton_elevation = global::ERPSolution.MES.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.FloatingActionButton_fabSize = global::ERPSolution.MES.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::ERPSolution.MES.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.FloatingActionButton_rippleColor = global::ERPSolution.MES.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.FloatingActionButton_useCompatPadding = global::ERPSolution.MES.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.FontFamily = global::ERPSolution.MES.Droid.Resource.Styleable.FontFamily;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.FontFamilyFont = global::ERPSolution.MES.Droid.Resource.Styleable.FontFamilyFont;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.FontFamilyFont_android_font = global::ERPSolution.MES.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.FontFamilyFont_android_fontStyle = global::ERPSolution.MES.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.FontFamilyFont_android_fontWeight = global::ERPSolution.MES.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.FontFamilyFont_font = global::ERPSolution.MES.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.FontFamilyFont_fontStyle = global::ERPSolution.MES.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.FontFamilyFont_fontWeight = global::ERPSolution.MES.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.FontFamily_fontProviderAuthority = global::ERPSolution.MES.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.FontFamily_fontProviderCerts = global::ERPSolution.MES.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::ERPSolution.MES.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::ERPSolution.MES.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.FontFamily_fontProviderPackage = global::ERPSolution.MES.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.FontFamily_fontProviderQuery = global::ERPSolution.MES.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ForegroundLinearLayout = global::ERPSolution.MES.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::ERPSolution.MES.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::ERPSolution.MES.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::ERPSolution.MES.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.LinearLayoutCompat = global::ERPSolution.MES.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::ERPSolution.MES.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::ERPSolution.MES.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.LinearLayoutCompat_android_gravity = global::ERPSolution.MES.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.LinearLayoutCompat_android_orientation = global::ERPSolution.MES.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::ERPSolution.MES.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.LinearLayoutCompat_divider = global::ERPSolution.MES.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::ERPSolution.MES.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.LinearLayoutCompat_Layout = global::ERPSolution.MES.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::ERPSolution.MES.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::ERPSolution.MES.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::ERPSolution.MES.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::ERPSolution.MES.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::ERPSolution.MES.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.LinearLayoutCompat_showDividers = global::ERPSolution.MES.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ListPopupWindow = global::ERPSolution.MES.Droid.Resource.Styleable.ListPopupWindow;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::ERPSolution.MES.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::ERPSolution.MES.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.MediaRouteButton = global::ERPSolution.MES.Droid.Resource.Styleable.MediaRouteButton;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.MediaRouteButton_android_minHeight = global::ERPSolution.MES.Droid.Resource.Styleable.MediaRouteButton_android_minHeight;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.MediaRouteButton_android_minWidth = global::ERPSolution.MES.Droid.Resource.Styleable.MediaRouteButton_android_minWidth;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::ERPSolution.MES.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.MediaRouteButton_mediaRouteButtonTint = global::ERPSolution.MES.Droid.Resource.Styleable.MediaRouteButton_mediaRouteButtonTint;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.MenuGroup = global::ERPSolution.MES.Droid.Resource.Styleable.MenuGroup;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.MenuGroup_android_checkableBehavior = global::ERPSolution.MES.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.MenuGroup_android_enabled = global::ERPSolution.MES.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.MenuGroup_android_id = global::ERPSolution.MES.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.MenuGroup_android_menuCategory = global::ERPSolution.MES.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.MenuGroup_android_orderInCategory = global::ERPSolution.MES.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.MenuGroup_android_visible = global::ERPSolution.MES.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.MenuItem = global::ERPSolution.MES.Droid.Resource.Styleable.MenuItem;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.MenuItem_actionLayout = global::ERPSolution.MES.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.MenuItem_actionProviderClass = global::ERPSolution.MES.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.MenuItem_actionViewClass = global::ERPSolution.MES.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.MenuItem_alphabeticModifiers = global::ERPSolution.MES.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::ERPSolution.MES.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.MenuItem_android_checkable = global::ERPSolution.MES.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.MenuItem_android_checked = global::ERPSolution.MES.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.MenuItem_android_enabled = global::ERPSolution.MES.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.MenuItem_android_icon = global::ERPSolution.MES.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.MenuItem_android_id = global::ERPSolution.MES.Droid.Resource.Styleable.MenuItem_android_id;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.MenuItem_android_menuCategory = global::ERPSolution.MES.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.MenuItem_android_numericShortcut = global::ERPSolution.MES.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.MenuItem_android_onClick = global::ERPSolution.MES.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.MenuItem_android_orderInCategory = global::ERPSolution.MES.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.MenuItem_android_title = global::ERPSolution.MES.Droid.Resource.Styleable.MenuItem_android_title;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.MenuItem_android_titleCondensed = global::ERPSolution.MES.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.MenuItem_android_visible = global::ERPSolution.MES.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.MenuItem_contentDescription = global::ERPSolution.MES.Droid.Resource.Styleable.MenuItem_contentDescription;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.MenuItem_iconTint = global::ERPSolution.MES.Droid.Resource.Styleable.MenuItem_iconTint;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.MenuItem_iconTintMode = global::ERPSolution.MES.Droid.Resource.Styleable.MenuItem_iconTintMode;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.MenuItem_numericModifiers = global::ERPSolution.MES.Droid.Resource.Styleable.MenuItem_numericModifiers;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.MenuItem_showAsAction = global::ERPSolution.MES.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.MenuItem_tooltipText = global::ERPSolution.MES.Droid.Resource.Styleable.MenuItem_tooltipText;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.MenuView = global::ERPSolution.MES.Droid.Resource.Styleable.MenuView;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.MenuView_android_headerBackground = global::ERPSolution.MES.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.MenuView_android_horizontalDivider = global::ERPSolution.MES.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.MenuView_android_itemBackground = global::ERPSolution.MES.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::ERPSolution.MES.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.MenuView_android_itemTextAppearance = global::ERPSolution.MES.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.MenuView_android_verticalDivider = global::ERPSolution.MES.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.MenuView_android_windowAnimationStyle = global::ERPSolution.MES.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.MenuView_preserveIconSpacing = global::ERPSolution.MES.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.MenuView_subMenuArrow = global::ERPSolution.MES.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.NavigationView = global::ERPSolution.MES.Droid.Resource.Styleable.NavigationView;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.NavigationView_android_background = global::ERPSolution.MES.Droid.Resource.Styleable.NavigationView_android_background;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::ERPSolution.MES.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.NavigationView_android_maxWidth = global::ERPSolution.MES.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.NavigationView_elevation = global::ERPSolution.MES.Droid.Resource.Styleable.NavigationView_elevation;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.NavigationView_headerLayout = global::ERPSolution.MES.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.NavigationView_itemBackground = global::ERPSolution.MES.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.NavigationView_itemIconTint = global::ERPSolution.MES.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.NavigationView_itemTextAppearance = global::ERPSolution.MES.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.NavigationView_itemTextColor = global::ERPSolution.MES.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.NavigationView_menu = global::ERPSolution.MES.Droid.Resource.Styleable.NavigationView_menu;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.PopupWindow = global::ERPSolution.MES.Droid.Resource.Styleable.PopupWindow;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.PopupWindowBackgroundState = global::ERPSolution.MES.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::ERPSolution.MES.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::ERPSolution.MES.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.PopupWindow_android_popupBackground = global::ERPSolution.MES.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.PopupWindow_overlapAnchor = global::ERPSolution.MES.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.RecycleListView = global::ERPSolution.MES.Droid.Resource.Styleable.RecycleListView;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::ERPSolution.MES.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::ERPSolution.MES.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.RecyclerView = global::ERPSolution.MES.Droid.Resource.Styleable.RecyclerView;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.RecyclerView_android_descendantFocusability = global::ERPSolution.MES.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.RecyclerView_android_orientation = global::ERPSolution.MES.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.RecyclerView_fastScrollEnabled = global::ERPSolution.MES.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::ERPSolution.MES.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::ERPSolution.MES.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::ERPSolution.MES.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::ERPSolution.MES.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.RecyclerView_layoutManager = global::ERPSolution.MES.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.RecyclerView_reverseLayout = global::ERPSolution.MES.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.RecyclerView_spanCount = global::ERPSolution.MES.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.RecyclerView_stackFromEnd = global::ERPSolution.MES.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ScrimInsetsFrameLayout = global::ERPSolution.MES.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::ERPSolution.MES.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ScrollingViewBehavior_Layout = global::ERPSolution.MES.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::ERPSolution.MES.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.SearchView = global::ERPSolution.MES.Droid.Resource.Styleable.SearchView;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.SearchView_android_focusable = global::ERPSolution.MES.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.SearchView_android_imeOptions = global::ERPSolution.MES.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.SearchView_android_inputType = global::ERPSolution.MES.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.SearchView_android_maxWidth = global::ERPSolution.MES.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.SearchView_closeIcon = global::ERPSolution.MES.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.SearchView_commitIcon = global::ERPSolution.MES.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.SearchView_defaultQueryHint = global::ERPSolution.MES.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.SearchView_goIcon = global::ERPSolution.MES.Droid.Resource.Styleable.SearchView_goIcon;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.SearchView_iconifiedByDefault = global::ERPSolution.MES.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.SearchView_layout = global::ERPSolution.MES.Droid.Resource.Styleable.SearchView_layout;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.SearchView_queryBackground = global::ERPSolution.MES.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.SearchView_queryHint = global::ERPSolution.MES.Droid.Resource.Styleable.SearchView_queryHint;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.SearchView_searchHintIcon = global::ERPSolution.MES.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.SearchView_searchIcon = global::ERPSolution.MES.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.SearchView_submitBackground = global::ERPSolution.MES.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.SearchView_suggestionRowLayout = global::ERPSolution.MES.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.SearchView_voiceIcon = global::ERPSolution.MES.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.SnackbarLayout = global::ERPSolution.MES.Droid.Resource.Styleable.SnackbarLayout;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.SnackbarLayout_android_maxWidth = global::ERPSolution.MES.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.SnackbarLayout_elevation = global::ERPSolution.MES.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::ERPSolution.MES.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.Spinner = global::ERPSolution.MES.Droid.Resource.Styleable.Spinner;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.Spinner_android_dropDownWidth = global::ERPSolution.MES.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.Spinner_android_entries = global::ERPSolution.MES.Droid.Resource.Styleable.Spinner_android_entries;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.Spinner_android_popupBackground = global::ERPSolution.MES.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.Spinner_android_prompt = global::ERPSolution.MES.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.Spinner_popupTheme = global::ERPSolution.MES.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.SwitchCompat = global::ERPSolution.MES.Droid.Resource.Styleable.SwitchCompat;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.SwitchCompat_android_textOff = global::ERPSolution.MES.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.SwitchCompat_android_textOn = global::ERPSolution.MES.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.SwitchCompat_android_thumb = global::ERPSolution.MES.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.SwitchCompat_showText = global::ERPSolution.MES.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.SwitchCompat_splitTrack = global::ERPSolution.MES.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.SwitchCompat_switchMinWidth = global::ERPSolution.MES.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.SwitchCompat_switchPadding = global::ERPSolution.MES.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.SwitchCompat_switchTextAppearance = global::ERPSolution.MES.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.SwitchCompat_thumbTextPadding = global::ERPSolution.MES.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.SwitchCompat_thumbTint = global::ERPSolution.MES.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.SwitchCompat_thumbTintMode = global::ERPSolution.MES.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.SwitchCompat_track = global::ERPSolution.MES.Droid.Resource.Styleable.SwitchCompat_track;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.SwitchCompat_trackTint = global::ERPSolution.MES.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.SwitchCompat_trackTintMode = global::ERPSolution.MES.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.TabItem = global::ERPSolution.MES.Droid.Resource.Styleable.TabItem;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.TabItem_android_icon = global::ERPSolution.MES.Droid.Resource.Styleable.TabItem_android_icon;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.TabItem_android_layout = global::ERPSolution.MES.Droid.Resource.Styleable.TabItem_android_layout;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.TabItem_android_text = global::ERPSolution.MES.Droid.Resource.Styleable.TabItem_android_text;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.TabLayout = global::ERPSolution.MES.Droid.Resource.Styleable.TabLayout;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.TabLayout_tabBackground = global::ERPSolution.MES.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.TabLayout_tabContentStart = global::ERPSolution.MES.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.TabLayout_tabGravity = global::ERPSolution.MES.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.TabLayout_tabIndicatorColor = global::ERPSolution.MES.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.TabLayout_tabIndicatorHeight = global::ERPSolution.MES.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.TabLayout_tabMaxWidth = global::ERPSolution.MES.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.TabLayout_tabMinWidth = global::ERPSolution.MES.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.TabLayout_tabMode = global::ERPSolution.MES.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.TabLayout_tabPadding = global::ERPSolution.MES.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.TabLayout_tabPaddingBottom = global::ERPSolution.MES.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.TabLayout_tabPaddingEnd = global::ERPSolution.MES.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.TabLayout_tabPaddingStart = global::ERPSolution.MES.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.TabLayout_tabPaddingTop = global::ERPSolution.MES.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.TabLayout_tabSelectedTextColor = global::ERPSolution.MES.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.TabLayout_tabTextAppearance = global::ERPSolution.MES.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.TabLayout_tabTextColor = global::ERPSolution.MES.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.TextAppearance = global::ERPSolution.MES.Droid.Resource.Styleable.TextAppearance;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.TextAppearance_android_fontFamily = global::ERPSolution.MES.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.TextAppearance_android_shadowColor = global::ERPSolution.MES.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.TextAppearance_android_shadowDx = global::ERPSolution.MES.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.TextAppearance_android_shadowDy = global::ERPSolution.MES.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.TextAppearance_android_shadowRadius = global::ERPSolution.MES.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.TextAppearance_android_textColor = global::ERPSolution.MES.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.TextAppearance_android_textColorHint = global::ERPSolution.MES.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.TextAppearance_android_textColorLink = global::ERPSolution.MES.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.TextAppearance_android_textSize = global::ERPSolution.MES.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.TextAppearance_android_textStyle = global::ERPSolution.MES.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.TextAppearance_android_typeface = global::ERPSolution.MES.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.TextAppearance_fontFamily = global::ERPSolution.MES.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.TextAppearance_textAllCaps = global::ERPSolution.MES.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.TextInputLayout = global::ERPSolution.MES.Droid.Resource.Styleable.TextInputLayout;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.TextInputLayout_android_hint = global::ERPSolution.MES.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.TextInputLayout_android_textColorHint = global::ERPSolution.MES.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.TextInputLayout_counterEnabled = global::ERPSolution.MES.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.TextInputLayout_counterMaxLength = global::ERPSolution.MES.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::ERPSolution.MES.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.TextInputLayout_counterTextAppearance = global::ERPSolution.MES.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.TextInputLayout_errorEnabled = global::ERPSolution.MES.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.TextInputLayout_errorTextAppearance = global::ERPSolution.MES.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::ERPSolution.MES.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.TextInputLayout_hintEnabled = global::ERPSolution.MES.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.TextInputLayout_hintTextAppearance = global::ERPSolution.MES.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::ERPSolution.MES.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::ERPSolution.MES.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::ERPSolution.MES.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.TextInputLayout_passwordToggleTint = global::ERPSolution.MES.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::ERPSolution.MES.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.Toolbar = global::ERPSolution.MES.Droid.Resource.Styleable.Toolbar;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.Toolbar_android_gravity = global::ERPSolution.MES.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.Toolbar_android_minHeight = global::ERPSolution.MES.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.Toolbar_buttonGravity = global::ERPSolution.MES.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.Toolbar_collapseContentDescription = global::ERPSolution.MES.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.Toolbar_collapseIcon = global::ERPSolution.MES.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.Toolbar_contentInsetEnd = global::ERPSolution.MES.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::ERPSolution.MES.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.Toolbar_contentInsetLeft = global::ERPSolution.MES.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.Toolbar_contentInsetRight = global::ERPSolution.MES.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.Toolbar_contentInsetStart = global::ERPSolution.MES.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::ERPSolution.MES.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.Toolbar_logo = global::ERPSolution.MES.Droid.Resource.Styleable.Toolbar_logo;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.Toolbar_logoDescription = global::ERPSolution.MES.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.Toolbar_maxButtonHeight = global::ERPSolution.MES.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.Toolbar_navigationContentDescription = global::ERPSolution.MES.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.Toolbar_navigationIcon = global::ERPSolution.MES.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.Toolbar_popupTheme = global::ERPSolution.MES.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.Toolbar_subtitle = global::ERPSolution.MES.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.Toolbar_subtitleTextAppearance = global::ERPSolution.MES.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.Toolbar_subtitleTextColor = global::ERPSolution.MES.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.Toolbar_title = global::ERPSolution.MES.Droid.Resource.Styleable.Toolbar_title;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.Toolbar_titleMargin = global::ERPSolution.MES.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.Toolbar_titleMarginBottom = global::ERPSolution.MES.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.Toolbar_titleMarginEnd = global::ERPSolution.MES.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.Toolbar_titleMargins = global::ERPSolution.MES.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.Toolbar_titleMarginStart = global::ERPSolution.MES.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.Toolbar_titleMarginTop = global::ERPSolution.MES.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.Toolbar_titleTextAppearance = global::ERPSolution.MES.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.Toolbar_titleTextColor = global::ERPSolution.MES.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.View = global::ERPSolution.MES.Droid.Resource.Styleable.View;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ViewBackgroundHelper = global::ERPSolution.MES.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ViewBackgroundHelper_android_background = global::ERPSolution.MES.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::ERPSolution.MES.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::ERPSolution.MES.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ViewStubCompat = global::ERPSolution.MES.Droid.Resource.Styleable.ViewStubCompat;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ViewStubCompat_android_id = global::ERPSolution.MES.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ViewStubCompat_android_inflatedId = global::ERPSolution.MES.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.ViewStubCompat_android_layout = global::ERPSolution.MES.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.View_android_focusable = global::ERPSolution.MES.Droid.Resource.Styleable.View_android_focusable;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.View_android_theme = global::ERPSolution.MES.Droid.Resource.Styleable.View_android_theme;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.View_paddingEnd = global::ERPSolution.MES.Droid.Resource.Styleable.View_paddingEnd;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.View_paddingStart = global::ERPSolution.MES.Droid.Resource.Styleable.View_paddingStart;
+			global::DevExpress.XamarinForms.DataGrid.Android.Resource.Styleable.View_theme = global::ERPSolution.MES.Droid.Resource.Styleable.View_theme;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_fade_in = global::ERPSolution.MES.Droid.Resource.Animation.abc_fade_in;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_fade_out = global::ERPSolution.MES.Droid.Resource.Animation.abc_fade_out;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::ERPSolution.MES.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
@@ -2594,6 +4888,9 @@ namespace ERPSolution.MES.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ViewStubCompat_android_id = global::ERPSolution.MES.Droid.Resource.Styleable.ViewStubCompat_android_id;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ViewStubCompat_android_inflatedId = global::ERPSolution.MES.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ViewStubCompat_android_layout = global::ERPSolution.MES.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::ZXing.Mobile.Resource.Id.contentFrame = global::ERPSolution.MES.Droid.Resource.Id.contentFrame;
+			global::ZXing.Mobile.Resource.Layout.zxingscanneractivitylayout = global::ERPSolution.MES.Droid.Resource.Layout.zxingscanneractivitylayout;
+			global::ZXing.Mobile.Resource.Layout.zxingscannerfragmentlayout = global::ERPSolution.MES.Droid.Resource.Layout.zxingscannerfragmentlayout;
 		}
 		
 		public partial class Animation
@@ -3017,6 +5314,9 @@ namespace ERPSolution.MES.Droid
 			
 			// aapt resource value: 0x7f0100c4
 			public const int checkedTextViewStyle = 2130772164;
+			
+			// aapt resource value: 0x7f0101ed
+			public const int checked_state = 2130772461;
 			
 			// aapt resource value: 0x7f010155
 			public const int chipBackgroundColor = 2130772309;
@@ -4149,6 +6449,12 @@ namespace ERPSolution.MES.Droid
 			// aapt resource value: 0x7f0101ea
 			public const int ttcIndex = 2130772458;
 			
+			// aapt resource value: 0x7f0101ec
+			public const int unchecked_state = 2130772460;
+			
+			// aapt resource value: 0x7f0101eb
+			public const int undetermined_state = 2130772459;
+			
 			// aapt resource value: 0x7f01018a
 			public const int useCompatPadding = 2130772362;
 			
@@ -4226,44 +6532,44 @@ namespace ERPSolution.MES.Droid
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f0d005a
-			public const int abc_background_cache_hint_selector_material_dark = 2131558490;
+			// aapt resource value: 0x7f0d0065
+			public const int abc_background_cache_hint_selector_material_dark = 2131558501;
 			
-			// aapt resource value: 0x7f0d005b
-			public const int abc_background_cache_hint_selector_material_light = 2131558491;
+			// aapt resource value: 0x7f0d0066
+			public const int abc_background_cache_hint_selector_material_light = 2131558502;
 			
-			// aapt resource value: 0x7f0d005c
-			public const int abc_btn_colored_borderless_text_material = 2131558492;
+			// aapt resource value: 0x7f0d0067
+			public const int abc_btn_colored_borderless_text_material = 2131558503;
 			
-			// aapt resource value: 0x7f0d005d
-			public const int abc_btn_colored_text_material = 2131558493;
+			// aapt resource value: 0x7f0d0068
+			public const int abc_btn_colored_text_material = 2131558504;
 			
-			// aapt resource value: 0x7f0d005e
-			public const int abc_color_highlight_material = 2131558494;
+			// aapt resource value: 0x7f0d0069
+			public const int abc_color_highlight_material = 2131558505;
 			
-			// aapt resource value: 0x7f0d005f
-			public const int abc_hint_foreground_material_dark = 2131558495;
+			// aapt resource value: 0x7f0d006a
+			public const int abc_hint_foreground_material_dark = 2131558506;
 			
-			// aapt resource value: 0x7f0d0060
-			public const int abc_hint_foreground_material_light = 2131558496;
+			// aapt resource value: 0x7f0d006b
+			public const int abc_hint_foreground_material_light = 2131558507;
 			
 			// aapt resource value: 0x7f0d0004
 			public const int abc_input_method_navigation_guard = 2131558404;
 			
-			// aapt resource value: 0x7f0d0061
-			public const int abc_primary_text_disable_only_material_dark = 2131558497;
+			// aapt resource value: 0x7f0d006c
+			public const int abc_primary_text_disable_only_material_dark = 2131558508;
 			
-			// aapt resource value: 0x7f0d0062
-			public const int abc_primary_text_disable_only_material_light = 2131558498;
+			// aapt resource value: 0x7f0d006d
+			public const int abc_primary_text_disable_only_material_light = 2131558509;
 			
-			// aapt resource value: 0x7f0d0063
-			public const int abc_primary_text_material_dark = 2131558499;
+			// aapt resource value: 0x7f0d006e
+			public const int abc_primary_text_material_dark = 2131558510;
 			
-			// aapt resource value: 0x7f0d0064
-			public const int abc_primary_text_material_light = 2131558500;
+			// aapt resource value: 0x7f0d006f
+			public const int abc_primary_text_material_light = 2131558511;
 			
-			// aapt resource value: 0x7f0d0065
-			public const int abc_search_url_text = 2131558501;
+			// aapt resource value: 0x7f0d0070
+			public const int abc_search_url_text = 2131558512;
 			
 			// aapt resource value: 0x7f0d0005
 			public const int abc_search_url_text_normal = 2131558405;
@@ -4274,29 +6580,29 @@ namespace ERPSolution.MES.Droid
 			// aapt resource value: 0x7f0d0007
 			public const int abc_search_url_text_selected = 2131558407;
 			
-			// aapt resource value: 0x7f0d0066
-			public const int abc_secondary_text_material_dark = 2131558502;
+			// aapt resource value: 0x7f0d0071
+			public const int abc_secondary_text_material_dark = 2131558513;
 			
-			// aapt resource value: 0x7f0d0067
-			public const int abc_secondary_text_material_light = 2131558503;
+			// aapt resource value: 0x7f0d0072
+			public const int abc_secondary_text_material_light = 2131558514;
 			
-			// aapt resource value: 0x7f0d0068
-			public const int abc_tint_btn_checkable = 2131558504;
+			// aapt resource value: 0x7f0d0073
+			public const int abc_tint_btn_checkable = 2131558515;
 			
-			// aapt resource value: 0x7f0d0069
-			public const int abc_tint_default = 2131558505;
+			// aapt resource value: 0x7f0d0074
+			public const int abc_tint_default = 2131558516;
 			
-			// aapt resource value: 0x7f0d006a
-			public const int abc_tint_edittext = 2131558506;
+			// aapt resource value: 0x7f0d0075
+			public const int abc_tint_edittext = 2131558517;
 			
-			// aapt resource value: 0x7f0d006b
-			public const int abc_tint_seek_thumb = 2131558507;
+			// aapt resource value: 0x7f0d0076
+			public const int abc_tint_seek_thumb = 2131558518;
 			
-			// aapt resource value: 0x7f0d006c
-			public const int abc_tint_spinner = 2131558508;
+			// aapt resource value: 0x7f0d0077
+			public const int abc_tint_spinner = 2131558519;
 			
-			// aapt resource value: 0x7f0d006d
-			public const int abc_tint_switch_track = 2131558509;
+			// aapt resource value: 0x7f0d0078
+			public const int abc_tint_switch_track = 2131558520;
 			
 			// aapt resource value: 0x7f0d0008
 			public const int accent_material_dark = 2131558408;
@@ -4364,6 +6670,27 @@ namespace ERPSolution.MES.Droid
 			// aapt resource value: 0x7f0d0003
 			public const int cardview_shadow_start_color = 2131558403;
 			
+			// aapt resource value: 0x7f0d005a
+			public const int checkboxTintColorDark = 2131558490;
+			
+			// aapt resource value: 0x7f0d005b
+			public const int checkboxTintColorLight = 2131558491;
+			
+			// aapt resource value: 0x7f0d005c
+			public const int checkedCheckboxBackDark = 2131558492;
+			
+			// aapt resource value: 0x7f0d005d
+			public const int checkedCheckboxBackLight = 2131558493;
+			
+			// aapt resource value: 0x7f0d005e
+			public const int colorAccent = 2131558494;
+			
+			// aapt resource value: 0x7f0d005f
+			public const int colorPrimary = 2131558495;
+			
+			// aapt resource value: 0x7f0d0060
+			public const int colorPrimaryDark = 2131558496;
+			
 			// aapt resource value: 0x7f0d0041
 			public const int design_bottom_navigation_shadow_color = 2131558465;
 			
@@ -4373,8 +6700,8 @@ namespace ERPSolution.MES.Droid
 			// aapt resource value: 0x7f0d0043
 			public const int design_default_color_primary_dark = 2131558467;
 			
-			// aapt resource value: 0x7f0d006e
-			public const int design_error = 2131558510;
+			// aapt resource value: 0x7f0d0079
+			public const int design_error = 2131558521;
 			
 			// aapt resource value: 0x7f0d0044
 			public const int design_fab_shadow_end_color = 2131558468;
@@ -4400,8 +6727,8 @@ namespace ERPSolution.MES.Droid
 			// aapt resource value: 0x7f0d004b
 			public const int design_snackbar_background_color = 2131558475;
 			
-			// aapt resource value: 0x7f0d006f
-			public const int design_tint_password_toggle = 2131558511;
+			// aapt resource value: 0x7f0d007a
+			public const int design_tint_password_toggle = 2131558522;
 			
 			// aapt resource value: 0x7f0d0016
 			public const int dim_foreground_disabled_material_dark = 2131558422;
@@ -4469,71 +6796,71 @@ namespace ERPSolution.MES.Droid
 			// aapt resource value: 0x7f0d002b
 			public const int material_grey_900 = 2131558443;
 			
-			// aapt resource value: 0x7f0d0070
-			public const int mtrl_bottom_nav_colored_item_tint = 2131558512;
+			// aapt resource value: 0x7f0d007b
+			public const int mtrl_bottom_nav_colored_item_tint = 2131558523;
 			
-			// aapt resource value: 0x7f0d0071
-			public const int mtrl_bottom_nav_item_tint = 2131558513;
+			// aapt resource value: 0x7f0d007c
+			public const int mtrl_bottom_nav_item_tint = 2131558524;
 			
 			// aapt resource value: 0x7f0d004c
 			public const int mtrl_btn_bg_color_disabled = 2131558476;
 			
-			// aapt resource value: 0x7f0d0072
-			public const int mtrl_btn_bg_color_selector = 2131558514;
+			// aapt resource value: 0x7f0d007d
+			public const int mtrl_btn_bg_color_selector = 2131558525;
 			
-			// aapt resource value: 0x7f0d0073
-			public const int mtrl_btn_ripple_color = 2131558515;
+			// aapt resource value: 0x7f0d007e
+			public const int mtrl_btn_ripple_color = 2131558526;
 			
-			// aapt resource value: 0x7f0d0074
-			public const int mtrl_btn_stroke_color_selector = 2131558516;
+			// aapt resource value: 0x7f0d007f
+			public const int mtrl_btn_stroke_color_selector = 2131558527;
 			
-			// aapt resource value: 0x7f0d0075
-			public const int mtrl_btn_text_btn_ripple_color = 2131558517;
+			// aapt resource value: 0x7f0d0080
+			public const int mtrl_btn_text_btn_ripple_color = 2131558528;
 			
 			// aapt resource value: 0x7f0d004d
 			public const int mtrl_btn_text_color_disabled = 2131558477;
 			
-			// aapt resource value: 0x7f0d0076
-			public const int mtrl_btn_text_color_selector = 2131558518;
+			// aapt resource value: 0x7f0d0081
+			public const int mtrl_btn_text_color_selector = 2131558529;
 			
 			// aapt resource value: 0x7f0d004e
 			public const int mtrl_btn_transparent_bg_color = 2131558478;
 			
-			// aapt resource value: 0x7f0d0077
-			public const int mtrl_chip_background_color = 2131558519;
+			// aapt resource value: 0x7f0d0082
+			public const int mtrl_chip_background_color = 2131558530;
 			
-			// aapt resource value: 0x7f0d0078
-			public const int mtrl_chip_close_icon_tint = 2131558520;
+			// aapt resource value: 0x7f0d0083
+			public const int mtrl_chip_close_icon_tint = 2131558531;
 			
-			// aapt resource value: 0x7f0d0079
-			public const int mtrl_chip_ripple_color = 2131558521;
+			// aapt resource value: 0x7f0d0084
+			public const int mtrl_chip_ripple_color = 2131558532;
 			
-			// aapt resource value: 0x7f0d007a
-			public const int mtrl_chip_text_color = 2131558522;
+			// aapt resource value: 0x7f0d0085
+			public const int mtrl_chip_text_color = 2131558533;
 			
-			// aapt resource value: 0x7f0d007b
-			public const int mtrl_fab_ripple_color = 2131558523;
+			// aapt resource value: 0x7f0d0086
+			public const int mtrl_fab_ripple_color = 2131558534;
 			
 			// aapt resource value: 0x7f0d004f
 			public const int mtrl_scrim_color = 2131558479;
 			
-			// aapt resource value: 0x7f0d007c
-			public const int mtrl_tabs_colored_ripple_color = 2131558524;
+			// aapt resource value: 0x7f0d0087
+			public const int mtrl_tabs_colored_ripple_color = 2131558535;
 			
-			// aapt resource value: 0x7f0d007d
-			public const int mtrl_tabs_icon_color_selector = 2131558525;
+			// aapt resource value: 0x7f0d0088
+			public const int mtrl_tabs_icon_color_selector = 2131558536;
 			
-			// aapt resource value: 0x7f0d007e
-			public const int mtrl_tabs_icon_color_selector_colored = 2131558526;
+			// aapt resource value: 0x7f0d0089
+			public const int mtrl_tabs_icon_color_selector_colored = 2131558537;
 			
-			// aapt resource value: 0x7f0d007f
-			public const int mtrl_tabs_legacy_text_color_selector = 2131558527;
+			// aapt resource value: 0x7f0d008a
+			public const int mtrl_tabs_legacy_text_color_selector = 2131558538;
 			
-			// aapt resource value: 0x7f0d0080
-			public const int mtrl_tabs_ripple_color = 2131558528;
+			// aapt resource value: 0x7f0d008b
+			public const int mtrl_tabs_ripple_color = 2131558539;
 			
-			// aapt resource value: 0x7f0d0081
-			public const int mtrl_text_btn_text_color_selector = 2131558529;
+			// aapt resource value: 0x7f0d008c
+			public const int mtrl_text_btn_text_color_selector = 2131558540;
 			
 			// aapt resource value: 0x7f0d0050
 			public const int mtrl_textinput_default_box_stroke_color = 2131558480;
@@ -4604,11 +6931,11 @@ namespace ERPSolution.MES.Droid
 			// aapt resource value: 0x7f0d003b
 			public const int switch_thumb_disabled_material_light = 2131558459;
 			
-			// aapt resource value: 0x7f0d0082
-			public const int switch_thumb_material_dark = 2131558530;
+			// aapt resource value: 0x7f0d008d
+			public const int switch_thumb_material_dark = 2131558541;
 			
-			// aapt resource value: 0x7f0d0083
-			public const int switch_thumb_material_light = 2131558531;
+			// aapt resource value: 0x7f0d008e
+			public const int switch_thumb_material_light = 2131558542;
 			
 			// aapt resource value: 0x7f0d003c
 			public const int switch_thumb_normal_material_dark = 2131558460;
@@ -4621,6 +6948,18 @@ namespace ERPSolution.MES.Droid
 			
 			// aapt resource value: 0x7f0d003f
 			public const int tooltip_background_light = 2131558463;
+			
+			// aapt resource value: 0x7f0d0061
+			public const int uncheckedCheckboxBackDark = 2131558497;
+			
+			// aapt resource value: 0x7f0d0062
+			public const int uncheckedCheckboxBackLight = 2131558498;
+			
+			// aapt resource value: 0x7f0d0063
+			public const int uncheckedCheckboxBorderDark = 2131558499;
+			
+			// aapt resource value: 0x7f0d0064
+			public const int uncheckedCheckboxBorderLight = 2131558500;
 			
 			static Color()
 			{
@@ -5584,26 +7923,26 @@ namespace ERPSolution.MES.Droid
 			// aapt resource value: 0x7f020054
 			public const int avd_hide_password = 2130837588;
 			
-			// aapt resource value: 0x7f020147
-			public const int avd_hide_password_1 = 2130837831;
+			// aapt resource value: 0x7f020150
+			public const int avd_hide_password_1 = 2130837840;
 			
-			// aapt resource value: 0x7f020148
-			public const int avd_hide_password_2 = 2130837832;
+			// aapt resource value: 0x7f020151
+			public const int avd_hide_password_2 = 2130837841;
 			
-			// aapt resource value: 0x7f020149
-			public const int avd_hide_password_3 = 2130837833;
+			// aapt resource value: 0x7f020152
+			public const int avd_hide_password_3 = 2130837842;
 			
 			// aapt resource value: 0x7f020055
 			public const int avd_show_password = 2130837589;
 			
-			// aapt resource value: 0x7f02014a
-			public const int avd_show_password_1 = 2130837834;
+			// aapt resource value: 0x7f020153
+			public const int avd_show_password_1 = 2130837843;
 			
-			// aapt resource value: 0x7f02014b
-			public const int avd_show_password_2 = 2130837835;
+			// aapt resource value: 0x7f020154
+			public const int avd_show_password_2 = 2130837844;
 			
-			// aapt resource value: 0x7f02014c
-			public const int avd_show_password_3 = 2130837836;
+			// aapt resource value: 0x7f020155
+			public const int avd_show_password_3 = 2130837845;
 			
 			// aapt resource value: 0x7f020056
 			public const int design_bottom_navigation_item_background = 2130837590;
@@ -5624,709 +7963,736 @@ namespace ERPSolution.MES.Droid
 			public const int design_snackbar_background = 2130837595;
 			
 			// aapt resource value: 0x7f02005c
-			public const int FingerPrint = 2130837596;
+			public const int dx_check_box_checked = 2130837596;
 			
 			// aapt resource value: 0x7f02005d
-			public const int fingerprint_icon = 2130837597;
+			public const int dx_check_box_unchecked = 2130837597;
 			
 			// aapt resource value: 0x7f02005e
-			public const int ic_audiotrack_dark = 2130837598;
+			public const int dx_check_box_undetermined = 2130837598;
 			
 			// aapt resource value: 0x7f02005f
-			public const int ic_audiotrack_light = 2130837599;
+			public const int dxcheckbox = 2130837599;
 			
 			// aapt resource value: 0x7f020060
-			public const int ic_dialog_close_dark = 2130837600;
+			public const int FingerPrint = 2130837600;
 			
 			// aapt resource value: 0x7f020061
-			public const int ic_dialog_close_light = 2130837601;
+			public const int fingerprint_icon = 2130837601;
 			
 			// aapt resource value: 0x7f020062
-			public const int ic_group_collapse_00 = 2130837602;
+			public const int ic_audiotrack_dark = 2130837602;
 			
 			// aapt resource value: 0x7f020063
-			public const int ic_group_collapse_01 = 2130837603;
+			public const int ic_audiotrack_light = 2130837603;
 			
 			// aapt resource value: 0x7f020064
-			public const int ic_group_collapse_02 = 2130837604;
+			public const int ic_dialog_close_dark = 2130837604;
 			
 			// aapt resource value: 0x7f020065
-			public const int ic_group_collapse_03 = 2130837605;
+			public const int ic_dialog_close_light = 2130837605;
 			
 			// aapt resource value: 0x7f020066
-			public const int ic_group_collapse_04 = 2130837606;
+			public const int ic_group_collapse_00 = 2130837606;
 			
 			// aapt resource value: 0x7f020067
-			public const int ic_group_collapse_05 = 2130837607;
+			public const int ic_group_collapse_01 = 2130837607;
 			
 			// aapt resource value: 0x7f020068
-			public const int ic_group_collapse_06 = 2130837608;
+			public const int ic_group_collapse_02 = 2130837608;
 			
 			// aapt resource value: 0x7f020069
-			public const int ic_group_collapse_07 = 2130837609;
+			public const int ic_group_collapse_03 = 2130837609;
 			
 			// aapt resource value: 0x7f02006a
-			public const int ic_group_collapse_08 = 2130837610;
+			public const int ic_group_collapse_04 = 2130837610;
 			
 			// aapt resource value: 0x7f02006b
-			public const int ic_group_collapse_09 = 2130837611;
+			public const int ic_group_collapse_05 = 2130837611;
 			
 			// aapt resource value: 0x7f02006c
-			public const int ic_group_collapse_10 = 2130837612;
+			public const int ic_group_collapse_06 = 2130837612;
 			
 			// aapt resource value: 0x7f02006d
-			public const int ic_group_collapse_11 = 2130837613;
+			public const int ic_group_collapse_07 = 2130837613;
 			
 			// aapt resource value: 0x7f02006e
-			public const int ic_group_collapse_12 = 2130837614;
+			public const int ic_group_collapse_08 = 2130837614;
 			
 			// aapt resource value: 0x7f02006f
-			public const int ic_group_collapse_13 = 2130837615;
+			public const int ic_group_collapse_09 = 2130837615;
 			
 			// aapt resource value: 0x7f020070
-			public const int ic_group_collapse_14 = 2130837616;
+			public const int ic_group_collapse_10 = 2130837616;
 			
 			// aapt resource value: 0x7f020071
-			public const int ic_group_collapse_15 = 2130837617;
+			public const int ic_group_collapse_11 = 2130837617;
 			
 			// aapt resource value: 0x7f020072
-			public const int ic_group_expand_00 = 2130837618;
+			public const int ic_group_collapse_12 = 2130837618;
 			
 			// aapt resource value: 0x7f020073
-			public const int ic_group_expand_01 = 2130837619;
+			public const int ic_group_collapse_13 = 2130837619;
 			
 			// aapt resource value: 0x7f020074
-			public const int ic_group_expand_02 = 2130837620;
+			public const int ic_group_collapse_14 = 2130837620;
 			
 			// aapt resource value: 0x7f020075
-			public const int ic_group_expand_03 = 2130837621;
+			public const int ic_group_collapse_15 = 2130837621;
 			
 			// aapt resource value: 0x7f020076
-			public const int ic_group_expand_04 = 2130837622;
+			public const int ic_group_down_24dp = 2130837622;
 			
 			// aapt resource value: 0x7f020077
-			public const int ic_group_expand_05 = 2130837623;
+			public const int ic_group_expand_00 = 2130837623;
 			
 			// aapt resource value: 0x7f020078
-			public const int ic_group_expand_06 = 2130837624;
+			public const int ic_group_expand_01 = 2130837624;
 			
 			// aapt resource value: 0x7f020079
-			public const int ic_group_expand_07 = 2130837625;
+			public const int ic_group_expand_02 = 2130837625;
 			
 			// aapt resource value: 0x7f02007a
-			public const int ic_group_expand_08 = 2130837626;
+			public const int ic_group_expand_03 = 2130837626;
 			
 			// aapt resource value: 0x7f02007b
-			public const int ic_group_expand_09 = 2130837627;
+			public const int ic_group_expand_04 = 2130837627;
 			
 			// aapt resource value: 0x7f02007c
-			public const int ic_group_expand_10 = 2130837628;
+			public const int ic_group_expand_05 = 2130837628;
 			
 			// aapt resource value: 0x7f02007d
-			public const int ic_group_expand_11 = 2130837629;
+			public const int ic_group_expand_06 = 2130837629;
 			
 			// aapt resource value: 0x7f02007e
-			public const int ic_group_expand_12 = 2130837630;
+			public const int ic_group_expand_07 = 2130837630;
 			
 			// aapt resource value: 0x7f02007f
-			public const int ic_group_expand_13 = 2130837631;
+			public const int ic_group_expand_08 = 2130837631;
 			
 			// aapt resource value: 0x7f020080
-			public const int ic_group_expand_14 = 2130837632;
+			public const int ic_group_expand_09 = 2130837632;
 			
 			// aapt resource value: 0x7f020081
-			public const int ic_group_expand_15 = 2130837633;
+			public const int ic_group_expand_10 = 2130837633;
 			
 			// aapt resource value: 0x7f020082
-			public const int ic_media_pause_dark = 2130837634;
+			public const int ic_group_expand_11 = 2130837634;
 			
 			// aapt resource value: 0x7f020083
-			public const int ic_media_pause_light = 2130837635;
+			public const int ic_group_expand_12 = 2130837635;
 			
 			// aapt resource value: 0x7f020084
-			public const int ic_media_play_dark = 2130837636;
+			public const int ic_group_expand_13 = 2130837636;
 			
 			// aapt resource value: 0x7f020085
-			public const int ic_media_play_light = 2130837637;
+			public const int ic_group_expand_14 = 2130837637;
 			
 			// aapt resource value: 0x7f020086
-			public const int ic_media_stop_dark = 2130837638;
+			public const int ic_group_expand_15 = 2130837638;
 			
 			// aapt resource value: 0x7f020087
-			public const int ic_media_stop_light = 2130837639;
+			public const int ic_group_up_24dp = 2130837639;
 			
 			// aapt resource value: 0x7f020088
-			public const int ic_mr_button_connected_00_dark = 2130837640;
+			public const int ic_media_pause_dark = 2130837640;
 			
 			// aapt resource value: 0x7f020089
-			public const int ic_mr_button_connected_00_light = 2130837641;
+			public const int ic_media_pause_light = 2130837641;
 			
 			// aapt resource value: 0x7f02008a
-			public const int ic_mr_button_connected_01_dark = 2130837642;
+			public const int ic_media_play_dark = 2130837642;
 			
 			// aapt resource value: 0x7f02008b
-			public const int ic_mr_button_connected_01_light = 2130837643;
+			public const int ic_media_play_light = 2130837643;
 			
 			// aapt resource value: 0x7f02008c
-			public const int ic_mr_button_connected_02_dark = 2130837644;
+			public const int ic_media_stop_dark = 2130837644;
 			
 			// aapt resource value: 0x7f02008d
-			public const int ic_mr_button_connected_02_light = 2130837645;
+			public const int ic_media_stop_light = 2130837645;
 			
 			// aapt resource value: 0x7f02008e
-			public const int ic_mr_button_connected_03_dark = 2130837646;
+			public const int ic_mr_button_connected_00_dark = 2130837646;
 			
 			// aapt resource value: 0x7f02008f
-			public const int ic_mr_button_connected_03_light = 2130837647;
+			public const int ic_mr_button_connected_00_light = 2130837647;
 			
 			// aapt resource value: 0x7f020090
-			public const int ic_mr_button_connected_04_dark = 2130837648;
+			public const int ic_mr_button_connected_01_dark = 2130837648;
 			
 			// aapt resource value: 0x7f020091
-			public const int ic_mr_button_connected_04_light = 2130837649;
+			public const int ic_mr_button_connected_01_light = 2130837649;
 			
 			// aapt resource value: 0x7f020092
-			public const int ic_mr_button_connected_05_dark = 2130837650;
+			public const int ic_mr_button_connected_02_dark = 2130837650;
 			
 			// aapt resource value: 0x7f020093
-			public const int ic_mr_button_connected_05_light = 2130837651;
+			public const int ic_mr_button_connected_02_light = 2130837651;
 			
 			// aapt resource value: 0x7f020094
-			public const int ic_mr_button_connected_06_dark = 2130837652;
+			public const int ic_mr_button_connected_03_dark = 2130837652;
 			
 			// aapt resource value: 0x7f020095
-			public const int ic_mr_button_connected_06_light = 2130837653;
+			public const int ic_mr_button_connected_03_light = 2130837653;
 			
 			// aapt resource value: 0x7f020096
-			public const int ic_mr_button_connected_07_dark = 2130837654;
+			public const int ic_mr_button_connected_04_dark = 2130837654;
 			
 			// aapt resource value: 0x7f020097
-			public const int ic_mr_button_connected_07_light = 2130837655;
+			public const int ic_mr_button_connected_04_light = 2130837655;
 			
 			// aapt resource value: 0x7f020098
-			public const int ic_mr_button_connected_08_dark = 2130837656;
+			public const int ic_mr_button_connected_05_dark = 2130837656;
 			
 			// aapt resource value: 0x7f020099
-			public const int ic_mr_button_connected_08_light = 2130837657;
+			public const int ic_mr_button_connected_05_light = 2130837657;
 			
 			// aapt resource value: 0x7f02009a
-			public const int ic_mr_button_connected_09_dark = 2130837658;
+			public const int ic_mr_button_connected_06_dark = 2130837658;
 			
 			// aapt resource value: 0x7f02009b
-			public const int ic_mr_button_connected_09_light = 2130837659;
+			public const int ic_mr_button_connected_06_light = 2130837659;
 			
 			// aapt resource value: 0x7f02009c
-			public const int ic_mr_button_connected_10_dark = 2130837660;
+			public const int ic_mr_button_connected_07_dark = 2130837660;
 			
 			// aapt resource value: 0x7f02009d
-			public const int ic_mr_button_connected_10_light = 2130837661;
+			public const int ic_mr_button_connected_07_light = 2130837661;
 			
 			// aapt resource value: 0x7f02009e
-			public const int ic_mr_button_connected_11_dark = 2130837662;
+			public const int ic_mr_button_connected_08_dark = 2130837662;
 			
 			// aapt resource value: 0x7f02009f
-			public const int ic_mr_button_connected_11_light = 2130837663;
+			public const int ic_mr_button_connected_08_light = 2130837663;
 			
 			// aapt resource value: 0x7f0200a0
-			public const int ic_mr_button_connected_12_dark = 2130837664;
+			public const int ic_mr_button_connected_09_dark = 2130837664;
 			
 			// aapt resource value: 0x7f0200a1
-			public const int ic_mr_button_connected_12_light = 2130837665;
+			public const int ic_mr_button_connected_09_light = 2130837665;
 			
 			// aapt resource value: 0x7f0200a2
-			public const int ic_mr_button_connected_13_dark = 2130837666;
+			public const int ic_mr_button_connected_10_dark = 2130837666;
 			
 			// aapt resource value: 0x7f0200a3
-			public const int ic_mr_button_connected_13_light = 2130837667;
+			public const int ic_mr_button_connected_10_light = 2130837667;
 			
 			// aapt resource value: 0x7f0200a4
-			public const int ic_mr_button_connected_14_dark = 2130837668;
+			public const int ic_mr_button_connected_11_dark = 2130837668;
 			
 			// aapt resource value: 0x7f0200a5
-			public const int ic_mr_button_connected_14_light = 2130837669;
+			public const int ic_mr_button_connected_11_light = 2130837669;
 			
 			// aapt resource value: 0x7f0200a6
-			public const int ic_mr_button_connected_15_dark = 2130837670;
+			public const int ic_mr_button_connected_12_dark = 2130837670;
 			
 			// aapt resource value: 0x7f0200a7
-			public const int ic_mr_button_connected_15_light = 2130837671;
+			public const int ic_mr_button_connected_12_light = 2130837671;
 			
 			// aapt resource value: 0x7f0200a8
-			public const int ic_mr_button_connected_16_dark = 2130837672;
+			public const int ic_mr_button_connected_13_dark = 2130837672;
 			
 			// aapt resource value: 0x7f0200a9
-			public const int ic_mr_button_connected_16_light = 2130837673;
+			public const int ic_mr_button_connected_13_light = 2130837673;
 			
 			// aapt resource value: 0x7f0200aa
-			public const int ic_mr_button_connected_17_dark = 2130837674;
+			public const int ic_mr_button_connected_14_dark = 2130837674;
 			
 			// aapt resource value: 0x7f0200ab
-			public const int ic_mr_button_connected_17_light = 2130837675;
+			public const int ic_mr_button_connected_14_light = 2130837675;
 			
 			// aapt resource value: 0x7f0200ac
-			public const int ic_mr_button_connected_18_dark = 2130837676;
+			public const int ic_mr_button_connected_15_dark = 2130837676;
 			
 			// aapt resource value: 0x7f0200ad
-			public const int ic_mr_button_connected_18_light = 2130837677;
+			public const int ic_mr_button_connected_15_light = 2130837677;
 			
 			// aapt resource value: 0x7f0200ae
-			public const int ic_mr_button_connected_19_dark = 2130837678;
+			public const int ic_mr_button_connected_16_dark = 2130837678;
 			
 			// aapt resource value: 0x7f0200af
-			public const int ic_mr_button_connected_19_light = 2130837679;
+			public const int ic_mr_button_connected_16_light = 2130837679;
 			
 			// aapt resource value: 0x7f0200b0
-			public const int ic_mr_button_connected_20_dark = 2130837680;
+			public const int ic_mr_button_connected_17_dark = 2130837680;
 			
 			// aapt resource value: 0x7f0200b1
-			public const int ic_mr_button_connected_20_light = 2130837681;
+			public const int ic_mr_button_connected_17_light = 2130837681;
 			
 			// aapt resource value: 0x7f0200b2
-			public const int ic_mr_button_connected_21_dark = 2130837682;
+			public const int ic_mr_button_connected_18_dark = 2130837682;
 			
 			// aapt resource value: 0x7f0200b3
-			public const int ic_mr_button_connected_21_light = 2130837683;
+			public const int ic_mr_button_connected_18_light = 2130837683;
 			
 			// aapt resource value: 0x7f0200b4
-			public const int ic_mr_button_connected_22_dark = 2130837684;
+			public const int ic_mr_button_connected_19_dark = 2130837684;
 			
 			// aapt resource value: 0x7f0200b5
-			public const int ic_mr_button_connected_22_light = 2130837685;
+			public const int ic_mr_button_connected_19_light = 2130837685;
 			
 			// aapt resource value: 0x7f0200b6
-			public const int ic_mr_button_connected_23_dark = 2130837686;
+			public const int ic_mr_button_connected_20_dark = 2130837686;
 			
 			// aapt resource value: 0x7f0200b7
-			public const int ic_mr_button_connected_23_light = 2130837687;
+			public const int ic_mr_button_connected_20_light = 2130837687;
 			
 			// aapt resource value: 0x7f0200b8
-			public const int ic_mr_button_connected_24_dark = 2130837688;
+			public const int ic_mr_button_connected_21_dark = 2130837688;
 			
 			// aapt resource value: 0x7f0200b9
-			public const int ic_mr_button_connected_24_light = 2130837689;
+			public const int ic_mr_button_connected_21_light = 2130837689;
 			
 			// aapt resource value: 0x7f0200ba
-			public const int ic_mr_button_connected_25_dark = 2130837690;
+			public const int ic_mr_button_connected_22_dark = 2130837690;
 			
 			// aapt resource value: 0x7f0200bb
-			public const int ic_mr_button_connected_25_light = 2130837691;
+			public const int ic_mr_button_connected_22_light = 2130837691;
 			
 			// aapt resource value: 0x7f0200bc
-			public const int ic_mr_button_connected_26_dark = 2130837692;
+			public const int ic_mr_button_connected_23_dark = 2130837692;
 			
 			// aapt resource value: 0x7f0200bd
-			public const int ic_mr_button_connected_26_light = 2130837693;
+			public const int ic_mr_button_connected_23_light = 2130837693;
 			
 			// aapt resource value: 0x7f0200be
-			public const int ic_mr_button_connected_27_dark = 2130837694;
+			public const int ic_mr_button_connected_24_dark = 2130837694;
 			
 			// aapt resource value: 0x7f0200bf
-			public const int ic_mr_button_connected_27_light = 2130837695;
+			public const int ic_mr_button_connected_24_light = 2130837695;
 			
 			// aapt resource value: 0x7f0200c0
-			public const int ic_mr_button_connected_28_dark = 2130837696;
+			public const int ic_mr_button_connected_25_dark = 2130837696;
 			
 			// aapt resource value: 0x7f0200c1
-			public const int ic_mr_button_connected_28_light = 2130837697;
+			public const int ic_mr_button_connected_25_light = 2130837697;
 			
 			// aapt resource value: 0x7f0200c2
-			public const int ic_mr_button_connected_29_dark = 2130837698;
+			public const int ic_mr_button_connected_26_dark = 2130837698;
 			
 			// aapt resource value: 0x7f0200c3
-			public const int ic_mr_button_connected_29_light = 2130837699;
+			public const int ic_mr_button_connected_26_light = 2130837699;
 			
 			// aapt resource value: 0x7f0200c4
-			public const int ic_mr_button_connected_30_dark = 2130837700;
+			public const int ic_mr_button_connected_27_dark = 2130837700;
 			
 			// aapt resource value: 0x7f0200c5
-			public const int ic_mr_button_connected_30_light = 2130837701;
+			public const int ic_mr_button_connected_27_light = 2130837701;
 			
 			// aapt resource value: 0x7f0200c6
-			public const int ic_mr_button_connecting_00_dark = 2130837702;
+			public const int ic_mr_button_connected_28_dark = 2130837702;
 			
 			// aapt resource value: 0x7f0200c7
-			public const int ic_mr_button_connecting_00_light = 2130837703;
+			public const int ic_mr_button_connected_28_light = 2130837703;
 			
 			// aapt resource value: 0x7f0200c8
-			public const int ic_mr_button_connecting_01_dark = 2130837704;
+			public const int ic_mr_button_connected_29_dark = 2130837704;
 			
 			// aapt resource value: 0x7f0200c9
-			public const int ic_mr_button_connecting_01_light = 2130837705;
+			public const int ic_mr_button_connected_29_light = 2130837705;
 			
 			// aapt resource value: 0x7f0200ca
-			public const int ic_mr_button_connecting_02_dark = 2130837706;
+			public const int ic_mr_button_connected_30_dark = 2130837706;
 			
 			// aapt resource value: 0x7f0200cb
-			public const int ic_mr_button_connecting_02_light = 2130837707;
+			public const int ic_mr_button_connected_30_light = 2130837707;
 			
 			// aapt resource value: 0x7f0200cc
-			public const int ic_mr_button_connecting_03_dark = 2130837708;
+			public const int ic_mr_button_connecting_00_dark = 2130837708;
 			
 			// aapt resource value: 0x7f0200cd
-			public const int ic_mr_button_connecting_03_light = 2130837709;
+			public const int ic_mr_button_connecting_00_light = 2130837709;
 			
 			// aapt resource value: 0x7f0200ce
-			public const int ic_mr_button_connecting_04_dark = 2130837710;
+			public const int ic_mr_button_connecting_01_dark = 2130837710;
 			
 			// aapt resource value: 0x7f0200cf
-			public const int ic_mr_button_connecting_04_light = 2130837711;
+			public const int ic_mr_button_connecting_01_light = 2130837711;
 			
 			// aapt resource value: 0x7f0200d0
-			public const int ic_mr_button_connecting_05_dark = 2130837712;
+			public const int ic_mr_button_connecting_02_dark = 2130837712;
 			
 			// aapt resource value: 0x7f0200d1
-			public const int ic_mr_button_connecting_05_light = 2130837713;
+			public const int ic_mr_button_connecting_02_light = 2130837713;
 			
 			// aapt resource value: 0x7f0200d2
-			public const int ic_mr_button_connecting_06_dark = 2130837714;
+			public const int ic_mr_button_connecting_03_dark = 2130837714;
 			
 			// aapt resource value: 0x7f0200d3
-			public const int ic_mr_button_connecting_06_light = 2130837715;
+			public const int ic_mr_button_connecting_03_light = 2130837715;
 			
 			// aapt resource value: 0x7f0200d4
-			public const int ic_mr_button_connecting_07_dark = 2130837716;
+			public const int ic_mr_button_connecting_04_dark = 2130837716;
 			
 			// aapt resource value: 0x7f0200d5
-			public const int ic_mr_button_connecting_07_light = 2130837717;
+			public const int ic_mr_button_connecting_04_light = 2130837717;
 			
 			// aapt resource value: 0x7f0200d6
-			public const int ic_mr_button_connecting_08_dark = 2130837718;
+			public const int ic_mr_button_connecting_05_dark = 2130837718;
 			
 			// aapt resource value: 0x7f0200d7
-			public const int ic_mr_button_connecting_08_light = 2130837719;
+			public const int ic_mr_button_connecting_05_light = 2130837719;
 			
 			// aapt resource value: 0x7f0200d8
-			public const int ic_mr_button_connecting_09_dark = 2130837720;
+			public const int ic_mr_button_connecting_06_dark = 2130837720;
 			
 			// aapt resource value: 0x7f0200d9
-			public const int ic_mr_button_connecting_09_light = 2130837721;
+			public const int ic_mr_button_connecting_06_light = 2130837721;
 			
 			// aapt resource value: 0x7f0200da
-			public const int ic_mr_button_connecting_10_dark = 2130837722;
+			public const int ic_mr_button_connecting_07_dark = 2130837722;
 			
 			// aapt resource value: 0x7f0200db
-			public const int ic_mr_button_connecting_10_light = 2130837723;
+			public const int ic_mr_button_connecting_07_light = 2130837723;
 			
 			// aapt resource value: 0x7f0200dc
-			public const int ic_mr_button_connecting_11_dark = 2130837724;
+			public const int ic_mr_button_connecting_08_dark = 2130837724;
 			
 			// aapt resource value: 0x7f0200dd
-			public const int ic_mr_button_connecting_11_light = 2130837725;
+			public const int ic_mr_button_connecting_08_light = 2130837725;
 			
 			// aapt resource value: 0x7f0200de
-			public const int ic_mr_button_connecting_12_dark = 2130837726;
+			public const int ic_mr_button_connecting_09_dark = 2130837726;
 			
 			// aapt resource value: 0x7f0200df
-			public const int ic_mr_button_connecting_12_light = 2130837727;
+			public const int ic_mr_button_connecting_09_light = 2130837727;
 			
 			// aapt resource value: 0x7f0200e0
-			public const int ic_mr_button_connecting_13_dark = 2130837728;
+			public const int ic_mr_button_connecting_10_dark = 2130837728;
 			
 			// aapt resource value: 0x7f0200e1
-			public const int ic_mr_button_connecting_13_light = 2130837729;
+			public const int ic_mr_button_connecting_10_light = 2130837729;
 			
 			// aapt resource value: 0x7f0200e2
-			public const int ic_mr_button_connecting_14_dark = 2130837730;
+			public const int ic_mr_button_connecting_11_dark = 2130837730;
 			
 			// aapt resource value: 0x7f0200e3
-			public const int ic_mr_button_connecting_14_light = 2130837731;
+			public const int ic_mr_button_connecting_11_light = 2130837731;
 			
 			// aapt resource value: 0x7f0200e4
-			public const int ic_mr_button_connecting_15_dark = 2130837732;
+			public const int ic_mr_button_connecting_12_dark = 2130837732;
 			
 			// aapt resource value: 0x7f0200e5
-			public const int ic_mr_button_connecting_15_light = 2130837733;
+			public const int ic_mr_button_connecting_12_light = 2130837733;
 			
 			// aapt resource value: 0x7f0200e6
-			public const int ic_mr_button_connecting_16_dark = 2130837734;
+			public const int ic_mr_button_connecting_13_dark = 2130837734;
 			
 			// aapt resource value: 0x7f0200e7
-			public const int ic_mr_button_connecting_16_light = 2130837735;
+			public const int ic_mr_button_connecting_13_light = 2130837735;
 			
 			// aapt resource value: 0x7f0200e8
-			public const int ic_mr_button_connecting_17_dark = 2130837736;
+			public const int ic_mr_button_connecting_14_dark = 2130837736;
 			
 			// aapt resource value: 0x7f0200e9
-			public const int ic_mr_button_connecting_17_light = 2130837737;
+			public const int ic_mr_button_connecting_14_light = 2130837737;
 			
 			// aapt resource value: 0x7f0200ea
-			public const int ic_mr_button_connecting_18_dark = 2130837738;
+			public const int ic_mr_button_connecting_15_dark = 2130837738;
 			
 			// aapt resource value: 0x7f0200eb
-			public const int ic_mr_button_connecting_18_light = 2130837739;
+			public const int ic_mr_button_connecting_15_light = 2130837739;
 			
 			// aapt resource value: 0x7f0200ec
-			public const int ic_mr_button_connecting_19_dark = 2130837740;
+			public const int ic_mr_button_connecting_16_dark = 2130837740;
 			
 			// aapt resource value: 0x7f0200ed
-			public const int ic_mr_button_connecting_19_light = 2130837741;
+			public const int ic_mr_button_connecting_16_light = 2130837741;
 			
 			// aapt resource value: 0x7f0200ee
-			public const int ic_mr_button_connecting_20_dark = 2130837742;
+			public const int ic_mr_button_connecting_17_dark = 2130837742;
 			
 			// aapt resource value: 0x7f0200ef
-			public const int ic_mr_button_connecting_20_light = 2130837743;
+			public const int ic_mr_button_connecting_17_light = 2130837743;
 			
 			// aapt resource value: 0x7f0200f0
-			public const int ic_mr_button_connecting_21_dark = 2130837744;
+			public const int ic_mr_button_connecting_18_dark = 2130837744;
 			
 			// aapt resource value: 0x7f0200f1
-			public const int ic_mr_button_connecting_21_light = 2130837745;
+			public const int ic_mr_button_connecting_18_light = 2130837745;
 			
 			// aapt resource value: 0x7f0200f2
-			public const int ic_mr_button_connecting_22_dark = 2130837746;
+			public const int ic_mr_button_connecting_19_dark = 2130837746;
 			
 			// aapt resource value: 0x7f0200f3
-			public const int ic_mr_button_connecting_22_light = 2130837747;
+			public const int ic_mr_button_connecting_19_light = 2130837747;
 			
 			// aapt resource value: 0x7f0200f4
-			public const int ic_mr_button_connecting_23_dark = 2130837748;
+			public const int ic_mr_button_connecting_20_dark = 2130837748;
 			
 			// aapt resource value: 0x7f0200f5
-			public const int ic_mr_button_connecting_23_light = 2130837749;
+			public const int ic_mr_button_connecting_20_light = 2130837749;
 			
 			// aapt resource value: 0x7f0200f6
-			public const int ic_mr_button_connecting_24_dark = 2130837750;
+			public const int ic_mr_button_connecting_21_dark = 2130837750;
 			
 			// aapt resource value: 0x7f0200f7
-			public const int ic_mr_button_connecting_24_light = 2130837751;
+			public const int ic_mr_button_connecting_21_light = 2130837751;
 			
 			// aapt resource value: 0x7f0200f8
-			public const int ic_mr_button_connecting_25_dark = 2130837752;
+			public const int ic_mr_button_connecting_22_dark = 2130837752;
 			
 			// aapt resource value: 0x7f0200f9
-			public const int ic_mr_button_connecting_25_light = 2130837753;
+			public const int ic_mr_button_connecting_22_light = 2130837753;
 			
 			// aapt resource value: 0x7f0200fa
-			public const int ic_mr_button_connecting_26_dark = 2130837754;
+			public const int ic_mr_button_connecting_23_dark = 2130837754;
 			
 			// aapt resource value: 0x7f0200fb
-			public const int ic_mr_button_connecting_26_light = 2130837755;
+			public const int ic_mr_button_connecting_23_light = 2130837755;
 			
 			// aapt resource value: 0x7f0200fc
-			public const int ic_mr_button_connecting_27_dark = 2130837756;
+			public const int ic_mr_button_connecting_24_dark = 2130837756;
 			
 			// aapt resource value: 0x7f0200fd
-			public const int ic_mr_button_connecting_27_light = 2130837757;
+			public const int ic_mr_button_connecting_24_light = 2130837757;
 			
 			// aapt resource value: 0x7f0200fe
-			public const int ic_mr_button_connecting_28_dark = 2130837758;
+			public const int ic_mr_button_connecting_25_dark = 2130837758;
 			
 			// aapt resource value: 0x7f0200ff
-			public const int ic_mr_button_connecting_28_light = 2130837759;
+			public const int ic_mr_button_connecting_25_light = 2130837759;
 			
 			// aapt resource value: 0x7f020100
-			public const int ic_mr_button_connecting_29_dark = 2130837760;
+			public const int ic_mr_button_connecting_26_dark = 2130837760;
 			
 			// aapt resource value: 0x7f020101
-			public const int ic_mr_button_connecting_29_light = 2130837761;
+			public const int ic_mr_button_connecting_26_light = 2130837761;
 			
 			// aapt resource value: 0x7f020102
-			public const int ic_mr_button_connecting_30_dark = 2130837762;
+			public const int ic_mr_button_connecting_27_dark = 2130837762;
 			
 			// aapt resource value: 0x7f020103
-			public const int ic_mr_button_connecting_30_light = 2130837763;
+			public const int ic_mr_button_connecting_27_light = 2130837763;
 			
 			// aapt resource value: 0x7f020104
-			public const int ic_mr_button_disabled_dark = 2130837764;
+			public const int ic_mr_button_connecting_28_dark = 2130837764;
 			
 			// aapt resource value: 0x7f020105
-			public const int ic_mr_button_disabled_light = 2130837765;
+			public const int ic_mr_button_connecting_28_light = 2130837765;
 			
 			// aapt resource value: 0x7f020106
-			public const int ic_mr_button_disconnected_dark = 2130837766;
+			public const int ic_mr_button_connecting_29_dark = 2130837766;
 			
 			// aapt resource value: 0x7f020107
-			public const int ic_mr_button_disconnected_light = 2130837767;
+			public const int ic_mr_button_connecting_29_light = 2130837767;
 			
 			// aapt resource value: 0x7f020108
-			public const int ic_mr_button_grey = 2130837768;
+			public const int ic_mr_button_connecting_30_dark = 2130837768;
 			
 			// aapt resource value: 0x7f020109
-			public const int ic_mtrl_chip_checked_black = 2130837769;
+			public const int ic_mr_button_connecting_30_light = 2130837769;
 			
 			// aapt resource value: 0x7f02010a
-			public const int ic_mtrl_chip_checked_circle = 2130837770;
+			public const int ic_mr_button_disabled_dark = 2130837770;
 			
 			// aapt resource value: 0x7f02010b
-			public const int ic_mtrl_chip_close_circle = 2130837771;
+			public const int ic_mr_button_disabled_light = 2130837771;
 			
 			// aapt resource value: 0x7f02010c
-			public const int ic_vol_type_speaker_dark = 2130837772;
+			public const int ic_mr_button_disconnected_dark = 2130837772;
 			
 			// aapt resource value: 0x7f02010d
-			public const int ic_vol_type_speaker_group_dark = 2130837773;
+			public const int ic_mr_button_disconnected_light = 2130837773;
 			
 			// aapt resource value: 0x7f02010e
-			public const int ic_vol_type_speaker_group_light = 2130837774;
+			public const int ic_mr_button_grey = 2130837774;
 			
 			// aapt resource value: 0x7f02010f
-			public const int ic_vol_type_speaker_light = 2130837775;
+			public const int ic_mtrl_chip_checked_black = 2130837775;
 			
 			// aapt resource value: 0x7f020110
-			public const int ic_vol_type_tv_dark = 2130837776;
+			public const int ic_mtrl_chip_checked_circle = 2130837776;
 			
 			// aapt resource value: 0x7f020111
-			public const int ic_vol_type_tv_light = 2130837777;
+			public const int ic_mtrl_chip_close_circle = 2130837777;
 			
 			// aapt resource value: 0x7f020112
-			public const int icon_bell = 2130837778;
+			public const int ic_sorting_down_24dp = 2130837778;
 			
 			// aapt resource value: 0x7f020113
-			public const int icon_group = 2130837779;
+			public const int ic_sorting_up_24dp = 2130837779;
 			
 			// aapt resource value: 0x7f020114
-			public const int icon_home = 2130837780;
+			public const int ic_vol_type_speaker_dark = 2130837780;
 			
 			// aapt resource value: 0x7f020115
-			public const int icon_qr = 2130837781;
+			public const int ic_vol_type_speaker_group_dark = 2130837781;
 			
 			// aapt resource value: 0x7f020116
-			public const int icon_search = 2130837782;
+			public const int ic_vol_type_speaker_group_light = 2130837782;
 			
 			// aapt resource value: 0x7f020117
-			public const int icon_shutdown = 2130837783;
+			public const int ic_vol_type_speaker_light = 2130837783;
 			
 			// aapt resource value: 0x7f020118
-			public const int icon_task = 2130837784;
+			public const int ic_vol_type_tv_dark = 2130837784;
 			
 			// aapt resource value: 0x7f020119
-			public const int icon_user = 2130837785;
+			public const int ic_vol_type_tv_light = 2130837785;
 			
 			// aapt resource value: 0x7f02011a
-			public const int icon_user_circle = 2130837786;
+			public const int icon_bell = 2130837786;
 			
 			// aapt resource value: 0x7f02011b
-			public const int key = 2130837787;
+			public const int icon_group = 2130837787;
 			
 			// aapt resource value: 0x7f02011c
-			public const int login_shield = 2130837788;
+			public const int icon_home = 2130837788;
 			
 			// aapt resource value: 0x7f02011d
-			public const int mes = 2130837789;
+			public const int icon_qr = 2130837789;
 			
 			// aapt resource value: 0x7f02011e
-			public const int mes_erp = 2130837790;
+			public const int icon_search = 2130837790;
 			
 			// aapt resource value: 0x7f02011f
-			public const int mr_button_connected_dark = 2130837791;
+			public const int icon_shutdown = 2130837791;
 			
 			// aapt resource value: 0x7f020120
-			public const int mr_button_connected_light = 2130837792;
+			public const int icon_task = 2130837792;
 			
 			// aapt resource value: 0x7f020121
-			public const int mr_button_connecting_dark = 2130837793;
+			public const int icon_user = 2130837793;
 			
 			// aapt resource value: 0x7f020122
-			public const int mr_button_connecting_light = 2130837794;
+			public const int icon_user_circle = 2130837794;
 			
 			// aapt resource value: 0x7f020123
-			public const int mr_button_dark = 2130837795;
+			public const int key = 2130837795;
 			
 			// aapt resource value: 0x7f020124
-			public const int mr_button_light = 2130837796;
+			public const int login_shield = 2130837796;
 			
 			// aapt resource value: 0x7f020125
-			public const int mr_dialog_close_dark = 2130837797;
+			public const int mes = 2130837797;
 			
 			// aapt resource value: 0x7f020126
-			public const int mr_dialog_close_light = 2130837798;
+			public const int mes_erp = 2130837798;
 			
 			// aapt resource value: 0x7f020127
-			public const int mr_dialog_material_background_dark = 2130837799;
+			public const int mr_button_connected_dark = 2130837799;
 			
 			// aapt resource value: 0x7f020128
-			public const int mr_dialog_material_background_light = 2130837800;
+			public const int mr_button_connected_light = 2130837800;
 			
 			// aapt resource value: 0x7f020129
-			public const int mr_group_collapse = 2130837801;
+			public const int mr_button_connecting_dark = 2130837801;
 			
 			// aapt resource value: 0x7f02012a
-			public const int mr_group_expand = 2130837802;
+			public const int mr_button_connecting_light = 2130837802;
 			
 			// aapt resource value: 0x7f02012b
-			public const int mr_media_pause_dark = 2130837803;
+			public const int mr_button_dark = 2130837803;
 			
 			// aapt resource value: 0x7f02012c
-			public const int mr_media_pause_light = 2130837804;
+			public const int mr_button_light = 2130837804;
 			
 			// aapt resource value: 0x7f02012d
-			public const int mr_media_play_dark = 2130837805;
+			public const int mr_dialog_close_dark = 2130837805;
 			
 			// aapt resource value: 0x7f02012e
-			public const int mr_media_play_light = 2130837806;
+			public const int mr_dialog_close_light = 2130837806;
 			
 			// aapt resource value: 0x7f02012f
-			public const int mr_media_stop_dark = 2130837807;
+			public const int mr_dialog_material_background_dark = 2130837807;
 			
 			// aapt resource value: 0x7f020130
-			public const int mr_media_stop_light = 2130837808;
+			public const int mr_dialog_material_background_light = 2130837808;
 			
 			// aapt resource value: 0x7f020131
-			public const int mr_vol_type_audiotrack_dark = 2130837809;
+			public const int mr_group_collapse = 2130837809;
 			
 			// aapt resource value: 0x7f020132
-			public const int mr_vol_type_audiotrack_light = 2130837810;
+			public const int mr_group_expand = 2130837810;
 			
 			// aapt resource value: 0x7f020133
-			public const int mtrl_snackbar_background = 2130837811;
+			public const int mr_media_pause_dark = 2130837811;
 			
 			// aapt resource value: 0x7f020134
-			public const int mtrl_tabs_default_indicator = 2130837812;
+			public const int mr_media_pause_light = 2130837812;
 			
 			// aapt resource value: 0x7f020135
-			public const int navigation_empty_icon = 2130837813;
+			public const int mr_media_play_dark = 2130837813;
 			
 			// aapt resource value: 0x7f020136
-			public const int notification_action_background = 2130837814;
+			public const int mr_media_play_light = 2130837814;
 			
 			// aapt resource value: 0x7f020137
-			public const int notification_bg = 2130837815;
+			public const int mr_media_stop_dark = 2130837815;
 			
 			// aapt resource value: 0x7f020138
-			public const int notification_bg_low = 2130837816;
+			public const int mr_media_stop_light = 2130837816;
 			
 			// aapt resource value: 0x7f020139
-			public const int notification_bg_low_normal = 2130837817;
+			public const int mr_vol_type_audiotrack_dark = 2130837817;
 			
 			// aapt resource value: 0x7f02013a
-			public const int notification_bg_low_pressed = 2130837818;
+			public const int mr_vol_type_audiotrack_light = 2130837818;
 			
 			// aapt resource value: 0x7f02013b
-			public const int notification_bg_normal = 2130837819;
+			public const int mtrl_snackbar_background = 2130837819;
 			
 			// aapt resource value: 0x7f02013c
-			public const int notification_bg_normal_pressed = 2130837820;
+			public const int mtrl_tabs_default_indicator = 2130837820;
 			
 			// aapt resource value: 0x7f02013d
-			public const int notification_icon_background = 2130837821;
-			
-			// aapt resource value: 0x7f020145
-			public const int notification_template_icon_bg = 2130837829;
-			
-			// aapt resource value: 0x7f020146
-			public const int notification_template_icon_low_bg = 2130837830;
+			public const int navigation_empty_icon = 2130837821;
 			
 			// aapt resource value: 0x7f02013e
-			public const int notification_tile_bg = 2130837822;
+			public const int notification_action_background = 2130837822;
 			
 			// aapt resource value: 0x7f02013f
-			public const int notify_panel_notification_icon_bg = 2130837823;
+			public const int notification_bg = 2130837823;
 			
 			// aapt resource value: 0x7f020140
-			public const int task = 2130837824;
+			public const int notification_bg_low = 2130837824;
 			
 			// aapt resource value: 0x7f020141
-			public const int tooltip_frame_dark = 2130837825;
+			public const int notification_bg_low_normal = 2130837825;
 			
 			// aapt resource value: 0x7f020142
-			public const int tooltip_frame_light = 2130837826;
+			public const int notification_bg_low_pressed = 2130837826;
 			
 			// aapt resource value: 0x7f020143
-			public const int user = 2130837827;
+			public const int notification_bg_normal = 2130837827;
 			
 			// aapt resource value: 0x7f020144
-			public const int user_avatar = 2130837828;
+			public const int notification_bg_normal_pressed = 2130837828;
+			
+			// aapt resource value: 0x7f020145
+			public const int notification_icon_background = 2130837829;
+			
+			// aapt resource value: 0x7f02014e
+			public const int notification_template_icon_bg = 2130837838;
+			
+			// aapt resource value: 0x7f02014f
+			public const int notification_template_icon_low_bg = 2130837839;
+			
+			// aapt resource value: 0x7f020146
+			public const int notification_tile_bg = 2130837830;
+			
+			// aapt resource value: 0x7f020147
+			public const int notify_panel_notification_icon_bg = 2130837831;
+			
+			// aapt resource value: 0x7f020148
+			public const int task = 2130837832;
+			
+			// aapt resource value: 0x7f020149
+			public const int tooltip_frame_dark = 2130837833;
+			
+			// aapt resource value: 0x7f02014a
+			public const int tooltip_frame_light = 2130837834;
+			
+			// aapt resource value: 0x7f02014b
+			public const int user = 2130837835;
+			
+			// aapt resource value: 0x7f02014c
+			public const int user_avatar = 2130837836;
+			
+			// aapt resource value: 0x7f02014d
+			public const int watermark = 2130837837;
 			
 			static Drawable()
 			{
@@ -6359,8 +8725,8 @@ namespace ERPSolution.MES.Droid
 			// aapt resource value: 0x7f0a003e
 			public const int SYM = 2131361854;
 			
-			// aapt resource value: 0x7f0a00e4
-			public const int action0 = 2131362020;
+			// aapt resource value: 0x7f0a00ea
+			public const int action0 = 2131362026;
 			
 			// aapt resource value: 0x7f0a008d
 			public const int action_bar = 2131361933;
@@ -6383,17 +8749,17 @@ namespace ERPSolution.MES.Droid
 			// aapt resource value: 0x7f0a0069
 			public const int action_bar_title = 2131361897;
 			
-			// aapt resource value: 0x7f0a00e1
-			public const int action_container = 2131362017;
+			// aapt resource value: 0x7f0a00e7
+			public const int action_container = 2131362023;
 			
 			// aapt resource value: 0x7f0a008e
 			public const int action_context_bar = 2131361934;
 			
-			// aapt resource value: 0x7f0a00e8
-			public const int action_divider = 2131362024;
+			// aapt resource value: 0x7f0a00ee
+			public const int action_divider = 2131362030;
 			
-			// aapt resource value: 0x7f0a00e2
-			public const int action_image = 2131362018;
+			// aapt resource value: 0x7f0a00e8
+			public const int action_image = 2131362024;
 			
 			// aapt resource value: 0x7f0a0003
 			public const int action_menu_divider = 2131361795;
@@ -6410,11 +8776,11 @@ namespace ERPSolution.MES.Droid
 			// aapt resource value: 0x7f0a006b
 			public const int action_mode_close_button = 2131361899;
 			
-			// aapt resource value: 0x7f0a00e3
-			public const int action_text = 2131362019;
+			// aapt resource value: 0x7f0a00e9
+			public const int action_text = 2131362025;
 			
-			// aapt resource value: 0x7f0a00f1
-			public const int actions = 2131362033;
+			// aapt resource value: 0x7f0a00f7
+			public const int actions = 2131362039;
 			
 			// aapt resource value: 0x7f0a006c
 			public const int activity_chooser_view_content = 2131361900;
@@ -6470,8 +8836,8 @@ namespace ERPSolution.MES.Droid
 			// aapt resource value: 0x7f0a0072
 			public const int buttonPanel = 2131361906;
 			
-			// aapt resource value: 0x7f0a00e5
-			public const int cancel_action = 2131362021;
+			// aapt resource value: 0x7f0a00eb
+			public const int cancel_action = 2131362027;
 			
 			// aapt resource value: 0x7f0a004c
 			public const int center = 2131361868;
@@ -6485,8 +8851,8 @@ namespace ERPSolution.MES.Droid
 			// aapt resource value: 0x7f0a0086
 			public const int checkbox = 2131361926;
 			
-			// aapt resource value: 0x7f0a00ed
-			public const int chronometer = 2131362029;
+			// aapt resource value: 0x7f0a00f3
+			public const int chronometer = 2131362035;
 			
 			// aapt resource value: 0x7f0a0061
 			public const int clip_horizontal = 2131361889;
@@ -6502,6 +8868,9 @@ namespace ERPSolution.MES.Droid
 			
 			// aapt resource value: 0x7f0a0082
 			public const int content = 2131361922;
+			
+			// aapt resource value: 0x7f0a0105
+			public const int contentFrame = 2131362053;
 			
 			// aapt resource value: 0x7f0a0075
 			public const int contentPanel = 2131361909;
@@ -6545,8 +8914,8 @@ namespace ERPSolution.MES.Droid
 			// aapt resource value: 0x7f0a0037
 			public const int end = 2131361847;
 			
-			// aapt resource value: 0x7f0a00f3
-			public const int end_padder = 2131362035;
+			// aapt resource value: 0x7f0a00f9
+			public const int end_padder = 2131362041;
 			
 			// aapt resource value: 0x7f0a0046
 			public const int enterAlways = 2131361862;
@@ -6590,6 +8959,18 @@ namespace ERPSolution.MES.Droid
 			// aapt resource value: 0x7f0a000a
 			public const int ghost_view = 2131361802;
 			
+			// aapt resource value: 0x7f0a00b7
+			public const int grid_container_view = 2131361975;
+			
+			// aapt resource value: 0x7f0a00b5
+			public const int grid_footer_view = 2131361973;
+			
+			// aapt resource value: 0x7f0a00b2
+			public const int grid_header_view = 2131361970;
+			
+			// aapt resource value: 0x7f0a00b4
+			public const int grid_rows_scrollview = 2131361972;
+			
 			// aapt resource value: 0x7f0a0081
 			public const int group_divider = 2131361921;
 			
@@ -6599,11 +8980,14 @@ namespace ERPSolution.MES.Droid
 			// aapt resource value: 0x7f0a0028
 			public const int homeAsUp = 2131361832;
 			
+			// aapt resource value: 0x7f0a00b6
+			public const int horizontal_scroll_view = 2131361974;
+			
 			// aapt resource value: 0x7f0a0071
 			public const int icon = 2131361905;
 			
-			// aapt resource value: 0x7f0a00f2
-			public const int icon_group = 2131362034;
+			// aapt resource value: 0x7f0a00f8
+			public const int icon_group = 2131362040;
 			
 			// aapt resource value: 0x7f0a0041
 			public const int ifRoom = 2131361857;
@@ -6611,8 +8995,8 @@ namespace ERPSolution.MES.Droid
 			// aapt resource value: 0x7f0a006e
 			public const int image = 2131361902;
 			
-			// aapt resource value: 0x7f0a00ee
-			public const int info = 2131362030;
+			// aapt resource value: 0x7f0a00f4
+			public const int info = 2131362036;
 			
 			// aapt resource value: 0x7f0a0068
 			public const int italic = 2131361896;
@@ -6641,23 +9025,23 @@ namespace ERPSolution.MES.Droid
 			// aapt resource value: 0x7f0a0070
 			public const int list_item = 2131361904;
 			
-			// aapt resource value: 0x7f0a00f4
-			public const int main_appbar = 2131362036;
+			// aapt resource value: 0x7f0a00fa
+			public const int main_appbar = 2131362042;
 			
-			// aapt resource value: 0x7f0a00f6
-			public const int main_tablayout = 2131362038;
+			// aapt resource value: 0x7f0a00fc
+			public const int main_tablayout = 2131362044;
 			
-			// aapt resource value: 0x7f0a00f5
-			public const int main_toolbar = 2131362037;
-			
-			// aapt resource value: 0x7f0a00f7
-			public const int main_viewpager = 2131362039;
+			// aapt resource value: 0x7f0a00fb
+			public const int main_toolbar = 2131362043;
 			
 			// aapt resource value: 0x7f0a00fd
-			public const int masked = 2131362045;
+			public const int main_viewpager = 2131362045;
 			
-			// aapt resource value: 0x7f0a00e7
-			public const int media_actions = 2131362023;
+			// aapt resource value: 0x7f0a0107
+			public const int masked = 2131362055;
+			
+			// aapt resource value: 0x7f0a00ed
+			public const int media_actions = 2131362029;
 			
 			// aapt resource value: 0x7f0a009c
 			public const int message = 2131361948;
@@ -6668,143 +9052,143 @@ namespace ERPSolution.MES.Droid
 			// aapt resource value: 0x7f0a0059
 			public const int mini = 2131361881;
 			
-			// aapt resource value: 0x7f0a00ce
-			public const int mr_art = 2131361998;
-			
-			// aapt resource value: 0x7f0a00bf
-			public const int mr_cast_checkbox = 2131361983;
-			
-			// aapt resource value: 0x7f0a00b8
-			public const int mr_cast_close_button = 2131361976;
-			
-			// aapt resource value: 0x7f0a00b3
-			public const int mr_cast_group_icon = 2131361971;
-			
-			// aapt resource value: 0x7f0a00b4
-			public const int mr_cast_group_name = 2131361972;
-			
-			// aapt resource value: 0x7f0a00b2
-			public const int mr_cast_list = 2131361970;
-			
-			// aapt resource value: 0x7f0a00b7
-			public const int mr_cast_meta = 2131361975;
-			
-			// aapt resource value: 0x7f0a00b9
-			public const int mr_cast_meta_art = 2131361977;
-			
-			// aapt resource value: 0x7f0a00bb
-			public const int mr_cast_meta_subtitle = 2131361979;
-			
-			// aapt resource value: 0x7f0a00ba
-			public const int mr_cast_meta_title = 2131361978;
-			
-			// aapt resource value: 0x7f0a00bd
-			public const int mr_cast_route_icon = 2131361981;
-			
-			// aapt resource value: 0x7f0a00be
-			public const int mr_cast_route_name = 2131361982;
-			
-			// aapt resource value: 0x7f0a00bc
-			public const int mr_cast_stop_button = 2131361980;
-			
-			// aapt resource value: 0x7f0a00c0
-			public const int mr_cast_volume_layout = 2131361984;
-			
-			// aapt resource value: 0x7f0a00c1
-			public const int mr_cast_volume_slider = 2131361985;
-			
-			// aapt resource value: 0x7f0a00c3
-			public const int mr_chooser_list = 2131361987;
-			
-			// aapt resource value: 0x7f0a00c6
-			public const int mr_chooser_route_desc = 2131361990;
-			
-			// aapt resource value: 0x7f0a00c4
-			public const int mr_chooser_route_icon = 2131361988;
+			// aapt resource value: 0x7f0a00d4
+			public const int mr_art = 2131362004;
 			
 			// aapt resource value: 0x7f0a00c5
-			public const int mr_chooser_route_name = 2131361989;
+			public const int mr_cast_checkbox = 2131361989;
+			
+			// aapt resource value: 0x7f0a00be
+			public const int mr_cast_close_button = 2131361982;
+			
+			// aapt resource value: 0x7f0a00b9
+			public const int mr_cast_group_icon = 2131361977;
+			
+			// aapt resource value: 0x7f0a00ba
+			public const int mr_cast_group_name = 2131361978;
+			
+			// aapt resource value: 0x7f0a00b8
+			public const int mr_cast_list = 2131361976;
+			
+			// aapt resource value: 0x7f0a00bd
+			public const int mr_cast_meta = 2131361981;
+			
+			// aapt resource value: 0x7f0a00bf
+			public const int mr_cast_meta_art = 2131361983;
+			
+			// aapt resource value: 0x7f0a00c1
+			public const int mr_cast_meta_subtitle = 2131361985;
+			
+			// aapt resource value: 0x7f0a00c0
+			public const int mr_cast_meta_title = 2131361984;
+			
+			// aapt resource value: 0x7f0a00c3
+			public const int mr_cast_route_icon = 2131361987;
+			
+			// aapt resource value: 0x7f0a00c4
+			public const int mr_cast_route_name = 2131361988;
 			
 			// aapt resource value: 0x7f0a00c2
-			public const int mr_chooser_title = 2131361986;
+			public const int mr_cast_stop_button = 2131361986;
 			
-			// aapt resource value: 0x7f0a00cb
-			public const int mr_close = 2131361995;
-			
-			// aapt resource value: 0x7f0a00d1
-			public const int mr_control_divider = 2131362001;
-			
-			// aapt resource value: 0x7f0a00dc
-			public const int mr_control_playback_ctrl = 2131362012;
-			
-			// aapt resource value: 0x7f0a00df
-			public const int mr_control_subtitle = 2131362015;
-			
-			// aapt resource value: 0x7f0a00de
-			public const int mr_control_title = 2131362014;
-			
-			// aapt resource value: 0x7f0a00dd
-			public const int mr_control_title_container = 2131362013;
-			
-			// aapt resource value: 0x7f0a00cc
-			public const int mr_custom_control = 2131361996;
-			
-			// aapt resource value: 0x7f0a00cd
-			public const int mr_default_control = 2131361997;
-			
-			// aapt resource value: 0x7f0a00c8
-			public const int mr_dialog_area = 2131361992;
-			
-			// aapt resource value: 0x7f0a00d7
-			public const int mr_dialog_header_name = 2131362007;
+			// aapt resource value: 0x7f0a00c6
+			public const int mr_cast_volume_layout = 2131361990;
 			
 			// aapt resource value: 0x7f0a00c7
-			public const int mr_expandable_area = 2131361991;
-			
-			// aapt resource value: 0x7f0a00e0
-			public const int mr_group_expand_collapse = 2131362016;
-			
-			// aapt resource value: 0x7f0a00b5
-			public const int mr_group_volume_route_name = 2131361973;
-			
-			// aapt resource value: 0x7f0a00b6
-			public const int mr_group_volume_slider = 2131361974;
-			
-			// aapt resource value: 0x7f0a00cf
-			public const int mr_media_main_control = 2131361999;
-			
-			// aapt resource value: 0x7f0a00ca
-			public const int mr_name = 2131361994;
-			
-			// aapt resource value: 0x7f0a00d8
-			public const int mr_picker_close_button = 2131362008;
-			
-			// aapt resource value: 0x7f0a00d9
-			public const int mr_picker_list = 2131362009;
-			
-			// aapt resource value: 0x7f0a00da
-			public const int mr_picker_route_icon = 2131362010;
-			
-			// aapt resource value: 0x7f0a00db
-			public const int mr_picker_route_name = 2131362011;
-			
-			// aapt resource value: 0x7f0a00d0
-			public const int mr_playback_control = 2131362000;
+			public const int mr_cast_volume_slider = 2131361991;
 			
 			// aapt resource value: 0x7f0a00c9
-			public const int mr_title_bar = 2131361993;
+			public const int mr_chooser_list = 2131361993;
+			
+			// aapt resource value: 0x7f0a00cc
+			public const int mr_chooser_route_desc = 2131361996;
+			
+			// aapt resource value: 0x7f0a00ca
+			public const int mr_chooser_route_icon = 2131361994;
+			
+			// aapt resource value: 0x7f0a00cb
+			public const int mr_chooser_route_name = 2131361995;
+			
+			// aapt resource value: 0x7f0a00c8
+			public const int mr_chooser_title = 2131361992;
+			
+			// aapt resource value: 0x7f0a00d1
+			public const int mr_close = 2131362001;
+			
+			// aapt resource value: 0x7f0a00d7
+			public const int mr_control_divider = 2131362007;
+			
+			// aapt resource value: 0x7f0a00e2
+			public const int mr_control_playback_ctrl = 2131362018;
+			
+			// aapt resource value: 0x7f0a00e5
+			public const int mr_control_subtitle = 2131362021;
+			
+			// aapt resource value: 0x7f0a00e4
+			public const int mr_control_title = 2131362020;
+			
+			// aapt resource value: 0x7f0a00e3
+			public const int mr_control_title_container = 2131362019;
 			
 			// aapt resource value: 0x7f0a00d2
-			public const int mr_volume_control = 2131362002;
+			public const int mr_custom_control = 2131362002;
 			
 			// aapt resource value: 0x7f0a00d3
-			public const int mr_volume_group_list = 2131362003;
+			public const int mr_default_control = 2131362003;
+			
+			// aapt resource value: 0x7f0a00ce
+			public const int mr_dialog_area = 2131361998;
+			
+			// aapt resource value: 0x7f0a00dd
+			public const int mr_dialog_header_name = 2131362013;
+			
+			// aapt resource value: 0x7f0a00cd
+			public const int mr_expandable_area = 2131361997;
+			
+			// aapt resource value: 0x7f0a00e6
+			public const int mr_group_expand_collapse = 2131362022;
+			
+			// aapt resource value: 0x7f0a00bb
+			public const int mr_group_volume_route_name = 2131361979;
+			
+			// aapt resource value: 0x7f0a00bc
+			public const int mr_group_volume_slider = 2131361980;
 			
 			// aapt resource value: 0x7f0a00d5
-			public const int mr_volume_item_icon = 2131362005;
+			public const int mr_media_main_control = 2131362005;
+			
+			// aapt resource value: 0x7f0a00d0
+			public const int mr_name = 2131362000;
+			
+			// aapt resource value: 0x7f0a00de
+			public const int mr_picker_close_button = 2131362014;
+			
+			// aapt resource value: 0x7f0a00df
+			public const int mr_picker_list = 2131362015;
+			
+			// aapt resource value: 0x7f0a00e0
+			public const int mr_picker_route_icon = 2131362016;
+			
+			// aapt resource value: 0x7f0a00e1
+			public const int mr_picker_route_name = 2131362017;
 			
 			// aapt resource value: 0x7f0a00d6
-			public const int mr_volume_slider = 2131362006;
+			public const int mr_playback_control = 2131362006;
+			
+			// aapt resource value: 0x7f0a00cf
+			public const int mr_title_bar = 2131361999;
+			
+			// aapt resource value: 0x7f0a00d8
+			public const int mr_volume_control = 2131362008;
+			
+			// aapt resource value: 0x7f0a00d9
+			public const int mr_volume_group_list = 2131362009;
+			
+			// aapt resource value: 0x7f0a00db
+			public const int mr_volume_item_icon = 2131362011;
+			
+			// aapt resource value: 0x7f0a00dc
+			public const int mr_volume_slider = 2131362012;
 			
 			// aapt resource value: 0x7f0a0014
 			public const int mtrl_child_content_container = 2131361812;
@@ -6827,14 +9211,14 @@ namespace ERPSolution.MES.Droid
 			// aapt resource value: 0x7f0a0025
 			public const int normal = 2131361829;
 			
+			// aapt resource value: 0x7f0a00f6
+			public const int notification_background = 2131362038;
+			
 			// aapt resource value: 0x7f0a00f0
-			public const int notification_background = 2131362032;
+			public const int notification_main_column = 2131362032;
 			
-			// aapt resource value: 0x7f0a00ea
-			public const int notification_main_column = 2131362026;
-			
-			// aapt resource value: 0x7f0a00e9
-			public const int notification_main_column_container = 2131362025;
+			// aapt resource value: 0x7f0a00ef
+			public const int notification_main_column_container = 2131362031;
 			
 			// aapt resource value: 0x7f0a0060
 			public const int outline = 2131361888;
@@ -6863,11 +9247,11 @@ namespace ERPSolution.MES.Droid
 			// aapt resource value: 0x7f0a0055
 			public const int right = 2131361877;
 			
-			// aapt resource value: 0x7f0a00ef
-			public const int right_icon = 2131362031;
+			// aapt resource value: 0x7f0a00f5
+			public const int right_icon = 2131362037;
 			
-			// aapt resource value: 0x7f0a00eb
-			public const int right_side = 2131362027;
+			// aapt resource value: 0x7f0a00f1
+			public const int right_side = 2131362033;
 			
 			// aapt resource value: 0x7f0a000c
 			public const int save_image_matrix = 2131361804;
@@ -6932,11 +9316,11 @@ namespace ERPSolution.MES.Droid
 			// aapt resource value: 0x7f0a004f
 			public const int selected = 2131361871;
 			
-			// aapt resource value: 0x7f0a00f8
-			public const int shellcontent_appbar = 2131362040;
+			// aapt resource value: 0x7f0a00fe
+			public const int shellcontent_appbar = 2131362046;
 			
-			// aapt resource value: 0x7f0a00f9
-			public const int shellcontent_toolbar = 2131362041;
+			// aapt resource value: 0x7f0a00ff
+			public const int shellcontent_toolbar = 2131362047;
 			
 			// aapt resource value: 0x7f0a0083
 			public const int shortcut = 2131361923;
@@ -6950,8 +9334,8 @@ namespace ERPSolution.MES.Droid
 			// aapt resource value: 0x7f0a002c
 			public const int showTitle = 2131361836;
 			
-			// aapt resource value: 0x7f0a00fa
-			public const int sliding_tabs = 2131362042;
+			// aapt resource value: 0x7f0a0103
+			public const int sliding_tabs = 2131362051;
 			
 			// aapt resource value: 0x7f0a00a4
 			public const int smallLabel = 2131361956;
@@ -6986,8 +9370,8 @@ namespace ERPSolution.MES.Droid
 			// aapt resource value: 0x7f0a0056
 			public const int start = 2131361878;
 			
-			// aapt resource value: 0x7f0a00e6
-			public const int status_bar_latest_event_content = 2131362022;
+			// aapt resource value: 0x7f0a00ec
+			public const int status_bar_latest_event_content = 2131362028;
 			
 			// aapt resource value: 0x7f0a005b
 			public const int stretch = 2131361883;
@@ -6997,6 +9381,18 @@ namespace ERPSolution.MES.Droid
 			
 			// aapt resource value: 0x7f0a0098
 			public const int submit_area = 2131361944;
+			
+			// aapt resource value: 0x7f0a0101
+			public const int swipe_button_image = 2131362049;
+			
+			// aapt resource value: 0x7f0a0100
+			public const int swipe_button_layout = 2131362048;
+			
+			// aapt resource value: 0x7f0a0102
+			public const int swipe_button_text = 2131362050;
+			
+			// aapt resource value: 0x7f0a00b3
+			public const int swipe_container = 2131361971;
 			
 			// aapt resource value: 0x7f0a0026
 			public const int tabMode = 2131361830;
@@ -7037,8 +9433,8 @@ namespace ERPSolution.MES.Droid
 			// aapt resource value: 0x7f0a001a
 			public const int textinput_helper_text = 2131361818;
 			
-			// aapt resource value: 0x7f0a00ec
-			public const int time = 2131362028;
+			// aapt resource value: 0x7f0a00f2
+			public const int time = 2131362034;
 			
 			// aapt resource value: 0x7f0a0023
 			public const int title = 2131361827;
@@ -7049,8 +9445,8 @@ namespace ERPSolution.MES.Droid
 			// aapt resource value: 0x7f0a007e
 			public const int title_template = 2131361918;
 			
-			// aapt resource value: 0x7f0a00fb
-			public const int toolbar = 2131362043;
+			// aapt resource value: 0x7f0a0104
+			public const int toolbar = 2131362052;
 			
 			// aapt resource value: 0x7f0a0045
 			public const int top = 2131361861;
@@ -7091,11 +9487,11 @@ namespace ERPSolution.MES.Droid
 			// aapt resource value: 0x7f0a001b
 			public const int view_offset_helper = 2131361819;
 			
-			// aapt resource value: 0x7f0a00fc
-			public const int visible = 2131362044;
+			// aapt resource value: 0x7f0a0106
+			public const int visible = 2131362054;
 			
-			// aapt resource value: 0x7f0a00d4
-			public const int volume_item_container = 2131362004;
+			// aapt resource value: 0x7f0a00da
+			public const int volume_item_container = 2131362010;
 			
 			// aapt resource value: 0x7f0a0043
 			public const int withText = 2131361859;
@@ -7356,121 +9752,136 @@ namespace ERPSolution.MES.Droid
 			public const int FlyoutContent = 2130968621;
 			
 			// aapt resource value: 0x7f04002e
-			public const int mr_cast_dialog = 2130968622;
+			public const int grid_container_view = 2130968622;
 			
 			// aapt resource value: 0x7f04002f
-			public const int mr_cast_group_item = 2130968623;
+			public const int grid_control = 2130968623;
 			
 			// aapt resource value: 0x7f040030
-			public const int mr_cast_group_volume_item = 2130968624;
+			public const int mr_cast_dialog = 2130968624;
 			
 			// aapt resource value: 0x7f040031
-			public const int mr_cast_media_metadata = 2130968625;
+			public const int mr_cast_group_item = 2130968625;
 			
 			// aapt resource value: 0x7f040032
-			public const int mr_cast_route_item = 2130968626;
+			public const int mr_cast_group_volume_item = 2130968626;
 			
 			// aapt resource value: 0x7f040033
-			public const int mr_chooser_dialog = 2130968627;
+			public const int mr_cast_media_metadata = 2130968627;
 			
 			// aapt resource value: 0x7f040034
-			public const int mr_chooser_list_item = 2130968628;
+			public const int mr_cast_route_item = 2130968628;
 			
 			// aapt resource value: 0x7f040035
-			public const int mr_controller_material_dialog_b = 2130968629;
+			public const int mr_chooser_dialog = 2130968629;
 			
 			// aapt resource value: 0x7f040036
-			public const int mr_controller_volume_item = 2130968630;
+			public const int mr_chooser_list_item = 2130968630;
 			
 			// aapt resource value: 0x7f040037
-			public const int mr_dialog_header_item = 2130968631;
+			public const int mr_controller_material_dialog_b = 2130968631;
 			
 			// aapt resource value: 0x7f040038
-			public const int mr_picker_dialog = 2130968632;
+			public const int mr_controller_volume_item = 2130968632;
 			
 			// aapt resource value: 0x7f040039
-			public const int mr_picker_route_item = 2130968633;
+			public const int mr_dialog_header_item = 2130968633;
 			
 			// aapt resource value: 0x7f04003a
-			public const int mr_playback_control = 2130968634;
+			public const int mr_picker_dialog = 2130968634;
 			
 			// aapt resource value: 0x7f04003b
-			public const int mr_volume_control = 2130968635;
+			public const int mr_picker_route_item = 2130968635;
 			
 			// aapt resource value: 0x7f04003c
-			public const int mtrl_layout_snackbar = 2130968636;
+			public const int mr_playback_control = 2130968636;
 			
 			// aapt resource value: 0x7f04003d
-			public const int mtrl_layout_snackbar_include = 2130968637;
+			public const int mr_volume_control = 2130968637;
 			
 			// aapt resource value: 0x7f04003e
-			public const int notification_action = 2130968638;
+			public const int mtrl_layout_snackbar = 2130968638;
 			
 			// aapt resource value: 0x7f04003f
-			public const int notification_action_tombstone = 2130968639;
+			public const int mtrl_layout_snackbar_include = 2130968639;
 			
 			// aapt resource value: 0x7f040040
-			public const int notification_media_action = 2130968640;
+			public const int notification_action = 2130968640;
 			
 			// aapt resource value: 0x7f040041
-			public const int notification_media_cancel_action = 2130968641;
+			public const int notification_action_tombstone = 2130968641;
 			
 			// aapt resource value: 0x7f040042
-			public const int notification_template_big_media = 2130968642;
+			public const int notification_media_action = 2130968642;
 			
 			// aapt resource value: 0x7f040043
-			public const int notification_template_big_media_custom = 2130968643;
+			public const int notification_media_cancel_action = 2130968643;
 			
 			// aapt resource value: 0x7f040044
-			public const int notification_template_big_media_narrow = 2130968644;
+			public const int notification_template_big_media = 2130968644;
 			
 			// aapt resource value: 0x7f040045
-			public const int notification_template_big_media_narrow_custom = 2130968645;
+			public const int notification_template_big_media_custom = 2130968645;
 			
 			// aapt resource value: 0x7f040046
-			public const int notification_template_custom_big = 2130968646;
+			public const int notification_template_big_media_narrow = 2130968646;
 			
 			// aapt resource value: 0x7f040047
-			public const int notification_template_icon_group = 2130968647;
+			public const int notification_template_big_media_narrow_custom = 2130968647;
 			
 			// aapt resource value: 0x7f040048
-			public const int notification_template_lines_media = 2130968648;
+			public const int notification_template_custom_big = 2130968648;
 			
 			// aapt resource value: 0x7f040049
-			public const int notification_template_media = 2130968649;
+			public const int notification_template_icon_group = 2130968649;
 			
 			// aapt resource value: 0x7f04004a
-			public const int notification_template_media_custom = 2130968650;
+			public const int notification_template_lines_media = 2130968650;
 			
 			// aapt resource value: 0x7f04004b
-			public const int notification_template_part_chronometer = 2130968651;
+			public const int notification_template_media = 2130968651;
 			
 			// aapt resource value: 0x7f04004c
-			public const int notification_template_part_time = 2130968652;
+			public const int notification_template_media_custom = 2130968652;
 			
 			// aapt resource value: 0x7f04004d
-			public const int RootLayout = 2130968653;
+			public const int notification_template_part_chronometer = 2130968653;
 			
 			// aapt resource value: 0x7f04004e
-			public const int select_dialog_item_material = 2130968654;
+			public const int notification_template_part_time = 2130968654;
 			
 			// aapt resource value: 0x7f04004f
-			public const int select_dialog_multichoice_material = 2130968655;
+			public const int RootLayout = 2130968655;
 			
 			// aapt resource value: 0x7f040050
-			public const int select_dialog_singlechoice_material = 2130968656;
+			public const int select_dialog_item_material = 2130968656;
 			
 			// aapt resource value: 0x7f040051
-			public const int ShellContent = 2130968657;
+			public const int select_dialog_multichoice_material = 2130968657;
 			
 			// aapt resource value: 0x7f040052
-			public const int support_simple_spinner_dropdown_item = 2130968658;
+			public const int select_dialog_singlechoice_material = 2130968658;
 			
 			// aapt resource value: 0x7f040053
-			public const int Tabbar = 2130968659;
+			public const int ShellContent = 2130968659;
 			
 			// aapt resource value: 0x7f040054
-			public const int Toolbar = 2130968660;
+			public const int support_simple_spinner_dropdown_item = 2130968660;
+			
+			// aapt resource value: 0x7f040055
+			public const int swipe_button = 2130968661;
+			
+			// aapt resource value: 0x7f040056
+			public const int Tabbar = 2130968662;
+			
+			// aapt resource value: 0x7f040057
+			public const int Toolbar = 2130968663;
+			
+			// aapt resource value: 0x7f040058
+			public const int zxingscanneractivitylayout = 2130968664;
+			
+			// aapt resource value: 0x7f040059
+			public const int zxingscannerfragmentlayout = 2130968665;
 			
 			static Layout()
 			{
@@ -7624,6 +10035,9 @@ namespace ERPSolution.MES.Droid
 			// aapt resource value: 0x7f0b0032
 			public const int abc_toolbar_collapse_description = 2131427378;
 			
+			// aapt resource value: 0x7f0b004f
+			public const int app_name = 2131427407;
+			
 			// aapt resource value: 0x7f0b0040
 			public const int appbar_scrolling_view_behavior = 2131427392;
 			
@@ -7644,6 +10058,9 @@ namespace ERPSolution.MES.Droid
 			
 			// aapt resource value: 0x7f0b0046
 			public const int hide_bottom_view_on_scroll_behavior = 2131427398;
+			
+			// aapt resource value: 0x7f0b004e
+			public const int library_name = 2131427406;
 			
 			// aapt resource value: 0x7f0b0000
 			public const int mr_button_content_description = 2131427328;
@@ -7772,8 +10189,11 @@ namespace ERPSolution.MES.Droid
 			// aapt resource value: 0x7f08016e
 			public const int Animation_Design_BottomSheetDialog = 2131231086;
 			
-			// aapt resource value: 0x7f080202
-			public const int AppCompatDialogStyle = 2131231234;
+			// aapt resource value: 0x7f080203
+			public const int AppCompatDialogStyle = 2131231235;
+			
+			// aapt resource value: 0x7f080200
+			public const int AppTheme = 2131231232;
 			
 			// aapt resource value: 0x7f08009e
 			public const int Base_AlertDialog_AppCompat = 2131230878;
@@ -8348,11 +10768,11 @@ namespace ERPSolution.MES.Droid
 			// aapt resource value: 0x7f08000f
 			public const int CardView_Light = 2131230735;
 			
-			// aapt resource value: 0x7f080200
-			public const int MainTheme = 2131231232;
-			
 			// aapt resource value: 0x7f080201
-			public const int MainTheme_Base = 2131231233;
+			public const int MainTheme = 2131231233;
+			
+			// aapt resource value: 0x7f080202
+			public const int MainTheme_Base = 2131231234;
 			
 			// aapt resource value: 0x7f08007f
 			public const int Platform_AppCompat = 2131230847;
@@ -10673,6 +13093,20 @@ namespace ERPSolution.MES.Droid
 			
 			// aapt resource value: 3
 			public const int CoordinatorLayout_Layout_layout_keyline = 3;
+			
+			public static int[] DXCheckBox = new int[] {
+					2130772459,
+					2130772460,
+					2130772461};
+			
+			// aapt resource value: 2
+			public const int DXCheckBox_checked_state = 2;
+			
+			// aapt resource value: 1
+			public const int DXCheckBox_unchecked_state = 1;
+			
+			// aapt resource value: 0
+			public const int DXCheckBox_undetermined_state = 0;
 			
 			public static int[] DesignTheme = new int[] {
 					2130772256,

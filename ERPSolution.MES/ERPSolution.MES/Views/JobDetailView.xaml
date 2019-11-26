@@ -4,131 +4,311 @@
              xmlns:prism="http://prismlibrary.com"
              NavigationPage.HasNavigationBar="False"
              BackgroundColor="White"
+             xmlns:local="clr-namespace:ERPSolution.MES.Views"
+             xmlns:dg="clr-namespace:DevExpress.XamarinForms.DataGrid;assembly=DevExpress.XamarinForms.Grid"
              prism:ViewModelLocator.AutowireViewModel="True"
              x:Class="ERPSolution.MES.Views.JobDetailView">
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="40"></RowDefinition>
-            <RowDefinition Height="300"></RowDefinition>
-            <RowDefinition Height="80"></RowDefinition>
-            <RowDefinition Height="*"></RowDefinition>
-        </Grid.RowDefinitions>
-        <StackLayout Grid.Row="0"
-                     BackgroundColor="Navy"
-                     Orientation="Horizontal">
-            <Image WidthRequest="40"
-                   HeightRequest="40"
-                   Margin="5"
-                   Source="icon_task.png"></Image>
-            <Label Text="Job Detail"
-                   Margin="5"
-                   VerticalOptions="Center"
-                   FontSize="Title"
-                   TextColor="White"></Label>
-        </StackLayout>
-        <!--Show Task Information-->
-        <ScrollView Grid.Row="1">
-            <StackLayout>
-                <!--Task Name-->
-                <FlexLayout JustifyContent="Start"
-                        AlignItems="Start"
-                        Direction="Row">
-                    <Label Text="Task Name: "
-                       TextColor="Navy"
-                       FontSize="Default"></Label>
-                    <Label x:Name="labTaskName"
-                       TextColor="DarkGray"
-                       Text="Phay"
-                       FontSize="Default"></Label>
-                </FlexLayout>
-                <!--Quantity-->
-                <FlexLayout JustifyContent="Start"
-                        AlignItems="Start"
-                        Direction="Row">
-                    <Label Text="Quantity: "
-                       TextColor="Navy"
-                       FontSize="Default"></Label>
-                    <Label x:Name="labQuantity"
-                       TextColor="DarkGray"
-                       Text="50"
-                       FontSize="Default"></Label>
-                </FlexLayout>
-                <!--Part-->
-                <FlexLayout JustifyContent="Start"
-                        AlignItems="Start"
-                        Direction="Row">
-                    <Label Text="Part: "
-                       TextColor="Navy"
-                       FontSize="Default"></Label>
-                    <Label x:Name="labPart"
-                       TextColor="DarkGray"
-                       Text="DKE-0000-00001"
-                       FontSize="Default"></Label>
-                </FlexLayout>
-                <!--DeadLine-->
-                <FlexLayout JustifyContent="Start"
-                        AlignItems="Start"
-                        Direction="Row">
-                    <Label Text="DeadLine: "
-                       TextColor="Navy"
-                       FontSize="Default"></Label>
-                    <Label x:Name="labDeadLine"
-                       TextColor="DarkGray"
-                       Text="21-Aug-2019"
-                       FontSize="Default"></Label>
-                </FlexLayout>
-                <!--Assigned Employee-->
-                <FlexLayout JustifyContent="Start"
-                        AlignItems="Start"
-                        Direction="Row">
-                    <Label Text="Assigned Employee: "
-                       TextColor="Navy"
-                       FontSize="Default"></Label>
-                    <Label x:Name="labAssignedEmployee"
-                       TextColor="DarkGray"
-                       Text="CNC - Dương Nguyễn Tấn Hòa"
-                       FontSize="Default"></Label>
-                </FlexLayout>
-                <!--Assigned Resoure-->
-                <FlexLayout JustifyContent="Start"
-                        AlignItems="Start"
-                        Direction="Row">
-                    <Label Text="Resource: "
-                       TextColor="Navy"
-                       FontSize="Default"></Label>
-                    <Label x:Name="labAssignedResoure"
-                       TextColor="DarkGray"
-                       Text="Machine PC-01"
-                       FontSize="Default"></Label>
-                </FlexLayout>
-                <!--Estimate Hour-->
-                <FlexLayout JustifyContent="Start"
-                        AlignItems="Start"
-                        Direction="Row">
-                    <Label Text="Est Hour: "
-                       TextColor="Navy"
-                       FontSize="Default"></Label>
-                    <Label x:Name="labEstimateHour"
-                       TextColor="DarkGray"
-                       Text="50.00 Hour"
-                       FontSize="Default"></Label>
-                </FlexLayout>
-                <!--Spent Hour-->
-                <FlexLayout JustifyContent="Start"
-                        AlignItems="Start"
-                        Direction="Row">
-                    <Label Text="Spent Hour: "
-                       TextColor="Navy"
-                       FontSize="Default"></Label>
-                    <Label x:Name="labSpentHour"
-                       TextColor="DarkGray"
-                       Text="52.10 Hour"
-                       FontSize="Default"></Label>
-                </FlexLayout>
+    <ScrollView>
+        <StackLayout Margin="0"
+                     Padding="0">
+            <StackLayout HeightRequest="40"
+                         BackgroundColor="Navy"
+                         Orientation="Horizontal">
+                <Image WidthRequest="40"
+                       HeightRequest="40"
+                       Margin="5"
+                       Source="icon_task.png"></Image>
+                <Label Text="Job Detail"
+                       Margin="5"
+                       VerticalOptions="Center"
+                       FontSize="Title"
+                       TextColor="White"></Label>
             </StackLayout>
-        </ScrollView>
-        <!--Progress Bar-->
-        <!--Function Button-->
-        <!--List Implement Employee-->
-    </Grid>
+            <!--Show Task Information-->
+            <ScrollView Margin="4,0,0,0">
+                <StackLayout>
+                    <!--Task Name-->
+                    <FlexLayout JustifyContent="Start"
+                                AlignItems="Start"
+                                Direction="Row">
+                        <Label Text="Task Name: "
+                               TextColor="Navy"
+                               FontSize="Default"></Label>
+                        <Label x:Name="labTaskName"
+                               TextColor="DarkGray"
+                               Text="Phay"
+                               FontSize="Default"></Label>
+                    </FlexLayout>
+                    <!--Quantity-->
+                    <FlexLayout JustifyContent="Start"
+                                AlignItems="Start"
+                                Direction="Row">
+                        <Label Text="Quantity: "
+                               TextColor="Navy"
+                               FontSize="Default"></Label>
+                        <Label x:Name="labQuantity"
+                               TextColor="DarkGray"
+                               Text="50"
+                               FontSize="Default"></Label>
+                    </FlexLayout>
+                    <!--Part-->
+                    <FlexLayout JustifyContent="Start"
+                                AlignItems="Start"
+                                Direction="Row">
+                        <Label Text="Part: "
+                               TextColor="Navy"
+                               FontSize="Default"></Label>
+                        <Label x:Name="labPart"
+                               TextColor="DarkGray"
+                               Text="DKE-0000-00001"
+                               FontSize="Default"></Label>
+                    </FlexLayout>
+                    <!--DeadLine-->
+                    <FlexLayout JustifyContent="Start"
+                                AlignItems="Start"
+                                Direction="Row">
+                        <Label Text="DeadLine: "
+                               TextColor="Navy"
+                               FontSize="Default"></Label>
+                        <Label x:Name="labDeadLine"
+                               TextColor="DarkGray"
+                               Text="21-Aug-2019"
+                               FontSize="Default"></Label>
+                    </FlexLayout>
+                    <!--Assigned Employee-->
+                    <FlexLayout JustifyContent="Start"
+                                AlignItems="Start"
+                                Direction="Row">
+                        <Label Text="Assigned Employee: "
+                               TextColor="Navy"
+                               FontSize="Default"></Label>
+                        <Label x:Name="labAssignedEmployee"
+                               TextColor="DarkGray"
+                               Text="CNC - Dương Nguyễn Tấn Hòa"
+                               FontSize="Default"></Label>
+                    </FlexLayout>
+                    <!--Assigned Resoure-->
+                    <FlexLayout JustifyContent="Start"
+                                AlignItems="Start"
+                                Direction="Row">
+                        <Label Text="Resource: "
+                               TextColor="Navy"
+                               FontSize="Default"></Label>
+                        <Label x:Name="labAssignedResoure"
+                               TextColor="DarkGray"
+                               Text="Machine PC-01"
+                               FontSize="Default"></Label>
+                    </FlexLayout>
+                    <!--Estimate Hour-->
+                    <FlexLayout JustifyContent="Start"
+                                AlignItems="Start"
+                                Direction="Row">
+                        <Label Text="Est Hour: "
+                               TextColor="Navy"
+                               FontSize="Default"></Label>
+                        <Label x:Name="labEstimateHour"
+                               TextColor="DarkGray"
+                               Text="50.00 Hour"
+                               FontSize="Default"></Label>
+                    </FlexLayout>
+                    <!--Spent Hour-->
+                    <FlexLayout JustifyContent="Start"
+                                AlignItems="Start"
+                                Direction="Row">
+                        <Label Text="Spent Hour: "
+                               TextColor="Navy"
+                               FontSize="Default"></Label>
+                        <Label x:Name="labSpentHour"
+                               TextColor="DarkGray"
+                               Text="52.10 Hour"
+                               FontSize="Default"></Label>
+                    </FlexLayout>
+                    <!--Status-->
+                    <FlexLayout JustifyContent="Start"
+                                AlignItems="Start"
+                                Direction="Row">
+                        <Label Text="Status: "
+                               TextColor="Navy"
+                               FontSize="Default"></Label>
+                        <Label x:Name="labTaskStatus"
+                               TextColor="DarkGray"
+                               Text="New Task"
+                               FontSize="Default"></Label>
+                    </FlexLayout>
+                </StackLayout>
+            </ScrollView>
+            <!--Function Button-->
+            <FlexLayout Direction="Row"
+                        Margin="4,0,4,0"
+                        JustifyContent="SpaceAround"
+                        AlignItems="Start">
+                <Button Text="Start"
+                        TextColor="Navy"
+                        FontAttributes="None"
+                        BackgroundColor="White"
+                        BorderColor="Navy"
+                        BorderWidth="1"
+                        FlexLayout.Basis="24%"
+                        FontSize="12"
+                        CornerRadius="5"></Button>
+                <Button Text="Pause"
+                        TextColor="Navy"
+                        FontAttributes="None"
+                        BackgroundColor="White"
+                        BorderColor="Navy"
+                        FontSize="12"
+                        BorderWidth="1"
+                        FlexLayout.Basis="24%"
+                        CornerRadius="5"></Button>
+                <Button Text="Resume"
+                        TextColor="Navy"
+                        FontAttributes="None"
+                        BackgroundColor="White"
+                        BorderColor="Navy"
+                        FontSize="12"
+                        BorderWidth="1"
+                        FlexLayout.Basis="24%"
+                        CornerRadius="5"></Button>
+                <Button Text="Finish"
+                        TextColor="Navy"
+                        FontAttributes="None"
+                        BackgroundColor="White"
+                        BorderWidth="1"
+                        FlexLayout.Basis="24%"
+                        FontSize="12"
+                        BorderColor="Navy"
+                        CornerRadius="5"></Button>
+            </FlexLayout>
+            <!--Progress Bar-->
+            <StackLayout HeightRequest="40"
+                         BackgroundColor="Navy"
+                         Orientation="Horizontal">
+                <Image WidthRequest="40"
+                       HeightRequest="40"
+                       Margin="5"
+                       Source="icon_task.png"></Image>
+                <Label Text="Job Status"
+                       Margin="5"
+                       VerticalOptions="Center"
+                       FontSize="Title"
+                       TextColor="White"></Label>
+            </StackLayout>
+            <FlexLayout JustifyContent="SpaceAround"
+                        AlignItems="Center"
+                        Margin="4,0,4,0">
+                <ProgressBar ProgressColor="Navy"
+                             FlexLayout.Basis="90%"
+                             Progress="0.5"></ProgressBar>
+                <Label Text="50%"
+                       TextColor="Navy"></Label>
+            </FlexLayout>
+            <!--List Implement Employee-->
+            <StackLayout BackgroundColor="Navy"
+                         Margin="0"
+                         Padding="0"
+                         Orientation="Horizontal">
+                <Image WidthRequest="40"
+                       Margin="5,5,5,5"
+                       BackgroundColor="Navy"
+                       Source="icon_group.png"></Image>
+                <Label Text="Implemented Employee"
+                       Margin="5,5,5,5"
+                       VerticalOptions="Center"
+                       FontSize="Title"
+                       BackgroundColor="Navy"
+                       TextColor="White"></Label>
+            </StackLayout>
+            <StackLayout Margin="0"
+                         Padding="0">
+                <ScrollView>
+                    <ListView VerticalOptions="FillAndExpand"
+                              RowHeight="130"
+                              HorizontalOptions="FillAndExpand">
+                        <ListView.ItemsSource>
+                            <x:Array Type="{x:Type local:ImplementedEmpoyee}">
+                                <local:ImplementedEmpoyee name="CNC - Dương Nguyễn Tấn Hòa" 
+                                                          startTime="18-Aug-2019 14:45"
+                                                          endTime="18-Aug-2019 17:30"
+                                                          machine="PC01-Gia Công CNC"
+                                                          quantity="20"></local:ImplementedEmpoyee>
+                                <local:ImplementedEmpoyee name="CNC - Hồ Văn Bảo" 
+                                                          startTime="19-Aug-2019 14:45"
+                                                          endTime="19-Aug-2019 17:30"
+                                                          machine="PC01-Gia Công CNC"
+                                                          quantity="10"></local:ImplementedEmpoyee>
+                                <local:ImplementedEmpoyee name="CNC - Nguyễn Thế Sinh" 
+                                                          startTime="19-Aug-2019 14:45"
+                                                          endTime="19-Aug-2019 17:30"
+                                                          machine="PC01-Gia Công CNC"
+                                                          quantity="13"></local:ImplementedEmpoyee>
+                                <local:ImplementedEmpoyee name="CNC - Trần Tùng Lâm" 
+                                                          startTime="20-Aug-2019 14:45"
+                                                          endTime="20-Aug-2019 17:30"
+                                                          machine="PC01-Gia Công CNC"
+                                                          quantity="05"></local:ImplementedEmpoyee>
+                            </x:Array>
+                        </ListView.ItemsSource>
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <StackLayout Margin="4,0,0,0">
+                                        <FlexLayout Direction="Row"
+                                                JustifyContent="Start"
+                                                AlignItems="Start">
+                                            <Label Text="Implemented: "
+                                               TextColor="Navy"
+                                               FontSize="Default"></Label>
+                                            <Label Text="{Binding name}"
+                                               TextColor="DarkGray"
+                                               FontSize="Default"></Label>
+                                        </FlexLayout>
+                                        <FlexLayout Direction="Row"
+                                                JustifyContent="Start"
+                                                AlignItems="Start">
+                                            <Label Text="Quantity: "
+                                               TextColor="Navy"
+                                               FontSize="Default"></Label>
+                                            <Label Text="{Binding quantity}"
+                                               TextColor="DarkGray"
+                                               FontSize="Default"></Label>
+                                        </FlexLayout>
+                                        <FlexLayout Direction="Row"
+                                                JustifyContent="Start"
+                                                AlignItems="Start">
+                                            <Label Text="Start Time: "
+                                               TextColor="Navy"
+                                               FontSize="Default"></Label>
+                                            <Label Text="{Binding startTime}"
+                                               TextColor="DarkGray"
+                                               FontSize="Default"></Label>
+                                        </FlexLayout>
+                                        <FlexLayout Direction="Row"
+                                                JustifyContent="Start"
+                                                AlignItems="Start">
+                                            <Label Text="End Time: "
+                                               TextColor="Navy"
+                                               FontSize="Default"></Label>
+                                            <Label Text="{Binding endTime}"
+                                               TextColor="DarkGray"
+                                               FontSize="Default"></Label>
+                                        </FlexLayout>
+                                        <FlexLayout Direction="Row"
+                                                JustifyContent="Start"
+                                                AlignItems="Start">
+                                            <Label Text="Machine: "
+                                               TextColor="Navy"
+                                               FontSize="Default"></Label>
+                                            <Label Text="{Binding machine}"
+                                               TextColor="DarkGray"
+                                               FontSize="Default"></Label>
+                                        </FlexLayout>
+                                    </StackLayout>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </ScrollView>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
 </ContentPage>

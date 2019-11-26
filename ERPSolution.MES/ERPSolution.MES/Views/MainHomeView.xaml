@@ -30,6 +30,7 @@
                                  Margin="0,0,0,0">
                         <ImageButton Source="icon_qr.png"
                                      HeightRequest="50"
+                                     Clicked="ScanQRJob"
                                      HorizontalOptions="Start"
                                      BackgroundColor="White"
                                      WidthRequest="50">
