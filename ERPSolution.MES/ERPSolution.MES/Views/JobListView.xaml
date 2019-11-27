@@ -76,6 +76,7 @@
                     CornerRadius="10"
                     Grid.Column="1"
                     Margin="10,10,10,10"
+                    Clicked="ScanJobQR"
                     FlexLayout.Basis="32%"
                     TextColor="White"
                     FontFamily="Arial"

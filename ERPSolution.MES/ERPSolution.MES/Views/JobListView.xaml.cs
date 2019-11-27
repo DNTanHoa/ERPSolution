@@ -14,6 +14,11 @@ namespace ERPSolution.MES.Views
         {
             this.Navigation.PushAsync(new JobDetailView());
         }
+
+        private void ScanJobQR(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new QRScanView());
+        }
     }
 
     /// <summary>

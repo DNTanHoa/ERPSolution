@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="http://prismlibrary.com"
+             BackgroundColor="White"
+             xmlns:local="clr-namespace:ERPSolution.MES.Views"
+             xmlns:circleImage="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
+             NavigationPage.HasNavigationBar="False"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="ERPSolution.MES.Views.NotifyListView">
+    <StackLayout>
+        <!--title-->
+        <StackLayout BackgroundColor="ForestGreen"
+                     Orientation="Horizontal">
+            <Image WidthRequest="40"
+                   HeightRequest="40"
+                   Margin="5"
+                   Source="icon_bell_green.png"></Image>
+            <Label Text="Notify"
+                   Margin="5"
+                   VerticalOptions="Center"
+                   FontSize="Title"
+                   TextColor="White"></Label>
+        </StackLayout>
+        <!--Search-->
+        <FlexLayout Direction="Row"
+                    JustifyContent="SpaceAround"
+                    AlignItems="Start">
+            <Frame Margin="4,4,4,0"
+                   Padding="0"
+                   FlexLayout.Basis="75%"
+                   CornerRadius="10"
+                   HasShadow="False"
+                   BorderColor="AliceBlue">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="30"></ColumnDefinition>
+                        <ColumnDefinition Width="auto"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Image Grid.Column="0"
+                           Source="icon_search.png"
+                           Margin="4,4,0,0"
+                           VerticalOptions="Center"
+                           HorizontalOptions="Center"
+                           HeightRequest="20"
+                           WidthRequest="20">
+                    </Image>
+                    <Entry IsPassword="False"
+                           Margin="4,4,4,0"
+                           Grid.Column="1"
+                           TextColor="Black"
+                           Placeholder="Some Text ....">
+                    </Entry>
+                </Grid>
+            </Frame>
+            <Button FlexLayout.Basis="25%"
+                    Text="Search"
+                    Margin="4,4,4,0"
+                    TextColor="ForestGreen"
+                    FontSize="15"
+                    BackgroundColor="White"
+                    CornerRadius="8"
+                    BorderColor="ForestGreen"
+                    BorderWidth="1"></Button>
+        </FlexLayout>
+        <!--Notify List-->
+        <ScrollView>
+            <ListView IsGroupingEnabled="False"
+                      RowHeight="500">
+                <ListView.ItemsSource>
+                    <x:Array Type="{x:Type local:NotifyPost}">
+                        <local:NotifyPost heading="28-Aug-2019" 
+                                          title="Thông Báo Về Lịch Nghỉ Lễ 2-9 Theo Quy Định Nhà Nước"
+                                          summary="Công ty trân trọng thông báo đến các bộ phận các phòng ban liên quan về việc nghỉ lễ 2-9 theo thông báo sau đây"></local:NotifyPost>
+                        <local:NotifyPost heading="28-Aug-2019" 
+                                          title="Thông Báo Quy Định Thưởng Lễ 2-9"
+                                          summary="Công ty trân trọng thông báo đến các bộ phận các phòng ban liên quan về việc nghỉ lễ 2-9 theo thông báo sau đây"></local:NotifyPost>
+                        <local:NotifyPost heading="29-Dec-2019" 
+                                          title="Thông Báo Về Lịch Nghỉ Lễ Tết Dương Lịch 2020"
+                                          summary="Công ty trân trọng thông báo đến các bộ phận các phòng ban liên quan về việc nghỉ lễ 2-9 theo thông báo sau đây"></local:NotifyPost>
+                        <local:NotifyPost heading="29-Dec-2019" 
+                                          title="Thông Báo Về Thưởng Tết Dương Lịch"
+                                          summary="Công ty trân trọng thông báo đến các bộ phận các phòng ban liên quan về việc nghỉ lễ 2-9 theo thông báo sau đây"></local:NotifyPost>
+                        <local:NotifyPost heading="23-Jan-2020" 
+                                          title="Thông Báo Về Lịch Nghỉ Lễ Tết Nguyên Đán"
+                                          summary="Công ty trân trọng thông báo đến các bộ phận các phòng ban liên quan về việc nghỉ lễ 2-9 theo thông báo sau đây"></local:NotifyPost>
+                    </x:Array>
+                </ListView.ItemsSource>
+                <ListView.GroupHeaderTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Label Text="{Binding heading}"
+                                   TextColor="ForestGreen"
+                                   Padding="3"
+                                   BackgroundColor="lawngreen"
+                                   VerticalOptions="Center"
+                                   HorizontalOptions="Center"
+                                   HorizontalTextAlignment="Center"
+                                   FontSize="Default"></Label>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.GroupHeaderTemplate>
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Margin="4">
+                                <!--Icon and subtitle-->
+                                <FlexLayout Direction="Row"
+                                            JustifyContent="Start"
+                                            AlignItems="Center">
+                                    <circleImage:CircleImage Source="logo.jpg"
+                                                             FlexLayout.Basis="10%"
+                                                             HeightRequest="15"
+                                                             Margin="4"
+                                                             WidthRequest="15"></circleImage:CircleImage>
+                                    <Label Text="{Binding title}"
+                                           TextColor="Black"
+                                           FlexLayout.Basis="80%"
+                                           FontAttributes="Bold"></Label>
+                                </FlexLayout>
+                                <!--Image-->
+                                <Image Aspect="Fill"
+                                       MinimumHeightRequest="317.5"
+                                       Source="notify.jpg"></Image>
+                                <!--Summary-->
+                                <Label Text="{Binding summary}"
+                                       TextColor="Black"
+                                       MaxLines="3"></Label>
+                                <!--Readmore-->
+                                <Button TextColor="ForestGreen"
+                                        Text="Read More >>"
+                                        FontAttributes="None"
+                                        BackgroundColor="White"
+                                        VerticalOptions="Start"
+                                        HorizontalOptions="End"></Button>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </ScrollView>
+    </StackLayout>
+</ContentPage>

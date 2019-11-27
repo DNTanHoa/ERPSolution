@@ -69,6 +69,7 @@
                                  Margin="05,0,0,0">
                         <ImageButton Source="icon_bell.png"
                                      HeightRequest="50"
+                                     Clicked="ShowNotify"
                                      HorizontalOptions="End"
                                      BackgroundColor="White"
                                      WidthRequest="50">

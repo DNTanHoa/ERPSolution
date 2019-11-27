@@ -1,5 +1,6 @@
 ﻿using ERPSolution.MES.Helpers;
 using Xamarin.Forms;
+using ZXing.Net.Mobile.Forms;
 
 namespace ERPSolution.MES.Views
 {
@@ -17,16 +18,25 @@ namespace ERPSolution.MES.Views
 
         private async void ScanQRJob(object sender, System.EventArgs e)
         {
-            try
+            ZXingScannerPage scanner;
+
+            scanner = new ZXingScannerPage();
+
+            await Navigation.PushAsync(scanner);
+            scanner.OnScanResult += (result) =>
             {
-                var scanner = DependencyService.Get<IQRScanner>();
-                var result = await scanner.ScanAsync();
-                if(result != null)
+                Device.BeginInvokeOnMainThread(async () =>
                 {
-                    await DisplayAlert("Code Result", result, "Cancel");
-                }
-            }
-            catch { }
+                    await Navigation.PopAsync();
+                    await DisplayAlert("Your Code", result.Text, "Cancel");
+                });
+            };
         }
+
+        private void ShowNotify(object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new NotifyListView());
+        }
+
     }
 }
