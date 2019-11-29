@@ -22,8 +22,8 @@ namespace ERPSolution.MES
         protected override async void OnInitialized()
         {
             InitializeComponent();
-
-            await NavigationService.NavigateAsync("NavigationPage/LoginView");
+            //await NavigationService.NavigateAsync("NavigationPage/LoginView");
+            await NavigationService.NavigateAsync("MenuEmployeePersonView/NavigationPage/AttandanceView");
         }
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
@@ -38,6 +38,12 @@ namespace ERPSolution.MES
             containerRegistry.RegisterForNavigation<JobDetailView, JobDetailViewViewModel>();
             containerRegistry.RegisterForNavigation<NotifyListView, NotifyListViewViewModel>();
             containerRegistry.RegisterForNavigation<QRScanView, QRScanViewViewModel>();
+            containerRegistry.RegisterForNavigation<EmployeeInforView, EmployeeInforViewViewModel>();
+            containerRegistry.RegisterForNavigation<AttandanceView, AttandanceViewViewModel>();
+            containerRegistry.RegisterForNavigation<TaskPauseView, TaskPauseViewViewModel>();
+            containerRegistry.RegisterForNavigation<TaskAddView, TaskAddViewViewModel>();
+            containerRegistry.RegisterForNavigation<EmployeePaperView, EmployeePaperViewViewModel>();
+            containerRegistry.RegisterForNavigation<MenuEmployeePersonView, MenuEmployeePersonViewViewModel>();
         }
     }
 }
